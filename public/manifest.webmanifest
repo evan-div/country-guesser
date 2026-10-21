@@ -1,0 +1,15 @@
+{
+  "name": "ATLAS RUSH",
+  "short_name": "Atlas Rush",
+  "description": "A cinematic 3D geography arcade game.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#02050d",
+  "theme_color": "#02050d",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

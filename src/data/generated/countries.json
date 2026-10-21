@@ -1,0 +1,10568 @@
+[
+ {
+  "code": "AFG",
+  "iso2": "AF",
+  "isoNumeric": "004",
+  "name": "Afghanistan",
+  "official": "Islamic Republic of Afghanistan",
+  "aliases": [
+   "Islamic Republic of Afghanistan",
+   "Afġānistān",
+   "Islamic State of Afghanistan"
+  ],
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capitals": [
+   "Kabul"
+  ],
+  "neighbors": [
+   "CHN",
+   "IRN",
+   "PAK",
+   "TJK",
+   "TKM",
+   "UZB"
+  ],
+  "nearby": [
+   {
+    "code": "IRN",
+    "km": 0
+   },
+   {
+    "code": "PAK",
+    "km": 0
+   },
+   {
+    "code": "TJK",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 652230,
+  "flag": "🇦🇫",
+  "languages": [
+   "Dari",
+   "Pashto",
+   "Turkmen"
+  ],
+  "currencies": [
+   "Afghan afghani"
+  ],
+  "focus": {
+   "lat": 33.819,
+   "lng": 65.927,
+   "radius": 8.048
+  },
+  "label": {
+   "lat": 34.164,
+   "lng": 66.497
+  }
+ },
+ {
+  "code": "ALB",
+  "iso2": "AL",
+  "isoNumeric": "008",
+  "name": "Albania",
+  "official": "Republic of Albania",
+  "aliases": [
+   "Republic of Albania",
+   "Shqipëri",
+   "Shqipëria",
+   "Shqipnia"
+  ],
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capitals": [
+   "Tirana"
+  ],
+  "neighbors": [
+   "GRC",
+   "MKD",
+   "MNE"
+  ],
+  "nearby": [
+   {
+    "code": "GRC",
+    "km": 0
+   },
+   {
+    "code": "MKD",
+    "km": 0
+   },
+   {
+    "code": "MNE",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 28748,
+  "flag": "🇦🇱",
+  "languages": [
+   "Albanian"
+  ],
+  "currencies": [
+   "Albanian lek"
+  ],
+  "focus": {
+   "lat": 41.135,
+   "lng": 20.053,
+   "radius": 1.524
+  },
+  "label": {
+   "lat": 40.655,
+   "lng": 20.114
+  }
+ },
+ {
+  "code": "DZA",
+  "iso2": "DZ",
+  "isoNumeric": "012",
+  "name": "Algeria",
+  "official": "People's Democratic Republic of Algeria",
+  "aliases": [
+   "People's Democratic Republic of Algeria",
+   "Dzayer",
+   "Algérie"
+  ],
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "capitals": [
+   "Algiers"
+  ],
+  "neighbors": [
+   "LBY",
+   "MAR",
+   "MLI",
+   "MRT",
+   "NER",
+   "TUN"
+  ],
+  "nearby": [
+   {
+    "code": "LBY",
+    "km": 0
+   },
+   {
+    "code": "MAR",
+    "km": 0
+   },
+   {
+    "code": "MLI",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 2381741,
+  "flag": "🇩🇿",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Algerian dinar"
+  ],
+  "focus": {
+   "lat": 28.056,
+   "lng": 2.631,
+   "radius": 10.194
+  },
+  "label": {
+   "lat": 27.397,
+   "lng": 2.808
+  }
+ },
+ {
+  "code": "AND",
+  "iso2": "AD",
+  "isoNumeric": "020",
+  "name": "Andorra",
+  "official": "Principality of Andorra",
+  "aliases": [
+   "Principality of Andorra",
+   "Principat d'Andorra"
+  ],
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capitals": [
+   "Andorra la Vella"
+  ],
+  "neighbors": [
+   "ESP",
+   "FRA"
+  ],
+  "nearby": [
+   {
+    "code": "ESP",
+    "km": 0
+   },
+   {
+    "code": "FRA",
+    "km": 0
+   },
+   {
+    "code": "ITA",
+    "km": 461
+   }
+  ],
+  "landlocked": true,
+  "area": 468,
+  "flag": "🇦🇩",
+  "languages": [
+   "Catalan"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 42.547,
+   "lng": 1.568,
+   "radius": 0.127
+  },
+  "label": {
+   "lat": 42.548,
+   "lng": 1.539
+  }
+ },
+ {
+  "code": "AGO",
+  "iso2": "AO",
+  "isoNumeric": "024",
+  "name": "Angola",
+  "official": "Republic of Angola",
+  "aliases": [
+   "Republic of Angola",
+   "República de Angola",
+   "ʁɛpublika de an'ɡɔla",
+   "People's Republic of Angola"
+  ],
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capitals": [
+   "Luanda"
+  ],
+  "neighbors": [
+   "COD",
+   "COG",
+   "NAM",
+   "ZMB"
+  ],
+  "nearby": [
+   {
+    "code": "COD",
+    "km": 0
+   },
+   {
+    "code": "COG",
+    "km": 0
+   },
+   {
+    "code": "NAM",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 1246700,
+  "flag": "🇦🇴",
+  "languages": [
+   "Portuguese"
+  ],
+  "currencies": [
+   "Angolan kwanza"
+  ],
+  "focus": {
+   "lat": -12.271,
+   "lng": 17.531,
+   "radius": 9.187
+  },
+  "label": {
+   "lat": -12.183,
+   "lng": 17.984
+  }
+ },
+ {
+  "code": "ATG",
+  "iso2": "AG",
+  "isoNumeric": "028",
+  "name": "Antigua and Barbuda",
+  "official": "Antigua and Barbuda",
+  "aliases": [
+   "Antigua and Barb."
+  ],
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capitals": [
+   "Saint John's"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "KNA",
+    "km": 81
+   },
+   {
+    "code": "DMA",
+    "km": 159
+   },
+   {
+    "code": "LCA",
+    "km": 340
+   }
+  ],
+  "landlocked": false,
+  "area": 442,
+  "flag": "🇦🇬",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Eastern Caribbean dollar"
+  ],
+  "focus": {
+   "lat": 17.084,
+   "lng": -61.793,
+   "radius": 0.106
+  },
+  "label": {
+   "lat": 17.352,
+   "lng": -61.791
+  }
+ },
+ {
+  "code": "ARG",
+  "iso2": "AR",
+  "isoNumeric": "032",
+  "name": "Argentina",
+  "official": "Argentine Republic",
+  "aliases": [
+   "Argentine Republic",
+   "República Argentina"
+  ],
+  "continent": "South America",
+  "subregion": "South America",
+  "capitals": [
+   "Buenos Aires"
+  ],
+  "neighbors": [
+   "BOL",
+   "BRA",
+   "CHL",
+   "PRY",
+   "URY"
+  ],
+  "nearby": [
+   {
+    "code": "BOL",
+    "km": 0
+   },
+   {
+    "code": "BRA",
+    "km": 0
+   },
+   {
+    "code": "CHL",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 2780400,
+  "flag": "🇦🇷",
+  "languages": [
+   "Guaraní",
+   "Spanish"
+  ],
+  "currencies": [
+   "Argentine peso"
+  ],
+  "focus": {
+   "lat": -34.686,
+   "lng": -64.764,
+   "radius": 20.383
+  },
+  "label": {
+   "lat": -33.501,
+   "lng": -64.173
+  }
+ },
+ {
+  "code": "ARM",
+  "iso2": "AM",
+  "isoNumeric": "051",
+  "name": "Armenia",
+  "official": "Republic of Armenia",
+  "aliases": [
+   "Republic of Armenia",
+   "Hayastan",
+   "Հայաստանի Հանրապետություն"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Yerevan"
+  ],
+  "neighbors": [
+   "AZE",
+   "GEO",
+   "IRN",
+   "TUR"
+  ],
+  "nearby": [
+   {
+    "code": "AZE",
+    "km": 0
+   },
+   {
+    "code": "GEO",
+    "km": 0
+   },
+   {
+    "code": "IRN",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 29743,
+  "flag": "🇦🇲",
+  "languages": [
+   "Armenian"
+  ],
+  "currencies": [
+   "Armenian dram"
+  ],
+  "focus": {
+   "lat": 40.285,
+   "lng": 44.942,
+   "radius": 1.824
+  },
+  "label": {
+   "lat": 40.459,
+   "lng": 44.801
+  }
+ },
+ {
+  "code": "AUS",
+  "iso2": "AU",
+  "isoNumeric": "036",
+  "name": "Australia",
+  "official": "Commonwealth of Australia",
+  "aliases": [
+   "Commonwealth of Australia"
+  ],
+  "continent": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "capitals": [
+   "Canberra"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "PNG",
+    "km": 149
+   },
+   {
+    "code": "IDN",
+    "km": 211
+   },
+   {
+    "code": "TLS",
+    "km": 458
+   }
+  ],
+  "landlocked": false,
+  "area": 7692024,
+  "flag": "🇦🇺",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Australian dollar"
+  ],
+  "focus": {
+   "lat": -25.763,
+   "lng": 134.3,
+   "radius": 20.671
+  },
+  "label": {
+   "lat": -24.13,
+   "lng": 134.05
+  }
+ },
+ {
+  "code": "AUT",
+  "iso2": "AT",
+  "isoNumeric": "040",
+  "name": "Austria",
+  "official": "Republic of Austria",
+  "aliases": [
+   "Republic of Austria",
+   "Osterreich",
+   "Oesterreich"
+  ],
+  "continent": "Europe",
+  "subregion": "Central Europe",
+  "capitals": [
+   "Vienna"
+  ],
+  "neighbors": [
+   "CHE",
+   "CZE",
+   "DEU",
+   "HUN",
+   "ITA",
+   "LIE",
+   "SVK",
+   "SVN"
+  ],
+  "nearby": [
+   {
+    "code": "CHE",
+    "km": 0
+   },
+   {
+    "code": "CZE",
+    "km": 0
+   },
+   {
+    "code": "DEU",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 83871,
+  "flag": "🇦🇹",
+  "languages": [
+   "Austro-Bavarian German"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 47.591,
+   "lng": 14.11,
+   "radius": 3.118
+  },
+  "label": {
+   "lat": 47.519,
+   "lng": 14.131
+  }
+ },
+ {
+  "code": "AZE",
+  "iso2": "AZ",
+  "isoNumeric": "031",
+  "name": "Azerbaijan",
+  "official": "Republic of Azerbaijan",
+  "aliases": [
+   "Republic of Azerbaijan",
+   "Azərbaycan Respublikası"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Baku"
+  ],
+  "neighbors": [
+   "ARM",
+   "GEO",
+   "IRN",
+   "RUS",
+   "TUR"
+  ],
+  "nearby": [
+   {
+    "code": "ARM",
+    "km": 0
+   },
+   {
+    "code": "GEO",
+    "km": 0
+   },
+   {
+    "code": "IRN",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 86600,
+  "flag": "🇦🇿",
+  "languages": [
+   "Azerbaijani",
+   "Russian"
+  ],
+  "currencies": [
+   "Azerbaijani manat"
+  ],
+  "focus": {
+   "lat": 40.288,
+   "lng": 47.551,
+   "radius": 2.209
+  },
+  "label": {
+   "lat": 40.402,
+   "lng": 47.211
+  }
+ },
+ {
+  "code": "BHS",
+  "iso2": "BS",
+  "isoNumeric": "044",
+  "name": "Bahamas",
+  "official": "Commonwealth of the Bahamas",
+  "aliases": [
+   "Commonwealth of the Bahamas",
+   "The Bahamas"
+  ],
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capitals": [
+   "Nassau"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "CUB",
+    "km": 89
+   },
+   {
+    "code": "HTI",
+    "km": 119
+   },
+   {
+    "code": "USA",
+    "km": 146
+   }
+  ],
+  "landlocked": false,
+  "area": 13943,
+  "flag": "🇧🇸",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Bahamian dollar",
+   "United States dollar"
+  ],
+  "focus": {
+   "lat": 24.316,
+   "lng": -77.048,
+   "radius": 4.898
+  },
+  "label": {
+   "lat": 26.402,
+   "lng": -77.147
+  }
+ },
+ {
+  "code": "BHR",
+  "iso2": "BH",
+  "isoNumeric": "048",
+  "name": "Bahrain",
+  "official": "Kingdom of Bahrain",
+  "aliases": [
+   "Kingdom of Bahrain",
+   "Mamlakat al-Baḥrayn"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Manama"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "SAU",
+    "km": 27
+   },
+   {
+    "code": "QAT",
+    "km": 40
+   },
+   {
+    "code": "ARE",
+    "km": 201
+   }
+  ],
+  "landlocked": false,
+  "area": 765,
+  "flag": "🇧🇭",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Bahraini dinar"
+  ],
+  "focus": {
+   "lat": 26.03,
+   "lng": 50.54,
+   "radius": 0.196
+  },
+  "label": {
+   "lat": 26.056,
+   "lng": 50.555
+  }
+ },
+ {
+  "code": "BGD",
+  "iso2": "BD",
+  "isoNumeric": "050",
+  "name": "Bangladesh",
+  "official": "People's Republic of Bangladesh",
+  "aliases": [
+   "People's Republic of Bangladesh",
+   "Gônôprôjatôntri Bangladesh"
+  ],
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capitals": [
+   "Dhaka"
+  ],
+  "neighbors": [
+   "IND",
+   "MMR"
+  ],
+  "nearby": [
+   {
+    "code": "IND",
+    "km": 0
+   },
+   {
+    "code": "MMR",
+    "km": 0
+   },
+   {
+    "code": "NPL",
+    "km": 30
+   }
+  ],
+  "landlocked": false,
+  "area": 147570,
+  "flag": "🇧🇩",
+  "languages": [
+   "Bengali"
+  ],
+  "currencies": [
+   "Bangladeshi taka"
+  ],
+  "focus": {
+   "lat": 23.859,
+   "lng": 90.244,
+   "radius": 3.623
+  },
+  "label": {
+   "lat": 24.215,
+   "lng": 89.685
+  }
+ },
+ {
+  "code": "BRB",
+  "iso2": "BB",
+  "isoNumeric": "052",
+  "name": "Barbados",
+  "official": "Barbados",
+  "aliases": [],
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capitals": [
+   "Bridgetown"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "LCA",
+    "km": 147
+   },
+   {
+    "code": "VCT",
+    "km": 160
+   },
+   {
+    "code": "TTO",
+    "km": 223
+   }
+  ],
+  "landlocked": false,
+  "area": 430,
+  "flag": "🇧🇧",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Barbadian dollar"
+  ],
+  "focus": {
+   "lat": 13.187,
+   "lng": -59.552,
+   "radius": 0.146
+  },
+  "label": {
+   "lat": 13.164,
+   "lng": -59.569
+  }
+ },
+ {
+  "code": "BLR",
+  "iso2": "BY",
+  "isoNumeric": "112",
+  "name": "Belarus",
+  "official": "Republic of Belarus",
+  "aliases": [
+   "Republic of Belarus",
+   "Bielaruś",
+   "Белоруссия",
+   "Республика Белоруссия"
+  ],
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "capitals": [
+   "Minsk"
+  ],
+  "neighbors": [
+   "LTU",
+   "LVA",
+   "POL",
+   "RUS",
+   "UKR"
+  ],
+  "nearby": [
+   {
+    "code": "LTU",
+    "km": 0
+   },
+   {
+    "code": "LVA",
+    "km": 0
+   },
+   {
+    "code": "POL",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 207600,
+  "flag": "🇧🇾",
+  "languages": [
+   "Belarusian",
+   "Russian"
+  ],
+  "currencies": [
+   "Belarusian ruble"
+  ],
+  "focus": {
+   "lat": 53.52,
+   "lng": 28.016,
+   "radius": 3.346
+  },
+  "label": {
+   "lat": 53.822,
+   "lng": 28.418
+  }
+ },
+ {
+  "code": "BEL",
+  "iso2": "BE",
+  "isoNumeric": "056",
+  "name": "Belgium",
+  "official": "Kingdom of Belgium",
+  "aliases": [
+   "Kingdom of Belgium",
+   "België",
+   "Belgie",
+   "Belgien",
+   "Belgique",
+   "Koninkrijk België",
+   "Royaume de Belgique",
+   "Königreich Belgien"
+  ],
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capitals": [
+   "Brussels"
+  ],
+  "neighbors": [
+   "DEU",
+   "FRA",
+   "LUX",
+   "NLD"
+  ],
+  "nearby": [
+   {
+    "code": "DEU",
+    "km": 0
+   },
+   {
+    "code": "FRA",
+    "km": 0
+   },
+   {
+    "code": "LUX",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 30528,
+  "flag": "🇧🇪",
+  "languages": [
+   "German",
+   "French",
+   "Dutch"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 50.642,
+   "lng": 4.649,
+   "radius": 1.417
+  },
+  "label": {
+   "lat": 50.785,
+   "lng": 4.8
+  }
+ },
+ {
+  "code": "BLZ",
+  "iso2": "BZ",
+  "isoNumeric": "084",
+  "name": "Belize",
+  "official": "Belize",
+  "aliases": [],
+  "continent": "North America",
+  "subregion": "Central America",
+  "capitals": [
+   "Belmopan"
+  ],
+  "neighbors": [
+   "GTM",
+   "MEX"
+  ],
+  "nearby": [
+   {
+    "code": "GTM",
+    "km": 0
+   },
+   {
+    "code": "MEX",
+    "km": 0
+   },
+   {
+    "code": "HND",
+    "km": 63
+   }
+  ],
+  "landlocked": false,
+  "area": 22966,
+  "flag": "🇧🇿",
+  "languages": [
+   "Belizean Creole",
+   "English",
+   "Spanish"
+  ],
+  "currencies": [
+   "Belize dollar"
+  ],
+  "focus": {
+   "lat": 17.191,
+   "lng": -88.717,
+   "radius": 1.389
+  },
+  "label": {
+   "lat": 17.202,
+   "lng": -88.713
+  }
+ },
+ {
+  "code": "BEN",
+  "iso2": "BJ",
+  "isoNumeric": "204",
+  "name": "Benin",
+  "official": "Republic of Benin",
+  "aliases": [
+   "Republic of Benin",
+   "République du Bénin"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Porto-Novo"
+  ],
+  "neighbors": [
+   "BFA",
+   "NER",
+   "NGA",
+   "TGO"
+  ],
+  "nearby": [
+   {
+    "code": "BFA",
+    "km": 0
+   },
+   {
+    "code": "NER",
+    "km": 0
+   },
+   {
+    "code": "NGA",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 112622,
+  "flag": "🇧🇯",
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "West African CFA franc"
+  ],
+  "focus": {
+   "lat": 9.636,
+   "lng": 2.326,
+   "radius": 3.49
+  },
+  "label": {
+   "lat": 10.325,
+   "lng": 2.352
+  }
+ },
+ {
+  "code": "BTN",
+  "iso2": "BT",
+  "isoNumeric": "064",
+  "name": "Bhutan",
+  "official": "Kingdom of Bhutan",
+  "aliases": [
+   "Kingdom of Bhutan"
+  ],
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capitals": [
+   "Thimphu"
+  ],
+  "neighbors": [
+   "CHN",
+   "IND"
+  ],
+  "nearby": [
+   {
+    "code": "CHN",
+    "km": 0
+   },
+   {
+    "code": "IND",
+    "km": 0
+   },
+   {
+    "code": "BGD",
+    "km": 50
+   }
+  ],
+  "landlocked": true,
+  "area": 38394,
+  "flag": "🇧🇹",
+  "languages": [
+   "Dzongkha"
+  ],
+  "currencies": [
+   "Bhutanese ngultrum",
+   "Indian rupee"
+  ],
+  "focus": {
+   "lat": 27.411,
+   "lng": 90.404,
+   "radius": 1.567
+  },
+  "label": {
+   "lat": 27.537,
+   "lng": 90.04
+  }
+ },
+ {
+  "code": "BOL",
+  "iso2": "BO",
+  "isoNumeric": "068",
+  "name": "Bolivia",
+  "official": "Plurinational State of Bolivia",
+  "aliases": [
+   "Plurinational State of Bolivia",
+   "Buliwya",
+   "Wuliwya",
+   "Bolivia, Plurinational State of",
+   "Estado Plurinacional de Bolivia",
+   "Buliwya Mamallaqta",
+   "Wuliwya Suyu",
+   "Tetã Volívia"
+  ],
+  "continent": "South America",
+  "subregion": "South America",
+  "capitals": [
+   "Sucre"
+  ],
+  "neighbors": [
+   "ARG",
+   "BRA",
+   "CHL",
+   "PER",
+   "PRY"
+  ],
+  "nearby": [
+   {
+    "code": "ARG",
+    "km": 0
+   },
+   {
+    "code": "BRA",
+    "km": 0
+   },
+   {
+    "code": "CHL",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 1098581,
+  "flag": "🇧🇴",
+  "languages": [
+   "Aymara",
+   "Guaraní",
+   "Quechua",
+   "Spanish"
+  ],
+  "currencies": [
+   "Bolivian boliviano"
+  ],
+  "focus": {
+   "lat": -16.681,
+   "lng": -64.699,
+   "radius": 7.434
+  },
+  "label": {
+   "lat": -16.666,
+   "lng": -64.593
+  }
+ },
+ {
+  "code": "BIH",
+  "iso2": "BA",
+  "isoNumeric": "070",
+  "name": "Bosnia and Herzegovina",
+  "official": "Bosnia and Herzegovina",
+  "aliases": [
+   "Bosnia-Herzegovina",
+   "Босна и Херцеговина",
+   "Bosnia and Herz."
+  ],
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capitals": [
+   "Sarajevo"
+  ],
+  "neighbors": [
+   "HRV",
+   "MNE",
+   "SRB"
+  ],
+  "nearby": [
+   {
+    "code": "HRV",
+    "km": 0
+   },
+   {
+    "code": "MNE",
+    "km": 0
+   },
+   {
+    "code": "SRB",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 51209,
+  "flag": "🇧🇦",
+  "languages": [
+   "Bosnian",
+   "Croatian",
+   "Serbian"
+  ],
+  "currencies": [
+   "Bosnia and Herzegovina convertible mark"
+  ],
+  "focus": {
+   "lat": 44.17,
+   "lng": 17.777,
+   "radius": 1.736
+  },
+  "label": {
+   "lat": 44.091,
+   "lng": 18.068
+  }
+ },
+ {
+  "code": "BWA",
+  "iso2": "BW",
+  "isoNumeric": "072",
+  "name": "Botswana",
+  "official": "Republic of Botswana",
+  "aliases": [
+   "Republic of Botswana",
+   "Lefatshe la Botswana"
+  ],
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "capitals": [
+   "Gaborone"
+  ],
+  "neighbors": [
+   "NAM",
+   "ZAF",
+   "ZMB",
+   "ZWE"
+  ],
+  "nearby": [
+   {
+    "code": "NAM",
+    "km": 0
+   },
+   {
+    "code": "ZAF",
+    "km": 0
+   },
+   {
+    "code": "ZMB",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 582000,
+  "flag": "🇧🇼",
+  "languages": [
+   "English",
+   "Tswana"
+  ],
+  "currencies": [
+   "Botswana pula"
+  ],
+  "focus": {
+   "lat": -22.165,
+   "lng": 23.809,
+   "radius": 5.452
+  },
+  "label": {
+   "lat": -22.103,
+   "lng": 24.179
+  }
+ },
+ {
+  "code": "BRA",
+  "iso2": "BR",
+  "isoNumeric": "076",
+  "name": "Brazil",
+  "official": "Federative Republic of Brazil",
+  "aliases": [
+   "Federative Republic of Brazil",
+   "Brasil",
+   "República Federativa do Brasil"
+  ],
+  "continent": "South America",
+  "subregion": "South America",
+  "capitals": [
+   "Brasília"
+  ],
+  "neighbors": [
+   "ARG",
+   "BOL",
+   "COL",
+   "GUY",
+   "PER",
+   "PRY",
+   "SUR",
+   "URY",
+   "VEN"
+  ],
+  "nearby": [
+   {
+    "code": "ARG",
+    "km": 0
+   },
+   {
+    "code": "BOL",
+    "km": 0
+   },
+   {
+    "code": "COL",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 8515767,
+  "flag": "🇧🇷",
+  "languages": [
+   "Portuguese"
+  ],
+  "currencies": [
+   "Brazilian real"
+  ],
+  "focus": {
+   "lat": -10.64,
+   "lng": -53.217,
+   "radius": 23.104
+  },
+  "label": {
+   "lat": -12.099,
+   "lng": -49.559
+  }
+ },
+ {
+  "code": "BRN",
+  "iso2": "BN",
+  "isoNumeric": "096",
+  "name": "Brunei",
+  "official": "Nation of Brunei, Abode of Peace",
+  "aliases": [
+   "Nation of Brunei, Abode of Peace",
+   "Brunei Darussalam",
+   "Nation of Brunei",
+   "the Abode of Peace",
+   "Negara Brunei Darussalam"
+  ],
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capitals": [
+   "Bandar Seri Begawan"
+  ],
+  "neighbors": [
+   "MYS"
+  ],
+  "nearby": [
+   {
+    "code": "MYS",
+    "km": 0
+   },
+   {
+    "code": "IDN",
+    "km": 51
+   },
+   {
+    "code": "PHL",
+    "km": 387
+   }
+  ],
+  "landlocked": false,
+  "area": 5765,
+  "flag": "🇧🇳",
+  "languages": [
+   "Malay"
+  ],
+  "currencies": [
+   "Brunei dollar",
+   "Singapore dollar"
+  ],
+  "focus": {
+   "lat": 4.524,
+   "lng": 114.708,
+   "radius": 0.645
+  },
+  "label": {
+   "lat": 4.448,
+   "lng": 114.552
+  }
+ },
+ {
+  "code": "BGR",
+  "iso2": "BG",
+  "isoNumeric": "100",
+  "name": "Bulgaria",
+  "official": "Republic of Bulgaria",
+  "aliases": [
+   "Republic of Bulgaria",
+   "Република България"
+  ],
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capitals": [
+   "Sofia"
+  ],
+  "neighbors": [
+   "GRC",
+   "MKD",
+   "ROU",
+   "SRB",
+   "TUR"
+  ],
+  "nearby": [
+   {
+    "code": "GRC",
+    "km": 0
+   },
+   {
+    "code": "MKD",
+    "km": 0
+   },
+   {
+    "code": "ROU",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 110879,
+  "flag": "🇧🇬",
+  "languages": [
+   "Bulgarian"
+  ],
+  "currencies": [
+   "Bulgarian lev"
+  ],
+  "focus": {
+   "lat": 42.771,
+   "lng": 25.211,
+   "radius": 2.644
+  },
+  "label": {
+   "lat": 42.509,
+   "lng": 25.157
+  }
+ },
+ {
+  "code": "BFA",
+  "iso2": "BF",
+  "isoNumeric": "854",
+  "name": "Burkina Faso",
+  "official": "Burkina Faso",
+  "aliases": [],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Ouagadougou"
+  ],
+  "neighbors": [
+   "BEN",
+   "CIV",
+   "GHA",
+   "MLI",
+   "NER",
+   "TGO"
+  ],
+  "nearby": [
+   {
+    "code": "BEN",
+    "km": 0
+   },
+   {
+    "code": "CIV",
+    "km": 0
+   },
+   {
+    "code": "GHA",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 272967,
+  "flag": "🇧🇫",
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "West African CFA franc"
+  ],
+  "focus": {
+   "lat": 12.27,
+   "lng": -1.763,
+   "radius": 4.121
+  },
+  "label": {
+   "lat": 12.673,
+   "lng": -1.364
+  }
+ },
+ {
+  "code": "BDI",
+  "iso2": "BI",
+  "isoNumeric": "108",
+  "name": "Burundi",
+  "official": "Republic of Burundi",
+  "aliases": [
+   "Republic of Burundi",
+   "Republika y'Uburundi",
+   "République du Burundi"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Gitega"
+  ],
+  "neighbors": [
+   "COD",
+   "RWA",
+   "TZA"
+  ],
+  "nearby": [
+   {
+    "code": "COD",
+    "km": 0
+   },
+   {
+    "code": "RWA",
+    "km": 0
+   },
+   {
+    "code": "TZA",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 27834,
+  "flag": "🇧🇮",
+  "languages": [
+   "French",
+   "Kirundi"
+  ],
+  "currencies": [
+   "Burundian franc"
+  ],
+  "focus": {
+   "lat": -3.358,
+   "lng": 29.878,
+   "radius": 1.188
+  },
+  "label": {
+   "lat": -3.333,
+   "lng": 29.917
+  }
+ },
+ {
+  "code": "KHM",
+  "iso2": "KH",
+  "isoNumeric": "116",
+  "name": "Cambodia",
+  "official": "Kingdom of Cambodia",
+  "aliases": [
+   "Kingdom of Cambodia"
+  ],
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capitals": [
+   "Phnom Penh"
+  ],
+  "neighbors": [
+   "LAO",
+   "THA",
+   "VNM"
+  ],
+  "nearby": [
+   {
+    "code": "LAO",
+    "km": 0
+   },
+   {
+    "code": "THA",
+    "km": 0
+   },
+   {
+    "code": "VNM",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 181035,
+  "flag": "🇰🇭",
+  "languages": [
+   "Khmer"
+  ],
+  "currencies": [
+   "Cambodian riel",
+   "United States dollar"
+  ],
+  "focus": {
+   "lat": 12.721,
+   "lng": 104.905,
+   "radius": 3.223
+  },
+  "label": {
+   "lat": 12.648,
+   "lng": 104.505
+  }
+ },
+ {
+  "code": "CMR",
+  "iso2": "CM",
+  "isoNumeric": "120",
+  "name": "Cameroon",
+  "official": "Republic of Cameroon",
+  "aliases": [
+   "Republic of Cameroon",
+   "République du Cameroun"
+  ],
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capitals": [
+   "Yaoundé"
+  ],
+  "neighbors": [
+   "CAF",
+   "COG",
+   "GAB",
+   "GNQ",
+   "NGA",
+   "TCD"
+  ],
+  "nearby": [
+   {
+    "code": "CAF",
+    "km": 0
+   },
+   {
+    "code": "COG",
+    "km": 0
+   },
+   {
+    "code": "GAB",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 475442,
+  "flag": "🇨🇲",
+  "languages": [
+   "English",
+   "French"
+  ],
+  "currencies": [
+   "Central African CFA franc"
+  ],
+  "focus": {
+   "lat": 5.681,
+   "lng": 12.733,
+   "radius": 7.545
+  },
+  "label": {
+   "lat": 4.585,
+   "lng": 12.473
+  }
+ },
+ {
+  "code": "CAN",
+  "iso2": "CA",
+  "isoNumeric": "124",
+  "name": "Canada",
+  "official": "Canada",
+  "aliases": [],
+  "continent": "North America",
+  "subregion": "North America",
+  "capitals": [
+   "Ottawa"
+  ],
+  "neighbors": [
+   "USA"
+  ],
+  "nearby": [
+   {
+    "code": "USA",
+    "km": 0
+   },
+   {
+    "code": "NOR",
+    "km": 1185
+   },
+   {
+    "code": "RUS",
+    "km": 1249
+   }
+  ],
+  "landlocked": false,
+  "area": 9984670,
+  "flag": "🇨🇦",
+  "languages": [
+   "English",
+   "French"
+  ],
+  "currencies": [
+   "Canadian dollar"
+  ],
+  "focus": {
+   "lat": 60.39,
+   "lng": -96.595,
+   "radius": 28.561
+  },
+  "label": {
+   "lat": 60.324,
+   "lng": -101.911
+  }
+ },
+ {
+  "code": "CPV",
+  "iso2": "CV",
+  "isoNumeric": "132",
+  "name": "Cape Verde",
+  "official": "Republic of Cabo Verde",
+  "aliases": [
+   "Republic of Cabo Verde",
+   "República de Cabo Verde",
+   "Cabo Verde"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Praia"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "SEN",
+    "km": 585
+   },
+   {
+    "code": "MRT",
+    "km": 658
+   },
+   {
+    "code": "GMB",
+    "km": 700
+   }
+  ],
+  "landlocked": false,
+  "area": 4033,
+  "flag": "🇨🇻",
+  "languages": [
+   "Portuguese"
+  ],
+  "currencies": [
+   "Cape Verdean escudo"
+  ],
+  "focus": {
+   "lat": 15.952,
+   "lng": -23.925,
+   "radius": 1.767
+  },
+  "label": {
+   "lat": 15.075,
+   "lng": -23.639
+  }
+ },
+ {
+  "code": "CAF",
+  "iso2": "CF",
+  "isoNumeric": "140",
+  "name": "Central African Republic",
+  "official": "Central African Republic",
+  "aliases": [
+   "République centrafricaine",
+   "Central African Rep."
+  ],
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capitals": [
+   "Bangui"
+  ],
+  "neighbors": [
+   "CMR",
+   "COD",
+   "COG",
+   "SDN",
+   "SSD",
+   "TCD"
+  ],
+  "nearby": [
+   {
+    "code": "CMR",
+    "km": 0
+   },
+   {
+    "code": "COD",
+    "km": 0
+   },
+   {
+    "code": "COG",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 622984,
+  "flag": "🇨🇫",
+  "languages": [
+   "French",
+   "Sango"
+  ],
+  "currencies": [
+   "Central African CFA franc"
+  ],
+  "focus": {
+   "lat": 6.572,
+   "lng": 20.462,
+   "radius": 7.06
+  },
+  "label": {
+   "lat": 6.99,
+   "lng": 20.907
+  }
+ },
+ {
+  "code": "TCD",
+  "iso2": "TD",
+  "isoNumeric": "148",
+  "name": "Chad",
+  "official": "Republic of Chad",
+  "aliases": [
+   "Republic of Chad",
+   "Tchad",
+   "République du Tchad"
+  ],
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capitals": [
+   "N'Djamena"
+  ],
+  "neighbors": [
+   "CAF",
+   "CMR",
+   "LBY",
+   "NER",
+   "NGA",
+   "SDN"
+  ],
+  "nearby": [
+   {
+    "code": "CAF",
+    "km": 0
+   },
+   {
+    "code": "CMR",
+    "km": 0
+   },
+   {
+    "code": "LBY",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 1284000,
+  "flag": "🇹🇩",
+  "languages": [
+   "Arabic",
+   "French"
+  ],
+  "currencies": [
+   "Central African CFA franc"
+  ],
+  "focus": {
+   "lat": 15.276,
+   "lng": 18.635,
+   "radius": 8.542
+  },
+  "label": {
+   "lat": 15.143,
+   "lng": 18.645
+  }
+ },
+ {
+  "code": "CHL",
+  "iso2": "CL",
+  "isoNumeric": "152",
+  "name": "Chile",
+  "official": "Republic of Chile",
+  "aliases": [
+   "Republic of Chile",
+   "República de Chile"
+  ],
+  "continent": "South America",
+  "subregion": "South America",
+  "capitals": [
+   "Santiago"
+  ],
+  "neighbors": [
+   "ARG",
+   "BOL",
+   "PER"
+  ],
+  "nearby": [
+   {
+    "code": "ARG",
+    "km": 0
+   },
+   {
+    "code": "BOL",
+    "km": 0
+   },
+   {
+    "code": "PER",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 756102,
+  "flag": "🇨🇱",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "Chilean peso"
+  ],
+  "focus": {
+   "lat": -36.04,
+   "lng": -71.046,
+   "radius": 19.901
+  },
+  "label": {
+   "lat": -38.152,
+   "lng": -72.319
+  }
+ },
+ {
+  "code": "CHN",
+  "iso2": "CN",
+  "isoNumeric": "156",
+  "name": "China",
+  "official": "People's Republic of China",
+  "aliases": [
+   "People's Republic of China",
+   "Zhōngguó",
+   "Zhongguo",
+   "Zhonghua",
+   "中华人民共和国",
+   "Zhōnghuá Rénmín Gònghéguó"
+  ],
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "capitals": [
+   "Beijing"
+  ],
+  "neighbors": [
+   "AFG",
+   "BTN",
+   "IND",
+   "KAZ",
+   "KGZ",
+   "LAO",
+   "MMR",
+   "MNG",
+   "NPL",
+   "PAK",
+   "PRK",
+   "RUS",
+   "TJK",
+   "VNM"
+  ],
+  "nearby": [
+   {
+    "code": "BTN",
+    "km": 0
+   },
+   {
+    "code": "KGZ",
+    "km": 0
+   },
+   {
+    "code": "LAO",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 9706961,
+  "flag": "🇨🇳",
+  "languages": [
+   "Chinese"
+  ],
+  "currencies": [
+   "Chinese yuan"
+  ],
+  "focus": {
+   "lat": 36.693,
+   "lng": 103.377,
+   "radius": 25.568
+  },
+  "label": {
+   "lat": 32.498,
+   "lng": 106.337
+  }
+ },
+ {
+  "code": "COL",
+  "iso2": "CO",
+  "isoNumeric": "170",
+  "name": "Colombia",
+  "official": "Republic of Colombia",
+  "aliases": [
+   "Republic of Colombia",
+   "República de Colombia"
+  ],
+  "continent": "South America",
+  "subregion": "South America",
+  "capitals": [
+   "Bogotá"
+  ],
+  "neighbors": [
+   "BRA",
+   "ECU",
+   "PAN",
+   "PER",
+   "VEN"
+  ],
+  "nearby": [
+   {
+    "code": "BRA",
+    "km": 0
+   },
+   {
+    "code": "ECU",
+    "km": 0
+   },
+   {
+    "code": "PAN",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 1141748,
+  "flag": "🇨🇴",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "Colombian peso"
+  ],
+  "focus": {
+   "lat": 3.903,
+   "lng": -73.077,
+   "radius": 8.714
+  },
+  "label": {
+   "lat": 3.373,
+   "lng": -73.174
+  }
+ },
+ {
+  "code": "COM",
+  "iso2": "KM",
+  "isoNumeric": "174",
+  "name": "Comoros",
+  "official": "Union of the Comoros",
+  "aliases": [
+   "Union of the Comoros",
+   "Union des Comores",
+   "Udzima wa Komori",
+   "al-Ittiḥād al-Qumurī"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Moroni"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "MOZ",
+    "km": 295
+   },
+   {
+    "code": "TZA",
+    "km": 324
+   },
+   {
+    "code": "MDG",
+    "km": 402
+   }
+  ],
+  "landlocked": false,
+  "area": 1862,
+  "flag": "🇰🇲",
+  "languages": [
+   "Arabic",
+   "French",
+   "Comorian"
+  ],
+  "currencies": [
+   "Comorian franc"
+  ],
+  "focus": {
+   "lat": -11.798,
+   "lng": 43.61,
+   "radius": 0.994
+  },
+  "label": {
+   "lat": -11.728,
+   "lng": 43.318
+  }
+ },
+ {
+  "code": "CRI",
+  "iso2": "CR",
+  "isoNumeric": "188",
+  "name": "Costa Rica",
+  "official": "Republic of Costa Rica",
+  "aliases": [
+   "Republic of Costa Rica",
+   "República de Costa Rica"
+  ],
+  "continent": "North America",
+  "subregion": "Central America",
+  "capitals": [
+   "San José"
+  ],
+  "neighbors": [
+   "NIC",
+   "PAN"
+  ],
+  "nearby": [
+   {
+    "code": "NIC",
+    "km": 0
+   },
+   {
+    "code": "PAN",
+    "km": 0
+   },
+   {
+    "code": "HND",
+    "km": 254
+   }
+  ],
+  "landlocked": false,
+  "area": 51100,
+  "flag": "🇨🇷",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "Costa Rican colón"
+  ],
+  "focus": {
+   "lat": 9.975,
+   "lng": -84.19,
+   "radius": 2.304
+  },
+  "label": {
+   "lat": 10.065,
+   "lng": -84.078
+  }
+ },
+ {
+  "code": "HRV",
+  "iso2": "HR",
+  "isoNumeric": "191",
+  "name": "Croatia",
+  "official": "Republic of Croatia",
+  "aliases": [
+   "Republic of Croatia",
+   "Hrvatska",
+   "Republika Hrvatska"
+  ],
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capitals": [
+   "Zagreb"
+  ],
+  "neighbors": [
+   "BIH",
+   "HUN",
+   "MNE",
+   "SRB",
+   "SVN"
+  ],
+  "nearby": [
+   {
+    "code": "BIH",
+    "km": 0
+   },
+   {
+    "code": "HUN",
+    "km": 0
+   },
+   {
+    "code": "MNE",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 56594,
+  "flag": "🇭🇷",
+  "languages": [
+   "Croatian"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 45.126,
+   "lng": 16.41,
+   "radius": 3.093
+  },
+  "label": {
+   "lat": 45.806,
+   "lng": 16.372
+  }
+ },
+ {
+  "code": "CUB",
+  "iso2": "CU",
+  "isoNumeric": "192",
+  "name": "Cuba",
+  "official": "Republic of Cuba",
+  "aliases": [
+   "Republic of Cuba",
+   "República de Cuba"
+  ],
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capitals": [
+   "Havana"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "HTI",
+    "km": 88
+   },
+   {
+    "code": "BHS",
+    "km": 89
+   },
+   {
+    "code": "JAM",
+    "km": 149
+   }
+  ],
+  "landlocked": false,
+  "area": 109884,
+  "flag": "🇨🇺",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "Cuban convertible peso",
+   "Cuban peso"
+  ],
+  "focus": {
+   "lat": 21.634,
+   "lng": -78.989,
+   "radius": 5.472
+  },
+  "label": {
+   "lat": 21.334,
+   "lng": -77.976
+  }
+ },
+ {
+  "code": "CYP",
+  "iso2": "CY",
+  "isoNumeric": "196",
+  "name": "Cyprus",
+  "official": "Republic of Cyprus",
+  "aliases": [
+   "Republic of Cyprus",
+   "Kýpros",
+   "Kıbrıs",
+   "Κυπριακή Δημοκρατία",
+   "Kıbrıs Cumhuriyeti"
+  ],
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capitals": [
+   "Nicosia"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "TUR",
+    "km": 73
+   },
+   {
+    "code": "SYR",
+    "km": 118
+   },
+   {
+    "code": "LBN",
+    "km": 168
+   }
+  ],
+  "landlocked": false,
+  "area": 9251,
+  "flag": "🇨🇾",
+  "languages": [
+   "Greek",
+   "Turkish"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 35.048,
+   "lng": 33.216,
+   "radius": 1.154
+  },
+  "label": {
+   "lat": 34.913,
+   "lng": 33.084
+  }
+ },
+ {
+  "code": "CZE",
+  "iso2": "CZ",
+  "isoNumeric": "203",
+  "name": "Czechia",
+  "official": "Czech Republic",
+  "aliases": [
+   "Czech Republic",
+   "Česká republika",
+   "Česko"
+  ],
+  "continent": "Europe",
+  "subregion": "Central Europe",
+  "capitals": [
+   "Prague"
+  ],
+  "neighbors": [
+   "AUT",
+   "DEU",
+   "POL",
+   "SVK"
+  ],
+  "nearby": [
+   {
+    "code": "AUT",
+    "km": 0
+   },
+   {
+    "code": "DEU",
+    "km": 0
+   },
+   {
+    "code": "POL",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 78865,
+  "flag": "🇨🇿",
+  "languages": [
+   "Czech",
+   "Slovak"
+  ],
+  "currencies": [
+   "Czech koruna"
+  ],
+  "focus": {
+   "lat": 49.735,
+   "lng": 15.325,
+   "radius": 2.282
+  },
+  "label": {
+   "lat": 49.882,
+   "lng": 15.378
+  }
+ },
+ {
+  "code": "DNK",
+  "iso2": "DK",
+  "isoNumeric": "208",
+  "name": "Denmark",
+  "official": "Kingdom of Denmark",
+  "aliases": [
+   "Kingdom of Denmark",
+   "Danmark",
+   "Kongeriget Danmark"
+  ],
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capitals": [
+   "Copenhagen"
+  ],
+  "neighbors": [
+   "DEU"
+  ],
+  "nearby": [
+   {
+    "code": "DEU",
+    "km": 0
+   },
+   {
+    "code": "SWE",
+    "km": 8
+   },
+   {
+    "code": "POL",
+    "km": 100
+   }
+  ],
+  "landlocked": false,
+  "area": 43094,
+  "flag": "🇩🇰",
+  "languages": [
+   "Danish"
+  ],
+  "currencies": [
+   "Danish krone"
+  ],
+  "focus": {
+   "lat": 55.982,
+   "lng": 10.009,
+   "radius": 3.032
+  },
+  "label": {
+   "lat": 55.967,
+   "lng": 9.018
+  }
+ },
+ {
+  "code": "DJI",
+  "iso2": "DJ",
+  "isoNumeric": "262",
+  "name": "Djibouti",
+  "official": "Republic of Djibouti",
+  "aliases": [
+   "Republic of Djibouti",
+   "Jabuuti",
+   "Gabuuti",
+   "République de Djibouti",
+   "Gabuutih Ummuuno",
+   "Jamhuuriyadda Jabuuti"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Djibouti"
+  ],
+  "neighbors": [
+   "ERI",
+   "ETH",
+   "SOM"
+  ],
+  "nearby": [
+   {
+    "code": "ERI",
+    "km": 0
+   },
+   {
+    "code": "ETH",
+    "km": 0
+   },
+   {
+    "code": "SOM",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 23200,
+  "flag": "🇩🇯",
+  "languages": [
+   "Arabic",
+   "French"
+  ],
+  "currencies": [
+   "Djiboutian franc"
+  ],
+  "focus": {
+   "lat": 11.746,
+   "lng": 42.558,
+   "radius": 1.106
+  },
+  "label": {
+   "lat": 11.976,
+   "lng": 42.499
+  }
+ },
+ {
+  "code": "DMA",
+  "iso2": "DM",
+  "isoNumeric": "212",
+  "name": "Dominica",
+  "official": "Commonwealth of Dominica",
+  "aliases": [
+   "Commonwealth of Dominica",
+   "Dominique",
+   "Wai‘tu kubuli"
+  ],
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capitals": [
+   "Roseau"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "LCA",
+    "km": 136
+   },
+   {
+    "code": "ATG",
+    "km": 159
+   },
+   {
+    "code": "VCT",
+    "km": 209
+   }
+  ],
+  "landlocked": false,
+  "area": 751,
+  "flag": "🇩🇲",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Eastern Caribbean dollar"
+  ],
+  "focus": {
+   "lat": 15.436,
+   "lng": -61.36,
+   "radius": 0.217
+  },
+  "label": {
+   "lat": 15.459,
+   "lng": -61.345
+  }
+ },
+ {
+  "code": "DOM",
+  "iso2": "DO",
+  "isoNumeric": "214",
+  "name": "Dominican Republic",
+  "official": "Dominican Republic",
+  "aliases": [
+   "Dominican Rep."
+  ],
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capitals": [
+   "Santo Domingo"
+  ],
+  "neighbors": [
+   "HTI"
+  ],
+  "nearby": [
+   {
+    "code": "HTI",
+    "km": 0
+   },
+   {
+    "code": "BHS",
+    "km": 200
+   },
+   {
+    "code": "CUB",
+    "km": 253
+   }
+  ],
+  "landlocked": false,
+  "area": 48671,
+  "flag": "🇩🇴",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "Dominican peso"
+  ],
+  "focus": {
+   "lat": 18.895,
+   "lng": -70.51,
+   "radius": 2.066
+  },
+  "label": {
+   "lat": 19.104,
+   "lng": -70.654
+  }
+ },
+ {
+  "code": "COD",
+  "iso2": "CD",
+  "isoNumeric": "180",
+  "name": "DR Congo",
+  "official": "Democratic Republic of the Congo",
+  "aliases": [
+   "Democratic Republic of the Congo",
+   "Congo-Kinshasa",
+   "Congo, the Democratic Republic of the",
+   "Democratic Republic of Congo",
+   "DRC",
+   "Dem. Rep. Congo"
+  ],
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capitals": [
+   "Kinshasa"
+  ],
+  "neighbors": [
+   "AGO",
+   "BDI",
+   "CAF",
+   "COG",
+   "RWA",
+   "SSD",
+   "TZA",
+   "UGA",
+   "ZMB"
+  ],
+  "nearby": [
+   {
+    "code": "AGO",
+    "km": 0
+   },
+   {
+    "code": "BDI",
+    "km": 0
+   },
+   {
+    "code": "CAF",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 2344858,
+  "flag": "🇨🇩",
+  "languages": [
+   "French",
+   "Kikongo",
+   "Lingala",
+   "Tshiluba"
+  ],
+  "currencies": [
+   "Congolese franc"
+  ],
+  "focus": {
+   "lat": -2.865,
+   "lng": 23.637,
+   "radius": 12.159
+  },
+  "label": {
+   "lat": -1.858,
+   "lng": 23.459
+  }
+ },
+ {
+  "code": "ECU",
+  "iso2": "EC",
+  "isoNumeric": "218",
+  "name": "Ecuador",
+  "official": "Republic of Ecuador",
+  "aliases": [
+   "Republic of Ecuador",
+   "República del Ecuador"
+  ],
+  "continent": "South America",
+  "subregion": "South America",
+  "capitals": [
+   "Quito"
+  ],
+  "neighbors": [
+   "COL",
+   "PER"
+  ],
+  "nearby": [
+   {
+    "code": "COL",
+    "km": 0
+   },
+   {
+    "code": "PER",
+    "km": 0
+   },
+   {
+    "code": "BRA",
+    "km": 508
+   }
+  ],
+  "landlocked": false,
+  "area": 276841,
+  "flag": "🇪🇨",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "United States dollar"
+  ],
+  "focus": {
+   "lat": -1.447,
+   "lng": -78.394,
+   "radius": 3.613
+  },
+  "label": {
+   "lat": -1.259,
+   "lng": -78.188
+  }
+ },
+ {
+  "code": "EGY",
+  "iso2": "EG",
+  "isoNumeric": "818",
+  "name": "Egypt",
+  "official": "Arab Republic of Egypt",
+  "aliases": [
+   "Arab Republic of Egypt"
+  ],
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "capitals": [
+   "Cairo"
+  ],
+  "neighbors": [
+   "ISR",
+   "LBY",
+   "PSE",
+   "SDN"
+  ],
+  "nearby": [
+   {
+    "code": "ISR",
+    "km": 0
+   },
+   {
+    "code": "LBY",
+    "km": 0
+   },
+   {
+    "code": "PSE",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 1002450,
+  "flag": "🇪🇬",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Egyptian pound"
+  ],
+  "focus": {
+   "lat": 26.459,
+   "lng": 29.877,
+   "radius": 7.783
+  },
+  "label": {
+   "lat": 26.186,
+   "lng": 29.446
+  }
+ },
+ {
+  "code": "SLV",
+  "iso2": "SV",
+  "isoNumeric": "222",
+  "name": "El Salvador",
+  "official": "Republic of El Salvador",
+  "aliases": [
+   "Republic of El Salvador",
+   "República de El Salvador"
+  ],
+  "continent": "North America",
+  "subregion": "Central America",
+  "capitals": [
+   "San Salvador"
+  ],
+  "neighbors": [
+   "GTM",
+   "HND"
+  ],
+  "nearby": [
+   {
+    "code": "GTM",
+    "km": 0
+   },
+   {
+    "code": "HND",
+    "km": 0
+   },
+   {
+    "code": "NIC",
+    "km": 37
+   }
+  ],
+  "landlocked": false,
+  "area": 21041,
+  "flag": "🇸🇻",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "United States dollar"
+  ],
+  "focus": {
+   "lat": 13.736,
+   "lng": -88.868,
+   "radius": 1.206
+  },
+  "label": {
+   "lat": 13.685,
+   "lng": -88.89
+  }
+ },
+ {
+  "code": "GNQ",
+  "iso2": "GQ",
+  "isoNumeric": "226",
+  "name": "Equatorial Guinea",
+  "official": "Republic of Equatorial Guinea",
+  "aliases": [
+   "Republic of Equatorial Guinea",
+   "República de Guinea Ecuatorial",
+   "République de Guinée équatoriale",
+   "República da Guiné Equatorial",
+   "Eq. Guinea"
+  ],
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capitals": [
+   "Malabo"
+  ],
+  "neighbors": [
+   "CMR",
+   "GAB"
+  ],
+  "nearby": [
+   {
+    "code": "CMR",
+    "km": 0
+   },
+   {
+    "code": "GAB",
+    "km": 0
+   },
+   {
+    "code": "NGA",
+    "km": 101
+   }
+  ],
+  "landlocked": false,
+  "area": 28051,
+  "flag": "🇬🇶",
+  "languages": [
+   "French",
+   "Portuguese",
+   "Spanish"
+  ],
+  "currencies": [
+   "Central African CFA franc"
+  ],
+  "focus": {
+   "lat": 1.7,
+   "lng": 10.347,
+   "radius": 2.636
+  },
+  "label": {
+   "lat": 2.333,
+   "lng": 8.99
+  }
+ },
+ {
+  "code": "ERI",
+  "iso2": "ER",
+  "isoNumeric": "232",
+  "name": "Eritrea",
+  "official": "State of Eritrea",
+  "aliases": [
+   "State of Eritrea",
+   "ሃገረ ኤርትራ",
+   "Dawlat Iritriyá",
+   "ʾErtrā",
+   "Iritriyā"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Asmara"
+  ],
+  "neighbors": [
+   "DJI",
+   "ETH",
+   "SDN"
+  ],
+  "nearby": [
+   {
+    "code": "DJI",
+    "km": 0
+   },
+   {
+    "code": "ETH",
+    "km": 0
+   },
+   {
+    "code": "SDN",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 117600,
+  "flag": "🇪🇷",
+  "languages": [
+   "Arabic",
+   "English",
+   "Tigrinya"
+  ],
+  "currencies": [
+   "Eritrean nakfa"
+  ],
+  "focus": {
+   "lat": 15.36,
+   "lng": 38.857,
+   "radius": 4.907
+  },
+  "label": {
+   "lat": 15.787,
+   "lng": 38.286
+  }
+ },
+ {
+  "code": "EST",
+  "iso2": "EE",
+  "isoNumeric": "233",
+  "name": "Estonia",
+  "official": "Republic of Estonia",
+  "aliases": [
+   "Republic of Estonia",
+   "Eesti",
+   "Eesti Vabariik"
+  ],
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capitals": [
+   "Tallinn"
+  ],
+  "neighbors": [
+   "LVA",
+   "RUS"
+  ],
+  "nearby": [
+   {
+    "code": "LVA",
+    "km": 0
+   },
+   {
+    "code": "RUS",
+    "km": 0
+   },
+   {
+    "code": "FIN",
+    "km": 63
+   }
+  ],
+  "landlocked": false,
+  "area": 45227,
+  "flag": "🇪🇪",
+  "languages": [
+   "Estonian"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 58.674,
+   "lng": 25.581,
+   "radius": 2.004
+  },
+  "label": {
+   "lat": 58.725,
+   "lng": 25.867
+  }
+ },
+ {
+  "code": "SWZ",
+  "iso2": "SZ",
+  "isoNumeric": "748",
+  "name": "Eswatini",
+  "official": "Kingdom of Eswatini",
+  "aliases": [
+   "Kingdom of Eswatini",
+   "Swaziland",
+   "weSwatini",
+   "Swatini",
+   "Ngwane",
+   "Umbuso weSwatini",
+   "eSwatini",
+   "Kingdom of eSwatini"
+  ],
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "capitals": [
+   "Lobamba"
+  ],
+  "neighbors": [
+   "MOZ",
+   "ZAF"
+  ],
+  "nearby": [
+   {
+    "code": "MOZ",
+    "km": 0
+   },
+   {
+    "code": "ZAF",
+    "km": 0
+   },
+   {
+    "code": "LSO",
+    "km": 280
+   }
+  ],
+  "landlocked": true,
+  "area": 17364,
+  "flag": "🇸🇿",
+  "languages": [
+   "English",
+   "Swazi"
+  ],
+  "currencies": [
+   "Swazi lilangeni",
+   "South African rand"
+  ],
+  "focus": {
+   "lat": -26.558,
+   "lng": 31.486,
+   "radius": 0.859
+  },
+  "label": {
+   "lat": -26.534,
+   "lng": 31.467
+  }
+ },
+ {
+  "code": "ETH",
+  "iso2": "ET",
+  "isoNumeric": "231",
+  "name": "Ethiopia",
+  "official": "Federal Democratic Republic of Ethiopia",
+  "aliases": [
+   "Federal Democratic Republic of Ethiopia",
+   "ʾĪtyōṗṗyā",
+   "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Addis Ababa"
+  ],
+  "neighbors": [
+   "DJI",
+   "ERI",
+   "KEN",
+   "SDN",
+   "SOM",
+   "SSD"
+  ],
+  "nearby": [
+   {
+    "code": "DJI",
+    "km": 0
+   },
+   {
+    "code": "ERI",
+    "km": 0
+   },
+   {
+    "code": "KEN",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 1104300,
+  "flag": "🇪🇹",
+  "languages": [
+   "Amharic"
+  ],
+  "currencies": [
+   "Ethiopian birr"
+  ],
+  "focus": {
+   "lat": 8.615,
+   "lng": 39.61,
+   "radius": 8.305
+  },
+  "label": {
+   "lat": 8.033,
+   "lng": 39.089
+  }
+ },
+ {
+  "code": "FJI",
+  "iso2": "FJ",
+  "isoNumeric": "242",
+  "name": "Fiji",
+  "official": "Republic of Fiji",
+  "aliases": [
+   "Republic of Fiji",
+   "Viti",
+   "Matanitu ko Viti",
+   "Fijī Gaṇarājya"
+  ],
+  "continent": "Oceania",
+  "subregion": "Melanesia",
+  "capitals": [
+   "Suva"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "TON",
+    "km": 676
+   },
+   {
+    "code": "WSM",
+    "km": 830
+   },
+   {
+    "code": "VUT",
+    "km": 836
+   }
+  ],
+  "landlocked": false,
+  "area": 18272,
+  "flag": "🇫🇯",
+  "languages": [
+   "English",
+   "Fijian",
+   "Fiji Hindi"
+  ],
+  "currencies": [
+   "Fijian dollar"
+  ],
+  "focus": {
+   "lat": -17.404,
+   "lng": 178.441,
+   "radius": 1.949
+  },
+  "label": {
+   "lat": -17.826,
+   "lng": 177.975
+  }
+ },
+ {
+  "code": "FIN",
+  "iso2": "FI",
+  "isoNumeric": "246",
+  "name": "Finland",
+  "official": "Republic of Finland",
+  "aliases": [
+   "Republic of Finland",
+   "Suomi",
+   "Suomen tasavalta",
+   "Republiken Finland"
+  ],
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capitals": [
+   "Helsinki"
+  ],
+  "neighbors": [
+   "NOR",
+   "RUS",
+   "SWE"
+  ],
+  "nearby": [
+   {
+    "code": "NOR",
+    "km": 0
+   },
+   {
+    "code": "RUS",
+    "km": 0
+   },
+   {
+    "code": "SWE",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 338424,
+  "flag": "🇫🇮",
+  "languages": [
+   "Finnish",
+   "Swedish"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 64.258,
+   "lng": 26.206,
+   "radius": 5.84
+  },
+  "label": {
+   "lat": 63.252,
+   "lng": 27.276
+  }
+ },
+ {
+  "code": "FRA",
+  "iso2": "FR",
+  "isoNumeric": "250",
+  "name": "France",
+  "official": "French Republic",
+  "aliases": [
+   "French Republic",
+   "République française"
+  ],
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capitals": [
+   "Paris"
+  ],
+  "neighbors": [
+   "AND",
+   "BEL",
+   "CHE",
+   "DEU",
+   "ESP",
+   "ITA",
+   "LUX",
+   "MCO"
+  ],
+  "nearby": [
+   {
+    "code": "AND",
+    "km": 0
+   },
+   {
+    "code": "BEL",
+    "km": 0
+   },
+   {
+    "code": "CHE",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 551695,
+  "flag": "🇫🇷",
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 46.505,
+   "lng": 2.57,
+   "radius": 6.987
+  },
+  "label": {
+   "lat": 46.696,
+   "lng": 2.552
+  }
+ },
+ {
+  "code": "GAB",
+  "iso2": "GA",
+  "isoNumeric": "266",
+  "name": "Gabon",
+  "official": "Gabonese Republic",
+  "aliases": [
+   "Gabonese Republic",
+   "République Gabonaise"
+  ],
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capitals": [
+   "Libreville"
+  ],
+  "neighbors": [
+   "CMR",
+   "COG",
+   "GNQ"
+  ],
+  "nearby": [
+   {
+    "code": "CMR",
+    "km": 0
+   },
+   {
+    "code": "COG",
+    "km": 0
+   },
+   {
+    "code": "GNQ",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 267668,
+  "flag": "🇬🇦",
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "Central African CFA franc"
+  ],
+  "focus": {
+   "lat": -0.587,
+   "lng": 11.79,
+   "radius": 3.394
+  },
+  "label": {
+   "lat": -0.438,
+   "lng": 11.836
+  }
+ },
+ {
+  "code": "GMB",
+  "iso2": "GM",
+  "isoNumeric": "270",
+  "name": "Gambia",
+  "official": "Republic of the Gambia",
+  "aliases": [
+   "Republic of the Gambia",
+   "The Gambia"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Banjul"
+  ],
+  "neighbors": [
+   "SEN"
+  ],
+  "nearby": [
+   {
+    "code": "SEN",
+    "km": 0
+   },
+   {
+    "code": "GNB",
+    "km": 63
+   },
+   {
+    "code": "GIN",
+    "km": 74
+   }
+  ],
+  "landlocked": false,
+  "area": 10689,
+  "flag": "🇬🇲",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "dalasi"
+  ],
+  "focus": {
+   "lat": 13.45,
+   "lng": -15.409,
+   "radius": 1.525
+  },
+  "label": {
+   "lat": 13.642,
+   "lng": -14.998
+  }
+ },
+ {
+  "code": "GEO",
+  "iso2": "GE",
+  "isoNumeric": "268",
+  "name": "Georgia",
+  "official": "Georgia",
+  "aliases": [
+   "Sakartvelo"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Tbilisi"
+  ],
+  "neighbors": [
+   "ARM",
+   "AZE",
+   "RUS",
+   "TUR"
+  ],
+  "nearby": [
+   {
+    "code": "ARM",
+    "km": 0
+   },
+   {
+    "code": "AZE",
+    "km": 0
+   },
+   {
+    "code": "RUS",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 69700,
+  "flag": "🇬🇪",
+  "languages": [
+   "Georgian"
+  ],
+  "currencies": [
+   "lari"
+  ],
+  "focus": {
+   "lat": 42.172,
+   "lng": 43.525,
+   "radius": 2.887
+  },
+  "label": {
+   "lat": 41.87,
+   "lng": 43.736
+  }
+ },
+ {
+  "code": "DEU",
+  "iso2": "DE",
+  "isoNumeric": "276",
+  "name": "Germany",
+  "official": "Federal Republic of Germany",
+  "aliases": [
+   "Federal Republic of Germany",
+   "Bundesrepublik Deutschland"
+  ],
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capitals": [
+   "Berlin"
+  ],
+  "neighbors": [
+   "AUT",
+   "BEL",
+   "CHE",
+   "CZE",
+   "DNK",
+   "FRA",
+   "LUX",
+   "NLD",
+   "POL"
+  ],
+  "nearby": [
+   {
+    "code": "AUT",
+    "km": 0
+   },
+   {
+    "code": "BEL",
+    "km": 0
+   },
+   {
+    "code": "CHE",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 357114,
+  "flag": "🇩🇪",
+  "languages": [
+   "German"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 51.046,
+   "lng": 10.365,
+   "radius": 4.093
+  },
+  "label": {
+   "lat": 50.962,
+   "lng": 9.678
+  }
+ },
+ {
+  "code": "GHA",
+  "iso2": "GH",
+  "isoNumeric": "288",
+  "name": "Ghana",
+  "official": "Republic of Ghana",
+  "aliases": [
+   "Republic of Ghana"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Accra"
+  ],
+  "neighbors": [
+   "BFA",
+   "CIV",
+   "TGO"
+  ],
+  "nearby": [
+   {
+    "code": "BFA",
+    "km": 0
+   },
+   {
+    "code": "CIV",
+    "km": 0
+   },
+   {
+    "code": "TGO",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 238533,
+  "flag": "🇬🇭",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Ghanaian cedi"
+  ],
+  "focus": {
+   "lat": 7.946,
+   "lng": -1.217,
+   "radius": 3.443
+  },
+  "label": {
+   "lat": 7.718,
+   "lng": -1.037
+  }
+ },
+ {
+  "code": "GRC",
+  "iso2": "GR",
+  "isoNumeric": "300",
+  "name": "Greece",
+  "official": "Hellenic Republic",
+  "aliases": [
+   "Hellenic Republic",
+   "Elláda",
+   "Ελληνική Δημοκρατία"
+  ],
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capitals": [
+   "Athens"
+  ],
+  "neighbors": [
+   "ALB",
+   "BGR",
+   "MKD",
+   "TUR"
+  ],
+  "nearby": [
+   {
+    "code": "ALB",
+    "km": 0
+   },
+   {
+    "code": "BGR",
+    "km": 0
+   },
+   {
+    "code": "MKD",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 131990,
+  "flag": "🇬🇷",
+  "languages": [
+   "Greek"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 39.098,
+   "lng": 22.898,
+   "radius": 5.057
+  },
+  "label": {
+   "lat": 39.493,
+   "lng": 21.726
+  }
+ },
+ {
+  "code": "GRD",
+  "iso2": "GD",
+  "isoNumeric": "308",
+  "name": "Grenada",
+  "official": "Grenada",
+  "aliases": [],
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capitals": [
+   "St. George's"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "VCT",
+    "km": 114
+   },
+   {
+    "code": "TTO",
+    "km": 133
+   },
+   {
+    "code": "VEN",
+    "km": 142
+   }
+  ],
+  "landlocked": false,
+  "area": 344,
+  "flag": "🇬🇩",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Eastern Caribbean dollar"
+  ],
+  "focus": {
+   "lat": 12.122,
+   "lng": -61.666,
+   "radius": 0.119
+  },
+  "label": {
+   "lat": 12.113,
+   "lng": -61.68
+  }
+ },
+ {
+  "code": "GTM",
+  "iso2": "GT",
+  "isoNumeric": "320",
+  "name": "Guatemala",
+  "official": "Republic of Guatemala",
+  "aliases": [
+   "Republic of Guatemala"
+  ],
+  "continent": "North America",
+  "subregion": "Central America",
+  "capitals": [
+   "Guatemala City"
+  ],
+  "neighbors": [
+   "BLZ",
+   "HND",
+   "MEX",
+   "SLV"
+  ],
+  "nearby": [
+   {
+    "code": "BLZ",
+    "km": 0
+   },
+   {
+    "code": "HND",
+    "km": 0
+   },
+   {
+    "code": "MEX",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 108889,
+  "flag": "🇬🇹",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "Guatemalan quetzal"
+  ],
+  "focus": {
+   "lat": 15.691,
+   "lng": -90.368,
+   "radius": 2.421
+  },
+  "label": {
+   "lat": 14.982,
+   "lng": -90.497
+  }
+ },
+ {
+  "code": "GIN",
+  "iso2": "GN",
+  "isoNumeric": "324",
+  "name": "Guinea",
+  "official": "Republic of Guinea",
+  "aliases": [
+   "Republic of Guinea",
+   "République de Guinée"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Conakry"
+  ],
+  "neighbors": [
+   "CIV",
+   "GNB",
+   "LBR",
+   "MLI",
+   "SEN",
+   "SLE"
+  ],
+  "nearby": [
+   {
+    "code": "CIV",
+    "km": 0
+   },
+   {
+    "code": "GNB",
+    "km": 0
+   },
+   {
+    "code": "LBR",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 245857,
+  "flag": "🇬🇳",
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "Guinean franc"
+  ],
+  "focus": {
+   "lat": 10.436,
+   "lng": -10.935,
+   "radius": 4.07
+  },
+  "label": {
+   "lat": 10.619,
+   "lng": -10.016
+  }
+ },
+ {
+  "code": "GNB",
+  "iso2": "GW",
+  "isoNumeric": "624",
+  "name": "Guinea-Bissau",
+  "official": "Republic of Guinea-Bissau",
+  "aliases": [
+   "Republic of Guinea-Bissau",
+   "República da Guiné-Bissau"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Bissau"
+  ],
+  "neighbors": [
+   "GIN",
+   "SEN"
+  ],
+  "nearby": [
+   {
+    "code": "GIN",
+    "km": 0
+   },
+   {
+    "code": "SEN",
+    "km": 0
+   },
+   {
+    "code": "GMB",
+    "km": 63
+   }
+  ],
+  "landlocked": false,
+  "area": 36125,
+  "flag": "🇬🇼",
+  "languages": [
+   "Portuguese",
+   "Upper Guinea Creole"
+  ],
+  "currencies": [
+   "West African CFA franc"
+  ],
+  "focus": {
+   "lat": 12.054,
+   "lng": -14.937,
+   "radius": 1.762
+  },
+  "label": {
+   "lat": 12.164,
+   "lng": -14.524
+  }
+ },
+ {
+  "code": "GUY",
+  "iso2": "GY",
+  "isoNumeric": "328",
+  "name": "Guyana",
+  "official": "Co-operative Republic of Guyana",
+  "aliases": [
+   "Co-operative Republic of Guyana"
+  ],
+  "continent": "South America",
+  "subregion": "South America",
+  "capitals": [
+   "Georgetown"
+  ],
+  "neighbors": [
+   "BRA",
+   "SUR",
+   "VEN"
+  ],
+  "nearby": [
+   {
+    "code": "BRA",
+    "km": 0
+   },
+   {
+    "code": "SUR",
+    "km": 0
+   },
+   {
+    "code": "VEN",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 214969,
+  "flag": "🇬🇾",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Guyanese dollar"
+  ],
+  "focus": {
+   "lat": 4.792,
+   "lng": -58.979,
+   "radius": 3.896
+  },
+  "label": {
+   "lat": 5.124,
+   "lng": -58.943
+  }
+ },
+ {
+  "code": "HTI",
+  "iso2": "HT",
+  "isoNumeric": "332",
+  "name": "Haiti",
+  "official": "Republic of Haiti",
+  "aliases": [
+   "Republic of Haiti",
+   "République d'Haïti",
+   "Repiblik Ayiti"
+  ],
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capitals": [
+   "Port-au-Prince"
+  ],
+  "neighbors": [
+   "DOM"
+  ],
+  "nearby": [
+   {
+    "code": "DOM",
+    "km": 0
+   },
+   {
+    "code": "CUB",
+    "km": 88
+   },
+   {
+    "code": "BHS",
+    "km": 119
+   }
+  ],
+  "landlocked": false,
+  "area": 27750,
+  "flag": "🇭🇹",
+  "languages": [
+   "French",
+   "Haitian Creole"
+  ],
+  "currencies": [
+   "Haitian gourde"
+  ],
+  "focus": {
+   "lat": 18.925,
+   "lng": -72.683,
+   "radius": 1.764
+  },
+  "label": {
+   "lat": 19.264,
+   "lng": -72.224
+  }
+ },
+ {
+  "code": "HND",
+  "iso2": "HN",
+  "isoNumeric": "340",
+  "name": "Honduras",
+  "official": "Republic of Honduras",
+  "aliases": [
+   "Republic of Honduras",
+   "República de Honduras"
+  ],
+  "continent": "North America",
+  "subregion": "Central America",
+  "capitals": [
+   "Tegucigalpa"
+  ],
+  "neighbors": [
+   "GTM",
+   "NIC",
+   "SLV"
+  ],
+  "nearby": [
+   {
+    "code": "GTM",
+    "km": 0
+   },
+   {
+    "code": "NIC",
+    "km": 0
+   },
+   {
+    "code": "SLV",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 112492,
+  "flag": "🇭🇳",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "Honduran lempira"
+  ],
+  "focus": {
+   "lat": 14.825,
+   "lng": -86.62,
+   "radius": 3.35
+  },
+  "label": {
+   "lat": 14.795,
+   "lng": -86.888
+  }
+ },
+ {
+  "code": "HUN",
+  "iso2": "HU",
+  "isoNumeric": "348",
+  "name": "Hungary",
+  "official": "Hungary",
+  "aliases": [
+   "Republic of Hungary"
+  ],
+  "continent": "Europe",
+  "subregion": "Central Europe",
+  "capitals": [
+   "Budapest"
+  ],
+  "neighbors": [
+   "AUT",
+   "HRV",
+   "ROU",
+   "SRB",
+   "SVK",
+   "SVN",
+   "UKR"
+  ],
+  "nearby": [
+   {
+    "code": "AUT",
+    "km": 0
+   },
+   {
+    "code": "HRV",
+    "km": 0
+   },
+   {
+    "code": "ROU",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 93028,
+  "flag": "🇭🇺",
+  "languages": [
+   "Hungarian"
+  ],
+  "currencies": [
+   "Hungarian forint"
+  ],
+  "focus": {
+   "lat": 47.167,
+   "lng": 19.379,
+   "radius": 2.485
+  },
+  "label": {
+   "lat": 47.087,
+   "lng": 19.448
+  }
+ },
+ {
+  "code": "ISL",
+  "iso2": "IS",
+  "isoNumeric": "352",
+  "name": "Iceland",
+  "official": "Iceland",
+  "aliases": [
+   "Island",
+   "Republic of Iceland",
+   "Lýðveldið Ísland"
+  ],
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capitals": [
+   "Reykjavik"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "NOR",
+    "km": 558
+   },
+   {
+    "code": "GBR",
+    "km": 793
+   },
+   {
+    "code": "IRL",
+    "km": 1076
+   }
+  ],
+  "landlocked": false,
+  "area": 103000,
+  "flag": "🇮🇸",
+  "languages": [
+   "Icelandic"
+  ],
+  "currencies": [
+   "Icelandic króna"
+  ],
+  "focus": {
+   "lat": 64.998,
+   "lng": -18.592,
+   "radius": 2.409
+  },
+  "label": {
+   "lat": 64.779,
+   "lng": -18.674
+  }
+ },
+ {
+  "code": "IND",
+  "iso2": "IN",
+  "isoNumeric": "356",
+  "name": "India",
+  "official": "Republic of India",
+  "aliases": [
+   "Republic of India",
+   "Bhārat",
+   "Bharat Ganrajya",
+   "இந்தியா"
+  ],
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capitals": [
+   "New Delhi"
+  ],
+  "neighbors": [
+   "BGD",
+   "BTN",
+   "CHN",
+   "MMR",
+   "NPL",
+   "PAK"
+  ],
+  "nearby": [
+   {
+    "code": "BGD",
+    "km": 0
+   },
+   {
+    "code": "BTN",
+    "km": 0
+   },
+   {
+    "code": "MMR",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 3287590,
+  "flag": "🇮🇳",
+  "languages": [
+   "English",
+   "Hindi",
+   "Tamil"
+  ],
+  "currencies": [
+   "Indian rupee"
+  ],
+  "focus": {
+   "lat": 22.781,
+   "lng": 79.558,
+   "radius": 21.114
+  },
+  "label": {
+   "lat": 22.687,
+   "lng": 79.358
+  }
+ },
+ {
+  "code": "IDN",
+  "iso2": "ID",
+  "isoNumeric": "360",
+  "name": "Indonesia",
+  "official": "Republic of Indonesia",
+  "aliases": [
+   "Republic of Indonesia",
+   "Republik Indonesia"
+  ],
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capitals": [
+   "Jakarta"
+  ],
+  "neighbors": [
+   "MYS",
+   "PNG",
+   "TLS"
+  ],
+  "nearby": [
+   {
+    "code": "MYS",
+    "km": 0
+   },
+   {
+    "code": "PNG",
+    "km": 0
+   },
+   {
+    "code": "TLS",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 1904569,
+  "flag": "🇮🇩",
+  "languages": [
+   "Indonesian"
+  ],
+  "currencies": [
+   "Indonesian rupiah"
+  ],
+  "focus": {
+   "lat": -2.259,
+   "lng": 117.165,
+   "radius": 24.651
+  },
+  "label": {
+   "lat": -0.954,
+   "lng": 101.893
+  }
+ },
+ {
+  "code": "IRN",
+  "iso2": "IR",
+  "isoNumeric": "364",
+  "name": "Iran",
+  "official": "Islamic Republic of Iran",
+  "aliases": [
+   "Islamic Republic of Iran",
+   "Iran, Islamic Republic of",
+   "Jomhuri-ye Eslāmi-ye Irān"
+  ],
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capitals": [
+   "Tehran"
+  ],
+  "neighbors": [
+   "AFG",
+   "ARM",
+   "AZE",
+   "IRQ",
+   "PAK",
+   "TKM",
+   "TUR"
+  ],
+  "nearby": [
+   {
+    "code": "AFG",
+    "km": 0
+   },
+   {
+    "code": "ARM",
+    "km": 0
+   },
+   {
+    "code": "AZE",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 1648195,
+  "flag": "🇮🇷",
+  "languages": [
+   "Persian (Farsi)"
+  ],
+  "currencies": [
+   "Iranian rial"
+  ],
+  "focus": {
+   "lat": 32.528,
+   "lng": 54.44,
+   "radius": 10.849
+  },
+  "label": {
+   "lat": 32.166,
+   "lng": 54.931
+  }
+ },
+ {
+  "code": "IRQ",
+  "iso2": "IQ",
+  "isoNumeric": "368",
+  "name": "Iraq",
+  "official": "Republic of Iraq",
+  "aliases": [
+   "Republic of Iraq",
+   "Jumhūriyyat al-‘Irāq"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Baghdad"
+  ],
+  "neighbors": [
+   "IRN",
+   "JOR",
+   "KWT",
+   "SAU",
+   "SYR",
+   "TUR"
+  ],
+  "nearby": [
+   {
+    "code": "IRN",
+    "km": 0
+   },
+   {
+    "code": "JOR",
+    "km": 0
+   },
+   {
+    "code": "KWT",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 438317,
+  "flag": "🇮🇶",
+  "languages": [
+   "Arabic",
+   "Aramaic",
+   "Sorani"
+  ],
+  "currencies": [
+   "Iraqi dinar"
+  ],
+  "focus": {
+   "lat": 33.009,
+   "lng": 43.774,
+   "radius": 5.081
+  },
+  "label": {
+   "lat": 33.094,
+   "lng": 43.262
+  }
+ },
+ {
+  "code": "IRL",
+  "iso2": "IE",
+  "isoNumeric": "372",
+  "name": "Ireland",
+  "official": "Republic of Ireland",
+  "aliases": [
+   "Republic of Ireland",
+   "Éire",
+   "Poblacht na hÉireann"
+  ],
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capitals": [
+   "Dublin"
+  ],
+  "neighbors": [
+   "GBR"
+  ],
+  "nearby": [
+   {
+    "code": "GBR",
+    "km": 0
+   },
+   {
+    "code": "FRA",
+    "km": 422
+   },
+   {
+    "code": "BEL",
+    "km": 619
+   }
+  ],
+  "landlocked": false,
+  "area": 70273,
+  "flag": "🇮🇪",
+  "languages": [
+   "English",
+   "Irish"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 53.167,
+   "lng": -8.133,
+   "radius": 2.245
+  },
+  "label": {
+   "lat": 53.079,
+   "lng": -7.799
+  }
+ },
+ {
+  "code": "ISR",
+  "iso2": "IL",
+  "isoNumeric": "376",
+  "name": "Israel",
+  "official": "State of Israel",
+  "aliases": [
+   "State of Israel",
+   "Medīnat Yisrā'el"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Jerusalem"
+  ],
+  "neighbors": [
+   "EGY",
+   "JOR",
+   "LBN",
+   "PSE",
+   "SYR"
+  ],
+  "nearby": [
+   {
+    "code": "EGY",
+    "km": 0
+   },
+   {
+    "code": "JOR",
+    "km": 0
+   },
+   {
+    "code": "LBN",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 20770,
+  "flag": "🇮🇱",
+  "languages": [
+   "Arabic",
+   "Hebrew"
+  ],
+  "currencies": [
+   "Israeli new shekel"
+  ],
+  "focus": {
+   "lat": 31.434,
+   "lng": 34.993,
+   "radius": 2.106
+  },
+  "label": {
+   "lat": 30.911,
+   "lng": 34.848
+  }
+ },
+ {
+  "code": "ITA",
+  "iso2": "IT",
+  "isoNumeric": "380",
+  "name": "Italy",
+  "official": "Italian Republic",
+  "aliases": [
+   "Italian Republic",
+   "Repubblica italiana"
+  ],
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capitals": [
+   "Rome"
+  ],
+  "neighbors": [
+   "AUT",
+   "CHE",
+   "FRA",
+   "SMR",
+   "SVN",
+   "VAT"
+  ],
+  "nearby": [
+   {
+    "code": "AUT",
+    "km": 0
+   },
+   {
+    "code": "CHE",
+    "km": 0
+   },
+   {
+    "code": "FRA",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 301336,
+  "flag": "🇮🇹",
+  "languages": [
+   "Italian"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 42.722,
+   "lng": 12.206,
+   "radius": 6.434
+  },
+  "label": {
+   "lat": 44.732,
+   "lng": 11.077
+  }
+ },
+ {
+  "code": "CIV",
+  "iso2": "CI",
+  "isoNumeric": "384",
+  "name": "Ivory Coast",
+  "official": "Republic of Côte d'Ivoire",
+  "aliases": [
+   "Republic of Côte d'Ivoire",
+   "Côte d'Ivoire",
+   "Cote d'Ivoire",
+   "République de Côte d'Ivoire",
+   "Republic of Ivory Coast"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Yamoussoukro"
+  ],
+  "neighbors": [
+   "BFA",
+   "GHA",
+   "GIN",
+   "LBR",
+   "MLI"
+  ],
+  "nearby": [
+   {
+    "code": "BFA",
+    "km": 0
+   },
+   {
+    "code": "GHA",
+    "km": 0
+   },
+   {
+    "code": "GIN",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 322463,
+  "flag": "🇨🇮",
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "West African CFA franc"
+  ],
+  "focus": {
+   "lat": 7.623,
+   "lng": -5.567,
+   "radius": 3.818
+  },
+  "label": {
+   "lat": 7.491,
+   "lng": -5.569
+  }
+ },
+ {
+  "code": "JAM",
+  "iso2": "JM",
+  "isoNumeric": "388",
+  "name": "Jamaica",
+  "official": "Jamaica",
+  "aliases": [],
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capitals": [
+   "Kingston"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "CUB",
+    "km": 149
+   },
+   {
+    "code": "HTI",
+    "km": 193
+   },
+   {
+    "code": "BHS",
+    "km": 419
+   }
+  ],
+  "landlocked": false,
+  "area": 10991,
+  "flag": "🇯🇲",
+  "languages": [
+   "English",
+   "Jamaican Patois"
+  ],
+  "currencies": [
+   "Jamaican dollar"
+  ],
+  "focus": {
+   "lat": 18.158,
+   "lng": -77.314,
+   "radius": 1.077
+  },
+  "label": {
+   "lat": 18.137,
+   "lng": -77.319
+  }
+ },
+ {
+  "code": "JPN",
+  "iso2": "JP",
+  "isoNumeric": "392",
+  "name": "Japan",
+  "official": "Japan",
+  "aliases": [
+   "Nippon",
+   "Nihon"
+  ],
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "capitals": [
+   "Tokyo"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "RUS",
+    "km": 25
+   },
+   {
+    "code": "KOR",
+    "km": 57
+   },
+   {
+    "code": "CHN",
+    "km": 411
+   }
+  ],
+  "landlocked": false,
+  "area": 377930,
+  "flag": "🇯🇵",
+  "languages": [
+   "Japanese"
+  ],
+  "currencies": [
+   "Japanese yen"
+  ],
+  "focus": {
+   "lat": 37.564,
+   "lng": 137.79,
+   "radius": 9.503
+  },
+  "label": {
+   "lat": 36.143,
+   "lng": 138.442
+  }
+ },
+ {
+  "code": "JOR",
+  "iso2": "JO",
+  "isoNumeric": "400",
+  "name": "Jordan",
+  "official": "Hashemite Kingdom of Jordan",
+  "aliases": [
+   "Hashemite Kingdom of Jordan",
+   "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Amman"
+  ],
+  "neighbors": [
+   "IRQ",
+   "ISR",
+   "PSE",
+   "SAU",
+   "SYR"
+  ],
+  "nearby": [
+   {
+    "code": "IRQ",
+    "km": 0
+   },
+   {
+    "code": "ISR",
+    "km": 0
+   },
+   {
+    "code": "PSE",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 89342,
+  "flag": "🇯🇴",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Jordanian dinar"
+  ],
+  "focus": {
+   "lat": 31.238,
+   "lng": 36.759,
+   "radius": 2.73
+  },
+  "label": {
+   "lat": 30.805,
+   "lng": 36.376
+  }
+ },
+ {
+  "code": "KAZ",
+  "iso2": "KZ",
+  "isoNumeric": "398",
+  "name": "Kazakhstan",
+  "official": "Republic of Kazakhstan",
+  "aliases": [
+   "Republic of Kazakhstan",
+   "Qazaqstan",
+   "Казахстан",
+   "Қазақстан Республикасы",
+   "Qazaqstan Respublïkası",
+   "Республика Казахстан",
+   "Respublika Kazakhstan"
+  ],
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "capitals": [
+   "Astana"
+  ],
+  "neighbors": [
+   "CHN",
+   "KGZ",
+   "RUS",
+   "TKM",
+   "UZB"
+  ],
+  "nearby": [
+   {
+    "code": "KGZ",
+    "km": 0
+   },
+   {
+    "code": "TKM",
+    "km": 0
+   },
+   {
+    "code": "UZB",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 2724900,
+  "flag": "🇰🇿",
+  "languages": [
+   "Kazakh",
+   "Russian"
+  ],
+  "currencies": [
+   "Kazakhstani tenge"
+  ],
+  "focus": {
+   "lat": 48.362,
+   "lng": 67.246,
+   "radius": 13.642
+  },
+  "label": {
+   "lat": 49.054,
+   "lng": 68.686
+  }
+ },
+ {
+  "code": "KEN",
+  "iso2": "KE",
+  "isoNumeric": "404",
+  "name": "Kenya",
+  "official": "Republic of Kenya",
+  "aliases": [
+   "Republic of Kenya",
+   "Jamhuri ya Kenya"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Nairobi"
+  ],
+  "neighbors": [
+   "ETH",
+   "SOM",
+   "SSD",
+   "TZA",
+   "UGA"
+  ],
+  "nearby": [
+   {
+    "code": "ETH",
+    "km": 0
+   },
+   {
+    "code": "SOM",
+    "km": 0
+   },
+   {
+    "code": "SSD",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 580367,
+  "flag": "🇰🇪",
+  "languages": [
+   "English",
+   "Swahili"
+  ],
+  "currencies": [
+   "Kenyan shilling"
+  ],
+  "focus": {
+   "lat": 0.6,
+   "lng": 37.796,
+   "radius": 5.507
+  },
+  "label": {
+   "lat": 0.549,
+   "lng": 37.908
+  }
+ },
+ {
+  "code": "KIR",
+  "iso2": "KI",
+  "isoNumeric": "296",
+  "name": "Kiribati",
+  "official": "Independent and Sovereign Republic of Kiribati",
+  "aliases": [
+   "Independent and Sovereign Republic of Kiribati",
+   "Republic of Kiribati",
+   "Ribaberiki Kiribati"
+  ],
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "capitals": [
+   "South Tarawa"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "USA",
+    "km": 1911
+   },
+   {
+    "code": "WSM",
+    "km": 2338
+   },
+   {
+    "code": "TUV",
+    "km": 2831
+   }
+  ],
+  "landlocked": false,
+  "area": 811,
+  "flag": "🇰🇮",
+  "languages": [
+   "English",
+   "Gilbertese"
+  ],
+  "currencies": [
+   "Australian dollar",
+   "Kiribati dollar"
+  ],
+  "focus": {
+   "lat": 1.792,
+   "lng": -157.338,
+   "radius": 0.108
+  },
+  "label": {
+   "lat": 1.82,
+   "lng": -157.385
+  }
+ },
+ {
+  "code": "KWT",
+  "iso2": "KW",
+  "isoNumeric": "414",
+  "name": "Kuwait",
+  "official": "State of Kuwait",
+  "aliases": [
+   "State of Kuwait",
+   "Dawlat al-Kuwait"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Kuwait City"
+  ],
+  "neighbors": [
+   "IRQ",
+   "SAU"
+  ],
+  "nearby": [
+   {
+    "code": "IRQ",
+    "km": 0
+   },
+   {
+    "code": "SAU",
+    "km": 0
+   },
+   {
+    "code": "IRN",
+    "km": 23
+   }
+  ],
+  "landlocked": false,
+  "area": 17818,
+  "flag": "🇰🇼",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Kuwaiti dinar"
+  ],
+  "focus": {
+   "lat": 29.329,
+   "lng": 47.584,
+   "radius": 1.087
+  },
+  "label": {
+   "lat": 29.414,
+   "lng": 47.314
+  }
+ },
+ {
+  "code": "KGZ",
+  "iso2": "KG",
+  "isoNumeric": "417",
+  "name": "Kyrgyzstan",
+  "official": "Kyrgyz Republic",
+  "aliases": [
+   "Kyrgyz Republic",
+   "Киргизия",
+   "Кыргыз Республикасы",
+   "Kyrgyz Respublikasy"
+  ],
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "capitals": [
+   "Bishkek"
+  ],
+  "neighbors": [
+   "CHN",
+   "KAZ",
+   "TJK",
+   "UZB"
+  ],
+  "nearby": [
+   {
+    "code": "CHN",
+    "km": 0
+   },
+   {
+    "code": "KAZ",
+    "km": 0
+   },
+   {
+    "code": "TJK",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 199951,
+  "flag": "🇰🇬",
+  "languages": [
+   "Kyrgyz",
+   "Russian"
+  ],
+  "currencies": [
+   "Kyrgyzstani som"
+  ],
+  "focus": {
+   "lat": 41.474,
+   "lng": 74.505,
+   "radius": 4.412
+  },
+  "label": {
+   "lat": 41.669,
+   "lng": 74.533
+  }
+ },
+ {
+  "code": "LAO",
+  "iso2": "LA",
+  "isoNumeric": "418",
+  "name": "Laos",
+  "official": "Lao People's Democratic Republic",
+  "aliases": [
+   "Lao People's Democratic Republic",
+   "Lao",
+   "Sathalanalat Paxathipatai Paxaxon Lao",
+   "Lao PDR"
+  ],
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capitals": [
+   "Vientiane"
+  ],
+  "neighbors": [
+   "CHN",
+   "KHM",
+   "MMR",
+   "THA",
+   "VNM"
+  ],
+  "nearby": [
+   {
+    "code": "CHN",
+    "km": 0
+   },
+   {
+    "code": "KHM",
+    "km": 0
+   },
+   {
+    "code": "MMR",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 236800,
+  "flag": "🇱🇦",
+  "languages": [
+   "Lao"
+  ],
+  "currencies": [
+   "Lao kip"
+  ],
+  "focus": {
+   "lat": 18.485,
+   "lng": 103.776,
+   "radius": 5.249
+  },
+  "label": {
+   "lat": 19.432,
+   "lng": 102.534
+  }
+ },
+ {
+  "code": "LVA",
+  "iso2": "LV",
+  "isoNumeric": "428",
+  "name": "Latvia",
+  "official": "Republic of Latvia",
+  "aliases": [
+   "Republic of Latvia",
+   "Latvijas Republika"
+  ],
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capitals": [
+   "Riga"
+  ],
+  "neighbors": [
+   "BLR",
+   "EST",
+   "LTU",
+   "RUS"
+  ],
+  "nearby": [
+   {
+    "code": "BLR",
+    "km": 0
+   },
+   {
+    "code": "EST",
+    "km": 0
+   },
+   {
+    "code": "LTU",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 64559,
+  "flag": "🇱🇻",
+  "languages": [
+   "Latvian"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 56.86,
+   "lng": 24.919,
+   "radius": 2.281
+  },
+  "label": {
+   "lat": 57.067,
+   "lng": 25.459
+  }
+ },
+ {
+  "code": "LBN",
+  "iso2": "LB",
+  "isoNumeric": "422",
+  "name": "Lebanon",
+  "official": "Lebanese Republic",
+  "aliases": [
+   "Lebanese Republic",
+   "Al-Jumhūrīyah Al-Libnānīyah"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Beirut"
+  ],
+  "neighbors": [
+   "ISR",
+   "SYR"
+  ],
+  "nearby": [
+   {
+    "code": "ISR",
+    "km": 0
+   },
+   {
+    "code": "SYR",
+    "km": 0
+   },
+   {
+    "code": "JOR",
+    "km": 51
+   }
+  ],
+  "landlocked": false,
+  "area": 10452,
+  "flag": "🇱🇧",
+  "languages": [
+   "Arabic",
+   "French"
+  ],
+  "currencies": [
+   "Lebanese pound"
+  ],
+  "focus": {
+   "lat": 33.914,
+   "lng": 35.87,
+   "radius": 1.044
+  },
+  "label": {
+   "lat": 34.133,
+   "lng": 35.993
+  }
+ },
+ {
+  "code": "LSO",
+  "iso2": "LS",
+  "isoNumeric": "426",
+  "name": "Lesotho",
+  "official": "Kingdom of Lesotho",
+  "aliases": [
+   "Kingdom of Lesotho",
+   "Muso oa Lesotho"
+  ],
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "capitals": [
+   "Maseru"
+  ],
+  "neighbors": [
+   "ZAF"
+  ],
+  "nearby": [
+   {
+    "code": "ZAF",
+    "km": 161
+   },
+   {
+    "code": "SWZ",
+    "km": 280
+   },
+   {
+    "code": "MOZ",
+    "km": 373
+   }
+  ],
+  "landlocked": true,
+  "area": 30355,
+  "flag": "🇱🇸",
+  "languages": [
+   "English",
+   "Sotho"
+  ],
+  "currencies": [
+   "Lesotho loti",
+   "South African rand"
+  ],
+  "focus": {
+   "lat": -29.578,
+   "lng": 28.229,
+   "radius": 1.103
+  },
+  "label": {
+   "lat": -29.48,
+   "lng": 28.247
+  }
+ },
+ {
+  "code": "LBR",
+  "iso2": "LR",
+  "isoNumeric": "430",
+  "name": "Liberia",
+  "official": "Republic of Liberia",
+  "aliases": [
+   "Republic of Liberia"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Monrovia"
+  ],
+  "neighbors": [
+   "CIV",
+   "GIN",
+   "SLE"
+  ],
+  "nearby": [
+   {
+    "code": "CIV",
+    "km": 0
+   },
+   {
+    "code": "GIN",
+    "km": 0
+   },
+   {
+    "code": "SLE",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 111369,
+  "flag": "🇱🇷",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Liberian dollar"
+  ],
+  "focus": {
+   "lat": 6.451,
+   "lng": -9.318,
+   "radius": 2.743
+  },
+  "label": {
+   "lat": 6.447,
+   "lng": -9.46
+  }
+ },
+ {
+  "code": "LBY",
+  "iso2": "LY",
+  "isoNumeric": "434",
+  "name": "Libya",
+  "official": "State of Libya",
+  "aliases": [
+   "State of Libya",
+   "Dawlat Libya"
+  ],
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "capitals": [
+   "Tripoli"
+  ],
+  "neighbors": [
+   "DZA",
+   "EGY",
+   "NER",
+   "SDN",
+   "TCD",
+   "TUN"
+  ],
+  "nearby": [
+   {
+    "code": "DZA",
+    "km": 0
+   },
+   {
+    "code": "EGY",
+    "km": 0
+   },
+   {
+    "code": "NER",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 1759540,
+  "flag": "🇱🇾",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Libyan dinar"
+  ],
+  "focus": {
+   "lat": 27.017,
+   "lng": 18.067,
+   "radius": 9.45
+  },
+  "label": {
+   "lat": 26.639,
+   "lng": 18.011
+  }
+ },
+ {
+  "code": "LIE",
+  "iso2": "LI",
+  "isoNumeric": "438",
+  "name": "Liechtenstein",
+  "official": "Principality of Liechtenstein",
+  "aliases": [
+   "Principality of Liechtenstein",
+   "Fürstentum Liechtenstein"
+  ],
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capitals": [
+   "Vaduz"
+  ],
+  "neighbors": [
+   "AUT",
+   "CHE"
+  ],
+  "nearby": [
+   {
+    "code": "AUT",
+    "km": 0
+   },
+   {
+    "code": "CHE",
+    "km": 0
+   },
+   {
+    "code": "DEU",
+    "km": 28
+   }
+  ],
+  "landlocked": true,
+  "area": 160,
+  "flag": "🇱🇮",
+  "languages": [
+   "German"
+  ],
+  "currencies": [
+   "Swiss franc"
+  ],
+  "focus": {
+   "lat": 47.134,
+   "lng": 9.544,
+   "radius": 0.137
+  },
+  "label": {
+   "lat": 47.111,
+   "lng": 9.559
+  }
+ },
+ {
+  "code": "LTU",
+  "iso2": "LT",
+  "isoNumeric": "440",
+  "name": "Lithuania",
+  "official": "Republic of Lithuania",
+  "aliases": [
+   "Republic of Lithuania",
+   "Lietuvos Respublika"
+  ],
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capitals": [
+   "Vilnius"
+  ],
+  "neighbors": [
+   "BLR",
+   "LVA",
+   "POL",
+   "RUS"
+  ],
+  "nearby": [
+   {
+    "code": "BLR",
+    "km": 0
+   },
+   {
+    "code": "LVA",
+    "km": 0
+   },
+   {
+    "code": "POL",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 65300,
+  "flag": "🇱🇹",
+  "languages": [
+   "Lithuanian"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 55.324,
+   "lng": 23.901,
+   "radius": 1.774
+  },
+  "label": {
+   "lat": 55.104,
+   "lng": 24.09
+  }
+ },
+ {
+  "code": "LUX",
+  "iso2": "LU",
+  "isoNumeric": "442",
+  "name": "Luxembourg",
+  "official": "Grand Duchy of Luxembourg",
+  "aliases": [
+   "Grand Duchy of Luxembourg",
+   "Grand-Duché de Luxembourg",
+   "Großherzogtum Luxemburg",
+   "Groussherzogtum Lëtzebuerg"
+  ],
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capitals": [
+   "Luxembourg"
+  ],
+  "neighbors": [
+   "BEL",
+   "DEU",
+   "FRA"
+  ],
+  "nearby": [
+   {
+    "code": "BEL",
+    "km": 0
+   },
+   {
+    "code": "DEU",
+    "km": 0
+   },
+   {
+    "code": "FRA",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 2586,
+  "flag": "🇱🇺",
+  "languages": [
+   "German",
+   "French",
+   "Luxembourgish"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 49.763,
+   "lng": 6.077,
+   "radius": 0.409
+  },
+  "label": {
+   "lat": 49.734,
+   "lng": 6.078
+  }
+ },
+ {
+  "code": "MDG",
+  "iso2": "MG",
+  "isoNumeric": "450",
+  "name": "Madagascar",
+  "official": "Republic of Madagascar",
+  "aliases": [
+   "Republic of Madagascar",
+   "Repoblikan'i Madagasikara",
+   "République de Madagascar"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Antananarivo"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "COM",
+    "km": 402
+   },
+   {
+    "code": "MOZ",
+    "km": 419
+   },
+   {
+    "code": "TZA",
+    "km": 772
+   }
+  ],
+  "landlocked": false,
+  "area": 587041,
+  "flag": "🇲🇬",
+  "languages": [
+   "French",
+   "Malagasy"
+  ],
+  "currencies": [
+   "Malagasy ariary"
+  ],
+  "focus": {
+   "lat": -19.316,
+   "lng": 46.742,
+   "radius": 7.615
+  },
+  "label": {
+   "lat": -18.628,
+   "lng": 46.704
+  }
+ },
+ {
+  "code": "MWI",
+  "iso2": "MW",
+  "isoNumeric": "454",
+  "name": "Malawi",
+  "official": "Republic of Malawi",
+  "aliases": [
+   "Republic of Malawi"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Lilongwe"
+  ],
+  "neighbors": [
+   "MOZ",
+   "TZA",
+   "ZMB"
+  ],
+  "nearby": [
+   {
+    "code": "MOZ",
+    "km": 0
+   },
+   {
+    "code": "TZA",
+    "km": 0
+   },
+   {
+    "code": "ZMB",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 118484,
+  "flag": "🇲🇼",
+  "languages": [
+   "English",
+   "Chewa"
+  ],
+  "currencies": [
+   "Malawian kwacha"
+  ],
+  "focus": {
+   "lat": -13.205,
+   "lng": 34.281,
+   "radius": 4.025
+  },
+  "label": {
+   "lat": -13.387,
+   "lng": 33.608
+  }
+ },
+ {
+  "code": "MYS",
+  "iso2": "MY",
+  "isoNumeric": "458",
+  "name": "Malaysia",
+  "official": "Malaysia",
+  "aliases": [],
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capitals": [
+   "Kuala Lumpur"
+  ],
+  "neighbors": [
+   "BRN",
+   "IDN",
+   "THA"
+  ],
+  "nearby": [
+   {
+    "code": "BRN",
+    "km": 0
+   },
+   {
+    "code": "IDN",
+    "km": 0
+   },
+   {
+    "code": "THA",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 330803,
+  "flag": "🇲🇾",
+  "languages": [
+   "English",
+   "Malay"
+  ],
+  "currencies": [
+   "Malaysian ringgit"
+  ],
+  "focus": {
+   "lat": 3.62,
+   "lng": 114.716,
+   "radius": 5.449
+  },
+  "label": {
+   "lat": 2.529,
+   "lng": 113.837
+  }
+ },
+ {
+  "code": "MDV",
+  "iso2": "MV",
+  "isoNumeric": "462",
+  "name": "Maldives",
+  "official": "Republic of the Maldives",
+  "aliases": [
+   "Republic of the Maldives",
+   "Maldive Islands",
+   "Dhivehi Raajjeyge Jumhooriyya",
+   "Republic of Maldives"
+  ],
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capitals": [
+   "Malé"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "IND",
+    "km": 599
+   },
+   {
+    "code": "LKA",
+    "km": 755
+   },
+   {
+    "code": "SYC",
+    "km": 2223
+   }
+  ],
+  "landlocked": false,
+  "area": 300,
+  "flag": "🇲🇻",
+  "languages": [
+   "Maldivian"
+  ],
+  "currencies": [
+   "Maldivian rufiyaa"
+  ],
+  "focus": {
+   "lat": 4.2,
+   "lng": 73.504,
+   "radius": 0.05
+  },
+  "label": {
+   "lat": 4.174,
+   "lng": 73.508
+  }
+ },
+ {
+  "code": "MLI",
+  "iso2": "ML",
+  "isoNumeric": "466",
+  "name": "Mali",
+  "official": "Republic of Mali",
+  "aliases": [
+   "Republic of Mali",
+   "République du Mali"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Bamako"
+  ],
+  "neighbors": [
+   "BFA",
+   "CIV",
+   "DZA",
+   "GIN",
+   "MRT",
+   "NER",
+   "SEN"
+  ],
+  "nearby": [
+   {
+    "code": "BFA",
+    "km": 0
+   },
+   {
+    "code": "CIV",
+    "km": 0
+   },
+   {
+    "code": "DZA",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 1240192,
+  "flag": "🇲🇱",
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "West African CFA franc"
+  ],
+  "focus": {
+   "lat": 17.315,
+   "lng": -3.589,
+   "radius": 9.205
+  },
+  "label": {
+   "lat": 18.693,
+   "lng": -2.038
+  }
+ },
+ {
+  "code": "MLT",
+  "iso2": "MT",
+  "isoNumeric": "470",
+  "name": "Malta",
+  "official": "Republic of Malta",
+  "aliases": [
+   "Republic of Malta",
+   "Repubblika ta' Malta"
+  ],
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capitals": [
+   "Valletta"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "ITA",
+    "km": 89
+   },
+   {
+    "code": "TUN",
+    "km": 301
+   },
+   {
+    "code": "LBY",
+    "km": 340
+   }
+  ],
+  "landlocked": false,
+  "area": 316,
+  "flag": "🇲🇹",
+  "languages": [
+   "English",
+   "Maltese"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 35.88,
+   "lng": 14.456,
+   "radius": 0.093
+  },
+  "label": {
+   "lat": 35.893,
+   "lng": 14.433
+  }
+ },
+ {
+  "code": "MHL",
+  "iso2": "MH",
+  "isoNumeric": "584",
+  "name": "Marshall Islands",
+  "official": "Republic of the Marshall Islands",
+  "aliases": [
+   "Republic of the Marshall Islands",
+   "Aolepān Aorōkin M̧ajeļ",
+   "Marshall Is."
+  ],
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "capitals": [
+   "Majuro"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "NRU",
+    "km": 964
+   },
+   {
+    "code": "FSM",
+    "km": 1411
+   },
+   {
+    "code": "TUV",
+    "km": 1944
+   }
+  ],
+  "landlocked": false,
+  "area": 181,
+  "flag": "🇲🇭",
+  "languages": [
+   "English",
+   "Marshallese"
+  ],
+  "currencies": [
+   "United States dollar"
+  ],
+  "focus": {
+   "lat": 7.103,
+   "lng": 171.155,
+   "radius": 0.074
+  },
+  "label": {
+   "lat": 7.083,
+   "lng": 171.194
+  }
+ },
+ {
+  "code": "MRT",
+  "iso2": "MR",
+  "isoNumeric": "478",
+  "name": "Mauritania",
+  "official": "Islamic Republic of Mauritania",
+  "aliases": [
+   "Islamic Republic of Mauritania",
+   "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Nouakchott"
+  ],
+  "neighbors": [
+   "DZA",
+   "MLI",
+   "SEN"
+  ],
+  "nearby": [
+   {
+    "code": "DZA",
+    "km": 0
+   },
+   {
+    "code": "MLI",
+    "km": 0
+   },
+   {
+    "code": "SEN",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 1030700,
+  "flag": "🇲🇷",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Mauritanian ouguiya"
+  ],
+  "focus": {
+   "lat": 20.22,
+   "lng": -10.369,
+   "radius": 7.317
+  },
+  "label": {
+   "lat": 19.587,
+   "lng": -9.74
+  }
+ },
+ {
+  "code": "MUS",
+  "iso2": "MU",
+  "isoNumeric": "480",
+  "name": "Mauritius",
+  "official": "Republic of Mauritius",
+  "aliases": [
+   "Republic of Mauritius",
+   "République de Maurice"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Port Louis"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "MDG",
+    "km": 868
+   },
+   {
+    "code": "COM",
+    "km": 1634
+   },
+   {
+    "code": "SYC",
+    "km": 1716
+   }
+  ],
+  "landlocked": false,
+  "area": 2040,
+  "flag": "🇲🇺",
+  "languages": [
+   "English",
+   "French",
+   "Mauritian Creole"
+  ],
+  "currencies": [
+   "Mauritian rupee"
+  ],
+  "focus": {
+   "lat": -20.273,
+   "lng": 57.581,
+   "radius": 0.296
+  },
+  "label": {
+   "lat": -20.3,
+   "lng": 57.566
+  }
+ },
+ {
+  "code": "MEX",
+  "iso2": "MX",
+  "isoNumeric": "484",
+  "name": "Mexico",
+  "official": "United Mexican States",
+  "aliases": [
+   "United Mexican States",
+   "Mexicanos",
+   "Estados Unidos Mexicanos"
+  ],
+  "continent": "North America",
+  "subregion": "North America",
+  "capitals": [
+   "Mexico City"
+  ],
+  "neighbors": [
+   "BLZ",
+   "GTM",
+   "USA"
+  ],
+  "nearby": [
+   {
+    "code": "BLZ",
+    "km": 0
+   },
+   {
+    "code": "GTM",
+    "km": 0
+   },
+   {
+    "code": "USA",
+    "km": 11
+   }
+  ],
+  "landlocked": false,
+  "area": 1964375,
+  "flag": "🇲🇽",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "Mexican peso"
+  ],
+  "focus": {
+   "lat": 23.927,
+   "lng": -102.175,
+   "radius": 15.713
+  },
+  "label": {
+   "lat": 23.92,
+   "lng": -102.289
+  }
+ },
+ {
+  "code": "FSM",
+  "iso2": "FM",
+  "isoNumeric": "583",
+  "name": "Micronesia",
+  "official": "Federated States of Micronesia",
+  "aliases": [
+   "Federated States of Micronesia",
+   "Micronesia, Federated States of"
+  ],
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "capitals": [
+   "Palikir"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "NRU",
+    "km": 1253
+   },
+   {
+    "code": "PNG",
+    "km": 1310
+   },
+   {
+    "code": "MHL",
+    "km": 1411
+   }
+  ],
+  "landlocked": false,
+  "area": 702,
+  "flag": "🇫🇲",
+  "languages": [
+   "English"
+  ],
+  "currencies": [],
+  "focus": {
+   "lat": 6.88,
+   "lng": 158.231,
+   "radius": 0.115
+  },
+  "label": {
+   "lat": 6.888,
+   "lng": 158.234
+  }
+ },
+ {
+  "code": "MDA",
+  "iso2": "MD",
+  "isoNumeric": "498",
+  "name": "Moldova",
+  "official": "Republic of Moldova",
+  "aliases": [
+   "Republic of Moldova",
+   "Moldova, Republic of",
+   "Republica Moldova"
+  ],
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "capitals": [
+   "Chișinău"
+  ],
+  "neighbors": [
+   "ROU",
+   "UKR"
+  ],
+  "nearby": [
+   {
+    "code": "ROU",
+    "km": 0
+   },
+   {
+    "code": "UKR",
+    "km": 0
+   },
+   {
+    "code": "BGR",
+    "km": 165
+   }
+  ],
+  "landlocked": true,
+  "area": 33846,
+  "flag": "🇲🇩",
+  "languages": [
+   "Moldavian"
+  ],
+  "currencies": [
+   "Moldovan leu"
+  ],
+  "focus": {
+   "lat": 47.189,
+   "lng": 28.465,
+   "radius": 1.747
+  },
+  "label": {
+   "lat": 47.435,
+   "lng": 28.488
+  }
+ },
+ {
+  "code": "MCO",
+  "iso2": "MC",
+  "isoNumeric": "492",
+  "name": "Monaco",
+  "official": "Principality of Monaco",
+  "aliases": [
+   "Principality of Monaco",
+   "Principauté de Monaco"
+  ],
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capitals": [
+   "Monaco"
+  ],
+  "neighbors": [
+   "FRA"
+  ],
+  "nearby": [
+   {
+    "code": "FRA",
+    "km": 0
+   },
+   {
+    "code": "ITA",
+    "km": 5
+   },
+   {
+    "code": "CHE",
+    "km": 236
+   }
+  ],
+  "landlocked": false,
+  "area": 2.02,
+  "flag": "🇲🇨",
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 43.75,
+   "lng": 7.409,
+   "radius": 0.05
+  },
+  "label": {
+   "lat": 43.74,
+   "lng": 7.398
+  }
+ },
+ {
+  "code": "MNG",
+  "iso2": "MN",
+  "isoNumeric": "496",
+  "name": "Mongolia",
+  "official": "Mongolia",
+  "aliases": [],
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "capitals": [
+   "Ulan Bator"
+  ],
+  "neighbors": [
+   "CHN",
+   "RUS"
+  ],
+  "nearby": [
+   {
+    "code": "CHN",
+    "km": 0
+   },
+   {
+    "code": "RUS",
+    "km": 0
+   },
+   {
+    "code": "KAZ",
+    "km": 43
+   }
+  ],
+  "landlocked": true,
+  "area": 1564110,
+  "flag": "🇲🇳",
+  "languages": [
+   "Mongolian"
+  ],
+  "currencies": [
+   "Mongolian tögrög"
+  ],
+  "focus": {
+   "lat": 46.955,
+   "lng": 103.124,
+   "radius": 11.44
+  },
+  "label": {
+   "lat": 45.997,
+   "lng": 104.15
+  }
+ },
+ {
+  "code": "MNE",
+  "iso2": "ME",
+  "isoNumeric": "499",
+  "name": "Montenegro",
+  "official": "Montenegro",
+  "aliases": [
+   "Crna Gora"
+  ],
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capitals": [
+   "Podgorica"
+  ],
+  "neighbors": [
+   "ALB",
+   "BIH",
+   "HRV",
+   "SRB"
+  ],
+  "nearby": [
+   {
+    "code": "ALB",
+    "km": 0
+   },
+   {
+    "code": "BIH",
+    "km": 0
+   },
+   {
+    "code": "HRV",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 13812,
+  "flag": "🇲🇪",
+  "languages": [
+   "Montenegrin"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 42.787,
+   "lng": 19.237,
+   "radius": 0.922
+  },
+  "label": {
+   "lat": 42.803,
+   "lng": 19.144
+  }
+ },
+ {
+  "code": "MAR",
+  "iso2": "MA",
+  "isoNumeric": "504",
+  "name": "Morocco",
+  "official": "Kingdom of Morocco",
+  "aliases": [
+   "Kingdom of Morocco",
+   "Al-Mamlakah al-Maġribiyah"
+  ],
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "capitals": [
+   "Rabat"
+  ],
+  "neighbors": [
+   "DZA",
+   "ESP"
+  ],
+  "nearby": [
+   {
+    "code": "DZA",
+    "km": 0
+   },
+   {
+    "code": "MRT",
+    "km": 4
+   },
+   {
+    "code": "ESP",
+    "km": 22
+   }
+  ],
+  "landlocked": false,
+  "area": 446550,
+  "flag": "🇲🇦",
+  "languages": [
+   "Arabic",
+   "Berber"
+  ],
+  "currencies": [
+   "Moroccan dirham"
+  ],
+  "focus": {
+   "lat": 29.766,
+   "lng": -8.728,
+   "radius": 11.186
+  },
+  "label": {
+   "lat": 31.651,
+   "lng": -7.187
+  }
+ },
+ {
+  "code": "MOZ",
+  "iso2": "MZ",
+  "isoNumeric": "508",
+  "name": "Mozambique",
+  "official": "Republic of Mozambique",
+  "aliases": [
+   "Republic of Mozambique",
+   "República de Moçambique"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Maputo"
+  ],
+  "neighbors": [
+   "MWI",
+   "SWZ",
+   "TZA",
+   "ZAF",
+   "ZMB",
+   "ZWE"
+  ],
+  "nearby": [
+   {
+    "code": "MWI",
+    "km": 0
+   },
+   {
+    "code": "SWZ",
+    "km": 0
+   },
+   {
+    "code": "TZA",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 801590,
+  "flag": "🇲🇿",
+  "languages": [
+   "Portuguese"
+  ],
+  "currencies": [
+   "Mozambican metical"
+  ],
+  "focus": {
+   "lat": -17.193,
+   "lng": 35.604,
+   "radius": 10.173
+  },
+  "label": {
+   "lat": -13.943,
+   "lng": 37.838
+  }
+ },
+ {
+  "code": "MMR",
+  "iso2": "MM",
+  "isoNumeric": "104",
+  "name": "Myanmar",
+  "official": "Republic of the Union of Myanmar",
+  "aliases": [
+   "Republic of the Union of Myanmar",
+   "Burma",
+   "Pyidaunzu Thanmăda Myăma Nainngandaw"
+  ],
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capitals": [
+   "Naypyidaw"
+  ],
+  "neighbors": [
+   "BGD",
+   "CHN",
+   "IND",
+   "LAO",
+   "THA"
+  ],
+  "nearby": [
+   {
+    "code": "BGD",
+    "km": 0
+   },
+   {
+    "code": "CHN",
+    "km": 0
+   },
+   {
+    "code": "IND",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 676578,
+  "flag": "🇲🇲",
+  "languages": [
+   "Burmese"
+  ],
+  "currencies": [
+   "Burmese kyat"
+  ],
+  "focus": {
+   "lat": 21.134,
+   "lng": 96.492,
+   "radius": 11.275
+  },
+  "label": {
+   "lat": 21.574,
+   "lng": 95.804
+  }
+ },
+ {
+  "code": "NAM",
+  "iso2": "NA",
+  "isoNumeric": "516",
+  "name": "Namibia",
+  "official": "Republic of Namibia",
+  "aliases": [
+   "Republic of Namibia",
+   "Namibië"
+  ],
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "capitals": [
+   "Windhoek"
+  ],
+  "neighbors": [
+   "AGO",
+   "BWA",
+   "ZAF",
+   "ZMB"
+  ],
+  "nearby": [
+   {
+    "code": "AGO",
+    "km": 0
+   },
+   {
+    "code": "BWA",
+    "km": 0
+   },
+   {
+    "code": "ZAF",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 825615,
+  "flag": "🇳🇦",
+  "languages": [
+   "Afrikaans",
+   "German",
+   "English",
+   "Herero"
+  ],
+  "currencies": [
+   "Namibian dollar",
+   "South African rand"
+  ],
+  "focus": {
+   "lat": -22.071,
+   "lng": 17.196,
+   "radius": 8.7
+  },
+  "label": {
+   "lat": -20.575,
+   "lng": 17.108
+  }
+ },
+ {
+  "code": "NRU",
+  "iso2": "NR",
+  "isoNumeric": "520",
+  "name": "Nauru",
+  "official": "Republic of Nauru",
+  "aliases": [
+   "Republic of Nauru",
+   "Naoero",
+   "Pleasant Island",
+   "Ripublik Naoero"
+  ],
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "capitals": [
+   "Yaren"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "MHL",
+    "km": 964
+   },
+   {
+    "code": "SLB",
+    "km": 1101
+   },
+   {
+    "code": "FSM",
+    "km": 1253
+   }
+  ],
+  "landlocked": false,
+  "area": 21,
+  "flag": "🇳🇷",
+  "languages": [
+   "English",
+   "Nauru"
+  ],
+  "currencies": [
+   "Australian dollar"
+  ],
+  "focus": {
+   "lat": -0.521,
+   "lng": 166.928,
+   "radius": 0.05
+  },
+  "label": {
+   "lat": -0.52,
+   "lng": 166.933
+  }
+ },
+ {
+  "code": "NPL",
+  "iso2": "NP",
+  "isoNumeric": "524",
+  "name": "Nepal",
+  "official": "Federal Democratic Republic of Nepal",
+  "aliases": [
+   "Federal Democratic Republic of Nepal",
+   "Loktāntrik Ganatantra Nepāl"
+  ],
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capitals": [
+   "Kathmandu"
+  ],
+  "neighbors": [
+   "CHN",
+   "IND"
+  ],
+  "nearby": [
+   {
+    "code": "CHN",
+    "km": 0
+   },
+   {
+    "code": "IND",
+    "km": 0
+   },
+   {
+    "code": "BGD",
+    "km": 30
+   }
+  ],
+  "landlocked": true,
+  "area": 147181,
+  "flag": "🇳🇵",
+  "languages": [
+   "Nepali"
+  ],
+  "currencies": [
+   "Nepalese rupee"
+  ],
+  "focus": {
+   "lat": 28.259,
+   "lng": 83.944,
+   "radius": 4.083
+  },
+  "label": {
+   "lat": 28.298,
+   "lng": 83.64
+  }
+ },
+ {
+  "code": "NLD",
+  "iso2": "NL",
+  "isoNumeric": "528",
+  "name": "Netherlands",
+  "official": "Kingdom of the Netherlands",
+  "aliases": [
+   "Kingdom of the Netherlands",
+   "Holland",
+   "Nederland",
+   "The Netherlands"
+  ],
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capitals": [
+   "Amsterdam"
+  ],
+  "neighbors": [
+   "BEL",
+   "DEU"
+  ],
+  "nearby": [
+   {
+    "code": "BEL",
+    "km": 0
+   },
+   {
+    "code": "DEU",
+    "km": 0
+   },
+   {
+    "code": "FRA",
+    "km": 57
+   }
+  ],
+  "landlocked": false,
+  "area": 41850,
+  "flag": "🇳🇱",
+  "languages": [
+   "Dutch"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 52.257,
+   "lng": 5.595,
+   "radius": 1.66
+  },
+  "label": {
+   "lat": 52.422,
+   "lng": 5.611
+  }
+ },
+ {
+  "code": "NZL",
+  "iso2": "NZ",
+  "isoNumeric": "554",
+  "name": "New Zealand",
+  "official": "New Zealand",
+  "aliases": [
+   "Aotearoa"
+  ],
+  "continent": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "capitals": [
+   "Wellington"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "AUS",
+    "km": 1496
+   },
+   {
+    "code": "VUT",
+    "km": 1677
+   },
+   {
+    "code": "FJI",
+    "km": 1789
+   }
+  ],
+  "landlocked": false,
+  "area": 270467,
+  "flag": "🇳🇿",
+  "languages": [
+   "English",
+   "Māori",
+   "New Zealand Sign Language"
+  ],
+  "currencies": [
+   "New Zealand dollar"
+  ],
+  "focus": {
+   "lat": -41.695,
+   "lng": 172.919,
+   "radius": 10.318
+  },
+  "label": {
+   "lat": -39.759,
+   "lng": 172.787
+  }
+ },
+ {
+  "code": "NIC",
+  "iso2": "NI",
+  "isoNumeric": "558",
+  "name": "Nicaragua",
+  "official": "Republic of Nicaragua",
+  "aliases": [
+   "Republic of Nicaragua",
+   "República de Nicaragua"
+  ],
+  "continent": "North America",
+  "subregion": "Central America",
+  "capitals": [
+   "Managua"
+  ],
+  "neighbors": [
+   "CRI",
+   "HND"
+  ],
+  "nearby": [
+   {
+    "code": "CRI",
+    "km": 0
+   },
+   {
+    "code": "HND",
+    "km": 0
+   },
+   {
+    "code": "SLV",
+    "km": 37
+   }
+  ],
+  "landlocked": false,
+  "area": 130373,
+  "flag": "🇳🇮",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "Nicaraguan córdoba"
+  ],
+  "focus": {
+   "lat": 12.843,
+   "lng": -85.03,
+   "radius": 2.814
+  },
+  "label": {
+   "lat": 12.671,
+   "lng": -85.069
+  }
+ },
+ {
+  "code": "NER",
+  "iso2": "NE",
+  "isoNumeric": "562",
+  "name": "Niger",
+  "official": "Republic of Niger",
+  "aliases": [
+   "Republic of Niger",
+   "Nijar"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Niamey"
+  ],
+  "neighbors": [
+   "BEN",
+   "BFA",
+   "DZA",
+   "LBY",
+   "MLI",
+   "NGA",
+   "TCD"
+  ],
+  "nearby": [
+   {
+    "code": "BEN",
+    "km": 0
+   },
+   {
+    "code": "BFA",
+    "km": 0
+   },
+   {
+    "code": "DZA",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 1267000,
+  "flag": "🇳🇪",
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "West African CFA franc"
+  ],
+  "focus": {
+   "lat": 17.412,
+   "lng": 9.332,
+   "radius": 9.281
+  },
+  "label": {
+   "lat": 17.446,
+   "lng": 9.504
+  }
+ },
+ {
+  "code": "NGA",
+  "iso2": "NG",
+  "isoNumeric": "566",
+  "name": "Nigeria",
+  "official": "Federal Republic of Nigeria",
+  "aliases": [
+   "Federal Republic of Nigeria",
+   "Nijeriya",
+   "Naíjíríà"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Abuja"
+  ],
+  "neighbors": [
+   "BEN",
+   "CMR",
+   "NER",
+   "TCD"
+  ],
+  "nearby": [
+   {
+    "code": "BEN",
+    "km": 0
+   },
+   {
+    "code": "CMR",
+    "km": 0
+   },
+   {
+    "code": "NER",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 923768,
+  "flag": "🇳🇬",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Nigerian naira"
+  ],
+  "focus": {
+   "lat": 9.587,
+   "lng": 8.076,
+   "radius": 6.908
+  },
+  "label": {
+   "lat": 9.44,
+   "lng": 7.503
+  }
+ },
+ {
+  "code": "PRK",
+  "iso2": "KP",
+  "isoNumeric": "408",
+  "name": "North Korea",
+  "official": "Democratic People's Republic of Korea",
+  "aliases": [
+   "Democratic People's Republic of Korea",
+   "DPRK",
+   "조선민주주의인민공화국",
+   "Chosŏn Minjujuŭi Inmin Konghwaguk",
+   "Korea, Democratic People's Republic of",
+   "북조선",
+   "Dem. Rep. Korea"
+  ],
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "capitals": [
+   "Pyongyang"
+  ],
+  "neighbors": [
+   "CHN",
+   "KOR",
+   "RUS"
+  ],
+  "nearby": [
+   {
+    "code": "CHN",
+    "km": 0
+   },
+   {
+    "code": "KOR",
+    "km": 0
+   },
+   {
+    "code": "RUS",
+    "km": 12
+   }
+  ],
+  "landlocked": false,
+  "area": 120538,
+  "flag": "🇰🇵",
+  "languages": [
+   "Korean"
+  ],
+  "currencies": [
+   "North Korean won"
+  ],
+  "focus": {
+   "lat": 40.141,
+   "lng": 127.159,
+   "radius": 3.591
+  },
+  "label": {
+   "lat": 39.885,
+   "lng": 126.445
+  }
+ },
+ {
+  "code": "MKD",
+  "iso2": "MK",
+  "isoNumeric": "807",
+  "name": "North Macedonia",
+  "official": "Republic of North Macedonia",
+  "aliases": [
+   "Republic of North Macedonia",
+   "The former Yugoslav Republic of Macedonia",
+   "Macedonia, The Former Yugoslav Republic of",
+   "Република Северна Македонија",
+   "Macedonia"
+  ],
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capitals": [
+   "Skopje"
+  ],
+  "neighbors": [
+   "ALB",
+   "BGR",
+   "GRC",
+   "SRB"
+  ],
+  "nearby": [
+   {
+    "code": "ALB",
+    "km": 0
+   },
+   {
+    "code": "BGR",
+    "km": 0
+   },
+   {
+    "code": "GRC",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 25713,
+  "flag": "🇲🇰",
+  "languages": [
+   "Macedonian"
+  ],
+  "currencies": [
+   "denar"
+  ],
+  "focus": {
+   "lat": 41.595,
+   "lng": 21.679,
+   "radius": 1
+  },
+  "label": {
+   "lat": 41.558,
+   "lng": 21.556
+  }
+ },
+ {
+  "code": "NOR",
+  "iso2": "NO",
+  "isoNumeric": "578",
+  "name": "Norway",
+  "official": "Kingdom of Norway",
+  "aliases": [
+   "Kingdom of Norway",
+   "Norge",
+   "Noreg",
+   "Kongeriket Norge",
+   "Kongeriket Noreg"
+  ],
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capitals": [
+   "Oslo"
+  ],
+  "neighbors": [
+   "FIN",
+   "RUS",
+   "SWE"
+  ],
+  "nearby": [
+   {
+    "code": "FIN",
+    "km": 0
+   },
+   {
+    "code": "SWE",
+    "km": 0
+   },
+   {
+    "code": "RUS",
+    "km": 25
+   }
+  ],
+  "landlocked": false,
+  "area": 323802,
+  "flag": "🇳🇴",
+  "languages": [
+   "Norwegian Nynorsk",
+   "Norwegian Bokmål",
+   "Sami"
+  ],
+  "currencies": [
+   "Norwegian krone"
+  ],
+  "focus": {
+   "lat": 63.956,
+   "lng": 12.239,
+   "radius": 10.607
+  },
+  "label": {
+   "lat": 61.357,
+   "lng": 9.68
+  }
+ },
+ {
+  "code": "OMN",
+  "iso2": "OM",
+  "isoNumeric": "512",
+  "name": "Oman",
+  "official": "Sultanate of Oman",
+  "aliases": [
+   "Sultanate of Oman",
+   "Salṭanat ʻUmān"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Muscat"
+  ],
+  "neighbors": [
+   "ARE",
+   "SAU",
+   "YEM"
+  ],
+  "nearby": [
+   {
+    "code": "ARE",
+    "km": 0
+   },
+   {
+    "code": "SAU",
+    "km": 0
+   },
+   {
+    "code": "YEM",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 309500,
+  "flag": "🇴🇲",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Omani rial"
+  ],
+  "focus": {
+   "lat": 20.582,
+   "lng": 56.06,
+   "radius": 5.757
+  },
+  "label": {
+   "lat": 22.12,
+   "lng": 57.337
+  }
+ },
+ {
+  "code": "PAK",
+  "iso2": "PK",
+  "isoNumeric": "586",
+  "name": "Pakistan",
+  "official": "Islamic Republic of Pakistan",
+  "aliases": [
+   "Islamic Republic of Pakistan",
+   "Pākistān",
+   "Islāmī Jumhūriya'eh Pākistān"
+  ],
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capitals": [
+   "Islamabad"
+  ],
+  "neighbors": [
+   "AFG",
+   "CHN",
+   "IND",
+   "IRN"
+  ],
+  "nearby": [
+   {
+    "code": "AFG",
+    "km": 0
+   },
+   {
+    "code": "CHN",
+    "km": 0
+   },
+   {
+    "code": "IND",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 881912,
+  "flag": "🇵🇰",
+  "languages": [
+   "English",
+   "Urdu"
+  ],
+  "currencies": [
+   "Pakistani rupee"
+  ],
+  "focus": {
+   "lat": 29.886,
+   "lng": 69.17,
+   "radius": 8.759
+  },
+  "label": {
+   "lat": 29.328,
+   "lng": 68.546
+  }
+ },
+ {
+  "code": "PLW",
+  "iso2": "PW",
+  "isoNumeric": "585",
+  "name": "Palau",
+  "official": "Republic of Palau",
+  "aliases": [
+   "Republic of Palau",
+   "Beluu er a Belau"
+  ],
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "capitals": [
+   "Ngerulmud"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "IDN",
+    "km": 847
+   },
+   {
+    "code": "PHL",
+    "km": 873
+   },
+   {
+    "code": "PNG",
+    "km": 1317
+   }
+  ],
+  "landlocked": false,
+  "area": 459,
+  "flag": "🇵🇼",
+  "languages": [
+   "English",
+   "Palauan"
+  ],
+  "currencies": [
+   "United States dollar"
+  ],
+  "focus": {
+   "lat": 7.516,
+   "lng": 134.583,
+   "radius": 0.165
+  },
+  "label": {
+   "lat": 7.518,
+   "lng": 134.58
+  }
+ },
+ {
+  "code": "PSE",
+  "iso2": "PS",
+  "isoNumeric": "275",
+  "name": "Palestine",
+  "official": "State of Palestine",
+  "aliases": [
+   "State of Palestine",
+   "Palestine, State of",
+   "Dawlat Filasṭin",
+   "West Bank and Gaza"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Ramallah"
+  ],
+  "neighbors": [
+   "EGY",
+   "ISR",
+   "JOR"
+  ],
+  "nearby": [
+   {
+    "code": "EGY",
+    "km": 0
+   },
+   {
+    "code": "ISR",
+    "km": 0
+   },
+   {
+    "code": "JOR",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 6220,
+  "flag": "🇵🇸",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Egyptian pound",
+   "Israeli new shekel"
+  ],
+  "focus": {
+   "lat": 31.917,
+   "lng": 35.198,
+   "radius": 1.077
+  },
+  "label": {
+   "lat": 32.047,
+   "lng": 35.291
+  }
+ },
+ {
+  "code": "PAN",
+  "iso2": "PA",
+  "isoNumeric": "591",
+  "name": "Panama",
+  "official": "Republic of Panama",
+  "aliases": [
+   "Republic of Panama",
+   "República de Panamá"
+  ],
+  "continent": "North America",
+  "subregion": "Central America",
+  "capitals": [
+   "Panama City"
+  ],
+  "neighbors": [
+   "COL",
+   "CRI"
+  ],
+  "nearby": [
+   {
+    "code": "COL",
+    "km": 0
+   },
+   {
+    "code": "CRI",
+    "km": 0
+   },
+   {
+    "code": "NIC",
+    "km": 167
+   }
+  ],
+  "landlocked": false,
+  "area": 75417,
+  "flag": "🇵🇦",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "Panamanian balboa",
+   "United States dollar"
+  ],
+  "focus": {
+   "lat": 8.519,
+   "lng": -80.105,
+   "radius": 2.952
+  },
+  "label": {
+   "lat": 8.722,
+   "lng": -80.352
+  }
+ },
+ {
+  "code": "PNG",
+  "iso2": "PG",
+  "isoNumeric": "598",
+  "name": "Papua New Guinea",
+  "official": "Independent State of Papua New Guinea",
+  "aliases": [
+   "Independent State of Papua New Guinea",
+   "Independen Stet bilong Papua Niugini"
+  ],
+  "continent": "Oceania",
+  "subregion": "Melanesia",
+  "capitals": [
+   "Port Moresby"
+  ],
+  "neighbors": [
+   "IDN"
+  ],
+  "nearby": [
+   {
+    "code": "IDN",
+    "km": 0
+   },
+   {
+    "code": "SLB",
+    "km": 13
+   },
+   {
+    "code": "AUS",
+    "km": 149
+   }
+  ],
+  "landlocked": false,
+  "area": 462840,
+  "flag": "🇵🇬",
+  "languages": [
+   "English",
+   "Hiri Motu",
+   "Tok Pisin"
+  ],
+  "currencies": [
+   "Papua New Guinean kina"
+  ],
+  "focus": {
+   "lat": -6.466,
+   "lng": 144.955,
+   "radius": 8.43
+  },
+  "label": {
+   "lat": -5.695,
+   "lng": 143.91
+  }
+ },
+ {
+  "code": "PRY",
+  "iso2": "PY",
+  "isoNumeric": "600",
+  "name": "Paraguay",
+  "official": "Republic of Paraguay",
+  "aliases": [
+   "Republic of Paraguay",
+   "República del Paraguay",
+   "Tetã Paraguái"
+  ],
+  "continent": "South America",
+  "subregion": "South America",
+  "capitals": [
+   "Asunción"
+  ],
+  "neighbors": [
+   "ARG",
+   "BOL",
+   "BRA"
+  ],
+  "nearby": [
+   {
+    "code": "ARG",
+    "km": 0
+   },
+   {
+    "code": "BOL",
+    "km": 0
+   },
+   {
+    "code": "BRA",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 406752,
+  "flag": "🇵🇾",
+  "languages": [
+   "Guaraní",
+   "Spanish"
+  ],
+  "currencies": [
+   "Paraguayan guaraní"
+  ],
+  "focus": {
+   "lat": -23.21,
+   "lng": -58.443,
+   "radius": 4.865
+  },
+  "label": {
+   "lat": -21.675,
+   "lng": -60.146
+  }
+ },
+ {
+  "code": "PER",
+  "iso2": "PE",
+  "isoNumeric": "604",
+  "name": "Peru",
+  "official": "Republic of Peru",
+  "aliases": [
+   "Republic of Peru",
+   "República del Perú"
+  ],
+  "continent": "South America",
+  "subregion": "South America",
+  "capitals": [
+   "Lima"
+  ],
+  "neighbors": [
+   "BOL",
+   "BRA",
+   "CHL",
+   "COL",
+   "ECU"
+  ],
+  "nearby": [
+   {
+    "code": "BOL",
+    "km": 0
+   },
+   {
+    "code": "BRA",
+    "km": 0
+   },
+   {
+    "code": "CHL",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 1285216,
+  "flag": "🇵🇪",
+  "languages": [
+   "Aymara",
+   "Quechua",
+   "Spanish"
+  ],
+  "currencies": [
+   "Peruvian sol"
+  ],
+  "focus": {
+   "lat": -9.108,
+   "lng": -74.421,
+   "radius": 10.091
+  },
+  "label": {
+   "lat": -12.977,
+   "lng": -72.9
+  }
+ },
+ {
+  "code": "PHL",
+  "iso2": "PH",
+  "isoNumeric": "608",
+  "name": "Philippines",
+  "official": "Republic of the Philippines",
+  "aliases": [
+   "Republic of the Philippines",
+   "Repúblika ng Pilipinas"
+  ],
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capitals": [
+   "Manila"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "MYS",
+    "km": 61
+   },
+   {
+    "code": "IDN",
+    "km": 190
+   },
+   {
+    "code": "BRN",
+    "km": 387
+   }
+  ],
+  "landlocked": false,
+  "area": 342353,
+  "flag": "🇵🇭",
+  "languages": [
+   "English",
+   "Filipino"
+  ],
+  "currencies": [
+   "Philippine peso"
+  ],
+  "focus": {
+   "lat": 11.719,
+   "lng": 122.926,
+   "radius": 7.265
+  },
+  "label": {
+   "lat": 11.198,
+   "lng": 122.465
+  }
+ },
+ {
+  "code": "POL",
+  "iso2": "PL",
+  "isoNumeric": "616",
+  "name": "Poland",
+  "official": "Republic of Poland",
+  "aliases": [
+   "Republic of Poland",
+   "Rzeczpospolita Polska"
+  ],
+  "continent": "Europe",
+  "subregion": "Central Europe",
+  "capitals": [
+   "Warsaw"
+  ],
+  "neighbors": [
+   "BLR",
+   "CZE",
+   "DEU",
+   "LTU",
+   "RUS",
+   "SVK",
+   "UKR"
+  ],
+  "nearby": [
+   {
+    "code": "BLR",
+    "km": 0
+   },
+   {
+    "code": "CZE",
+    "km": 0
+   },
+   {
+    "code": "DEU",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 312679,
+  "flag": "🇵🇱",
+  "languages": [
+   "Polish"
+  ],
+  "currencies": [
+   "Polish złoty"
+  ],
+  "focus": {
+   "lat": 52.11,
+   "lng": 19.419,
+   "radius": 3.764
+  },
+  "label": {
+   "lat": 51.99,
+   "lng": 19.49
+  }
+ },
+ {
+  "code": "PRT",
+  "iso2": "PT",
+  "isoNumeric": "620",
+  "name": "Portugal",
+  "official": "Portuguese Republic",
+  "aliases": [
+   "Portuguese Republic",
+   "Portuguesa",
+   "República Portuguesa"
+  ],
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capitals": [
+   "Lisbon"
+  ],
+  "neighbors": [
+   "ESP"
+  ],
+  "nearby": [
+   {
+    "code": "ESP",
+    "km": 0
+   },
+   {
+    "code": "MAR",
+    "km": 204
+   },
+   {
+    "code": "FRA",
+    "km": 415
+   }
+  ],
+  "landlocked": false,
+  "area": 92090,
+  "flag": "🇵🇹",
+  "languages": [
+   "Portuguese"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 39.651,
+   "lng": -7.988,
+   "radius": 2.737
+  },
+  "label": {
+   "lat": 39.607,
+   "lng": -8.272
+  }
+ },
+ {
+  "code": "QAT",
+  "iso2": "QA",
+  "isoNumeric": "634",
+  "name": "Qatar",
+  "official": "State of Qatar",
+  "aliases": [
+   "State of Qatar",
+   "Dawlat Qaṭar"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Doha"
+  ],
+  "neighbors": [
+   "SAU"
+  ],
+  "nearby": [
+   {
+    "code": "SAU",
+    "km": 0
+   },
+   {
+    "code": "BHR",
+    "km": 40
+   },
+   {
+    "code": "ARE",
+    "km": 45
+   }
+  ],
+  "landlocked": false,
+  "area": 11586,
+  "flag": "🇶🇦",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Qatari riyal"
+  ],
+  "focus": {
+   "lat": 25.305,
+   "lng": 51.186,
+   "radius": 0.849
+  },
+  "label": {
+   "lat": 25.237,
+   "lng": 51.144
+  }
+ },
+ {
+  "code": "COG",
+  "iso2": "CG",
+  "isoNumeric": "178",
+  "name": "Republic of the Congo",
+  "official": "Republic of the Congo",
+  "aliases": [
+   "Congo",
+   "Congo-Brazzaville"
+  ],
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capitals": [
+   "Brazzaville"
+  ],
+  "neighbors": [
+   "AGO",
+   "CAF",
+   "CMR",
+   "COD",
+   "GAB"
+  ],
+  "nearby": [
+   {
+    "code": "AGO",
+    "km": 0
+   },
+   {
+    "code": "CAF",
+    "km": 0
+   },
+   {
+    "code": "CMR",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 342000,
+  "flag": "🇨🇬",
+  "languages": [
+   "French",
+   "Kikongo",
+   "Lingala"
+  ],
+  "currencies": [
+   "Central African CFA franc"
+  ],
+  "focus": {
+   "lat": -0.837,
+   "lng": 15.221,
+   "radius": 5.522
+  },
+  "label": {
+   "lat": 0.142,
+   "lng": 15.901
+  }
+ },
+ {
+  "code": "ROU",
+  "iso2": "RO",
+  "isoNumeric": "642",
+  "name": "Romania",
+  "official": "Romania",
+  "aliases": [
+   "Rumania",
+   "Roumania",
+   "România"
+  ],
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capitals": [
+   "Bucharest"
+  ],
+  "neighbors": [
+   "BGR",
+   "HUN",
+   "MDA",
+   "SRB",
+   "UKR"
+  ],
+  "nearby": [
+   {
+    "code": "BGR",
+    "km": 0
+   },
+   {
+    "code": "HUN",
+    "km": 0
+   },
+   {
+    "code": "MDA",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 238391,
+  "flag": "🇷🇴",
+  "languages": [
+   "Romanian"
+  ],
+  "currencies": [
+   "Romanian leu"
+  ],
+  "focus": {
+   "lat": 45.849,
+   "lng": 24.982,
+   "radius": 3.381
+  },
+  "label": {
+   "lat": 45.733,
+   "lng": 24.973
+  }
+ },
+ {
+  "code": "RUS",
+  "iso2": "RU",
+  "isoNumeric": "643",
+  "name": "Russia",
+  "official": "Russian Federation",
+  "aliases": [
+   "Russian Federation",
+   "Российская Федерация"
+  ],
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "capitals": [
+   "Moscow"
+  ],
+  "neighbors": [
+   "AZE",
+   "BLR",
+   "CHN",
+   "EST",
+   "FIN",
+   "GEO",
+   "KAZ",
+   "LTU",
+   "LVA",
+   "MNG",
+   "NOR",
+   "POL",
+   "PRK",
+   "UKR"
+  ],
+  "nearby": [
+   {
+    "code": "AZE",
+    "km": 0
+   },
+   {
+    "code": "BLR",
+    "km": 0
+   },
+   {
+    "code": "CHN",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 17098242,
+  "flag": "🇷🇺",
+  "languages": [
+   "Russian"
+  ],
+  "currencies": [
+   "Russian ruble"
+  ],
+  "focus": {
+   "lat": 66.015,
+   "lng": 95.611,
+   "radius": 39.095
+  },
+  "label": {
+   "lat": 58.249,
+   "lng": 44.686
+  }
+ },
+ {
+  "code": "RWA",
+  "iso2": "RW",
+  "isoNumeric": "646",
+  "name": "Rwanda",
+  "official": "Republic of Rwanda",
+  "aliases": [
+   "Republic of Rwanda",
+   "Repubulika y'u Rwanda",
+   "République du Rwanda"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Kigali"
+  ],
+  "neighbors": [
+   "BDI",
+   "COD",
+   "TZA",
+   "UGA"
+  ],
+  "nearby": [
+   {
+    "code": "BDI",
+    "km": 0
+   },
+   {
+    "code": "COD",
+    "km": 0
+   },
+   {
+    "code": "TZA",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 26338,
+  "flag": "🇷🇼",
+  "languages": [
+   "English",
+   "French",
+   "Kinyarwanda"
+  ],
+  "currencies": [
+   "Rwandan franc"
+  ],
+  "focus": {
+   "lat": -1.987,
+   "lng": 29.917,
+   "radius": 1.213
+  },
+  "label": {
+   "lat": -1.897,
+   "lng": 30.104
+  }
+ },
+ {
+  "code": "KNA",
+  "iso2": "KN",
+  "isoNumeric": "659",
+  "name": "Saint Kitts and Nevis",
+  "official": "Federation of Saint Christopher and Nevis",
+  "aliases": [
+   "Federation of Saint Christopher and Nevis",
+   "St. Kitts and Nevis",
+   "Federation of Saint Kitts and Nevis"
+  ],
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capitals": [
+   "Basseterre"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "ATG",
+    "km": 81
+   },
+   {
+    "code": "DMA",
+    "km": 218
+   },
+   {
+    "code": "LCA",
+    "km": 396
+   }
+  ],
+  "landlocked": false,
+  "area": 261,
+  "flag": "🇰🇳",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Eastern Caribbean dollar"
+  ],
+  "focus": {
+   "lat": 17.328,
+   "lng": -62.745,
+   "radius": 0.139
+  },
+  "label": {
+   "lat": 17.337,
+   "lng": -62.758
+  }
+ },
+ {
+  "code": "LCA",
+  "iso2": "LC",
+  "isoNumeric": "662",
+  "name": "Saint Lucia",
+  "official": "Saint Lucia",
+  "aliases": [],
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capitals": [
+   "Castries"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "VCT",
+    "km": 47
+   },
+   {
+    "code": "DMA",
+    "km": 136
+   },
+   {
+    "code": "BRB",
+    "km": 147
+   }
+  ],
+  "landlocked": false,
+  "area": 616,
+  "flag": "🇱🇨",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Eastern Caribbean dollar"
+  ],
+  "focus": {
+   "lat": 13.889,
+   "lng": -60.971,
+   "radius": 0.185
+  },
+  "label": {
+   "lat": 13.892,
+   "lng": -60.98
+  }
+ },
+ {
+  "code": "VCT",
+  "iso2": "VC",
+  "isoNumeric": "670",
+  "name": "Saint Vincent and the Grenadines",
+  "official": "Saint Vincent and the Grenadines",
+  "aliases": [
+   "St. Vin. and Gren."
+  ],
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capitals": [
+   "Kingstown"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "LCA",
+    "km": 47
+   },
+   {
+    "code": "GRD",
+    "km": 114
+   },
+   {
+    "code": "BRB",
+    "km": 160
+   }
+  ],
+  "landlocked": false,
+  "area": 389,
+  "flag": "🇻🇨",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Eastern Caribbean dollar"
+  ],
+  "focus": {
+   "lat": 13.257,
+   "lng": -61.202,
+   "radius": 0.102
+  },
+  "label": {
+   "lat": 13.088,
+   "lng": -61.336
+  }
+ },
+ {
+  "code": "WSM",
+  "iso2": "WS",
+  "isoNumeric": "882",
+  "name": "Samoa",
+  "official": "Independent State of Samoa",
+  "aliases": [
+   "Independent State of Samoa",
+   "Malo Saʻoloto Tutoʻatasi o Sāmoa"
+  ],
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "capitals": [
+   "Apia"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "FJI",
+    "km": 830
+   },
+   {
+    "code": "TON",
+    "km": 863
+   },
+   {
+    "code": "TUV",
+    "km": 1042
+   }
+  ],
+  "landlocked": false,
+  "area": 2842,
+  "flag": "🇼🇸",
+  "languages": [
+   "English",
+   "Samoan"
+  ],
+  "currencies": [
+   "Samoan tālā"
+  ],
+  "focus": {
+   "lat": -13.759,
+   "lng": -172.154,
+   "radius": 0.735
+  },
+  "label": {
+   "lat": -13.639,
+   "lng": -172.438
+  }
+ },
+ {
+  "code": "SMR",
+  "iso2": "SM",
+  "isoNumeric": "674",
+  "name": "San Marino",
+  "official": "Most Serene Republic of San Marino",
+  "aliases": [
+   "Most Serene Republic of San Marino",
+   "Republic of San Marino",
+   "Repubblica di San Marino"
+  ],
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capitals": [
+   "City of San Marino"
+  ],
+  "neighbors": [
+   "ITA"
+  ],
+  "nearby": [
+   {
+    "code": "ITA",
+    "km": 15
+   },
+   {
+    "code": "HRV",
+    "km": 146
+   },
+   {
+    "code": "SVN",
+    "km": 190
+   }
+  ],
+  "landlocked": true,
+  "area": 61,
+  "flag": "🇸🇲",
+  "languages": [
+   "Italian"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 43.943,
+   "lng": 12.458,
+   "radius": 0.05
+  },
+  "label": {
+   "lat": 43.934,
+   "lng": 12.441
+  }
+ },
+ {
+  "code": "STP",
+  "iso2": "ST",
+  "isoNumeric": "678",
+  "name": "São Tomé and Príncipe",
+  "official": "Democratic Republic of São Tomé and Príncipe",
+  "aliases": [
+   "Democratic Republic of São Tomé and Príncipe",
+   "Sao Tome and Principe",
+   "República Democrática de São Tomé e Príncipe",
+   "São Tomé and Principe",
+   "Democratic Republic of São Tomé and Principe"
+  ],
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capitals": [
+   "São Tomé"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "GAB",
+    "km": 254
+   },
+   {
+    "code": "GNQ",
+    "km": 310
+   },
+   {
+    "code": "CMR",
+    "km": 406
+   }
+  ],
+  "landlocked": false,
+  "area": 964,
+  "flag": "🇸🇹",
+  "languages": [
+   "Portuguese"
+  ],
+  "currencies": [
+   "São Tomé and Príncipe dobra"
+  ],
+  "focus": {
+   "lat": 0.237,
+   "lng": 6.605,
+   "radius": 0.192
+  },
+  "label": {
+   "lat": 0.971,
+   "lng": 7.021
+  }
+ },
+ {
+  "code": "SAU",
+  "iso2": "SA",
+  "isoNumeric": "682",
+  "name": "Saudi Arabia",
+  "official": "Kingdom of Saudi Arabia",
+  "aliases": [
+   "Kingdom of Saudi Arabia",
+   "Saudi",
+   "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Riyadh"
+  ],
+  "neighbors": [
+   "ARE",
+   "IRQ",
+   "JOR",
+   "KWT",
+   "OMN",
+   "QAT",
+   "YEM"
+  ],
+  "nearby": [
+   {
+    "code": "ARE",
+    "km": 0
+   },
+   {
+    "code": "IRQ",
+    "km": 0
+   },
+   {
+    "code": "JOR",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 2149690,
+  "flag": "🇸🇦",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Saudi riyal"
+  ],
+  "focus": {
+   "lat": 24.086,
+   "lng": 44.665,
+   "radius": 10.392
+  },
+  "label": {
+   "lat": 23.807,
+   "lng": 44.7
+  }
+ },
+ {
+  "code": "SEN",
+  "iso2": "SN",
+  "isoNumeric": "686",
+  "name": "Senegal",
+  "official": "Republic of Senegal",
+  "aliases": [
+   "Republic of Senegal",
+   "République du Sénégal"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Dakar"
+  ],
+  "neighbors": [
+   "GIN",
+   "GMB",
+   "GNB",
+   "MLI",
+   "MRT"
+  ],
+  "nearby": [
+   {
+    "code": "GIN",
+    "km": 0
+   },
+   {
+    "code": "GMB",
+    "km": 0
+   },
+   {
+    "code": "GNB",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 196722,
+  "flag": "🇸🇳",
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "West African CFA franc"
+  ],
+  "focus": {
+   "lat": 14.364,
+   "lng": -14.469,
+   "radius": 3.578
+  },
+  "label": {
+   "lat": 15.138,
+   "lng": -14.779
+  }
+ },
+ {
+  "code": "SRB",
+  "iso2": "RS",
+  "isoNumeric": "688",
+  "name": "Serbia",
+  "official": "Republic of Serbia",
+  "aliases": [
+   "Republic of Serbia",
+   "Srbija",
+   "Republika Srbija",
+   "Србија",
+   "Република Србија"
+  ],
+  "continent": "Europe",
+  "subregion": "Southeast Europe",
+  "capitals": [
+   "Belgrade"
+  ],
+  "neighbors": [
+   "BGR",
+   "BIH",
+   "HRV",
+   "HUN",
+   "MKD",
+   "MNE",
+   "ROU"
+  ],
+  "nearby": [
+   {
+    "code": "BGR",
+    "km": 0
+   },
+   {
+    "code": "BIH",
+    "km": 0
+   },
+   {
+    "code": "HRV",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 88361,
+  "flag": "🇷🇸",
+  "languages": [
+   "Serbian"
+  ],
+  "currencies": [
+   "Serbian dinar"
+  ],
+  "focus": {
+   "lat": 44.21,
+   "lng": 20.808,
+   "radius": 2.2
+  },
+  "label": {
+   "lat": 44.19,
+   "lng": 20.788
+  }
+ },
+ {
+  "code": "SYC",
+  "iso2": "SC",
+  "isoNumeric": "690",
+  "name": "Seychelles",
+  "official": "Republic of Seychelles",
+  "aliases": [
+   "Republic of Seychelles",
+   "Repiblik Sesel",
+   "République des Seychelles"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Victoria"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "MDG",
+    "km": 1069
+   },
+   {
+    "code": "SOM",
+    "km": 1290
+   },
+   {
+    "code": "COM",
+    "km": 1459
+   }
+  ],
+  "landlocked": false,
+  "area": 452,
+  "flag": "🇸🇨",
+  "languages": [
+   "Seychellois Creole",
+   "English",
+   "French"
+  ],
+  "currencies": [
+   "Seychellois rupee"
+  ],
+  "focus": {
+   "lat": -4.621,
+   "lng": 55.46,
+   "radius": 0.108
+  },
+  "label": {
+   "lat": -4.677,
+   "lng": 55.48
+  }
+ },
+ {
+  "code": "SLE",
+  "iso2": "SL",
+  "isoNumeric": "694",
+  "name": "Sierra Leone",
+  "official": "Republic of Sierra Leone",
+  "aliases": [
+   "Republic of Sierra Leone"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Freetown"
+  ],
+  "neighbors": [
+   "GIN",
+   "LBR"
+  ],
+  "nearby": [
+   {
+    "code": "GIN",
+    "km": 0
+   },
+   {
+    "code": "LBR",
+    "km": 0
+   },
+   {
+    "code": "CIV",
+    "km": 218
+   }
+  ],
+  "landlocked": false,
+  "area": 71740,
+  "flag": "🇸🇱",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Sierra Leonean leone"
+  ],
+  "focus": {
+   "lat": 8.56,
+   "lng": -11.794,
+   "radius": 1.679
+  },
+  "label": {
+   "lat": 8.617,
+   "lng": -11.764
+  }
+ },
+ {
+  "code": "SGP",
+  "iso2": "SG",
+  "isoNumeric": "702",
+  "name": "Singapore",
+  "official": "Republic of Singapore",
+  "aliases": [
+   "Republic of Singapore",
+   "Singapura",
+   "Republik Singapura",
+   "新加坡共和国"
+  ],
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capitals": [
+   "Singapore"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "MYS",
+    "km": 3
+   },
+   {
+    "code": "IDN",
+    "km": 18
+   },
+   {
+    "code": "THA",
+    "km": 529
+   }
+  ],
+  "landlocked": false,
+  "area": 710,
+  "flag": "🇸🇬",
+  "languages": [
+   "English",
+   "Malay",
+   "Tamil",
+   "Chinese"
+  ],
+  "currencies": [
+   "Singapore dollar"
+  ],
+  "focus": {
+   "lat": 1.358,
+   "lng": 103.811,
+   "radius": 0.166
+  },
+  "label": {
+   "lat": 1.367,
+   "lng": 103.817
+  }
+ },
+ {
+  "code": "SVK",
+  "iso2": "SK",
+  "isoNumeric": "703",
+  "name": "Slovakia",
+  "official": "Slovak Republic",
+  "aliases": [
+   "Slovak Republic",
+   "Slovenská republika"
+  ],
+  "continent": "Europe",
+  "subregion": "Central Europe",
+  "capitals": [
+   "Bratislava"
+  ],
+  "neighbors": [
+   "AUT",
+   "CZE",
+   "HUN",
+   "POL",
+   "UKR"
+  ],
+  "nearby": [
+   {
+    "code": "AUT",
+    "km": 0
+   },
+   {
+    "code": "CZE",
+    "km": 0
+   },
+   {
+    "code": "HUN",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 49037,
+  "flag": "🇸🇰",
+  "languages": [
+   "Slovak"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 48.711,
+   "lng": 19.469,
+   "radius": 2.051
+  },
+  "label": {
+   "lat": 48.734,
+   "lng": 19.05
+  }
+ },
+ {
+  "code": "SVN",
+  "iso2": "SI",
+  "isoNumeric": "705",
+  "name": "Slovenia",
+  "official": "Republic of Slovenia",
+  "aliases": [
+   "Republic of Slovenia",
+   "Republika Slovenija"
+  ],
+  "continent": "Europe",
+  "subregion": "Central Europe",
+  "capitals": [
+   "Ljubljana"
+  ],
+  "neighbors": [
+   "AUT",
+   "HRV",
+   "HUN",
+   "ITA"
+  ],
+  "nearby": [
+   {
+    "code": "AUT",
+    "km": 0
+   },
+   {
+    "code": "HRV",
+    "km": 0
+   },
+   {
+    "code": "HUN",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 20273,
+  "flag": "🇸🇮",
+  "languages": [
+   "Slovene"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 46.115,
+   "lng": 14.798,
+   "radius": 1.262
+  },
+  "label": {
+   "lat": 46.061,
+   "lng": 14.915
+  }
+ },
+ {
+  "code": "SLB",
+  "iso2": "SB",
+  "isoNumeric": "090",
+  "name": "Solomon Islands",
+  "official": "Solomon Islands",
+  "aliases": [
+   "Solomon Is."
+  ],
+  "continent": "Oceania",
+  "subregion": "Melanesia",
+  "capitals": [
+   "Honiara"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "PNG",
+    "km": 13
+   },
+   {
+    "code": "VUT",
+    "km": 359
+   },
+   {
+    "code": "NRU",
+    "km": 1101
+   }
+  ],
+  "landlocked": false,
+  "area": 28896,
+  "flag": "🇸🇧",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Solomon Islands dollar"
+  ],
+  "focus": {
+   "lat": -8.905,
+   "lng": 159.611,
+   "radius": 6.689
+  },
+  "label": {
+   "lat": -8.03,
+   "lng": 159.17
+  }
+ },
+ {
+  "code": "SOM",
+  "iso2": "SO",
+  "isoNumeric": "706",
+  "name": "Somalia",
+  "official": "Federal Republic of Somalia",
+  "aliases": [
+   "Federal Republic of Somalia",
+   "aṣ-Ṣūmāl",
+   "Jamhuuriyadda Federaalka Soomaaliya",
+   "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Mogadishu"
+  ],
+  "neighbors": [
+   "DJI",
+   "ETH",
+   "KEN"
+  ],
+  "nearby": [
+   {
+    "code": "DJI",
+    "km": 0
+   },
+   {
+    "code": "ETH",
+    "km": 0
+   },
+   {
+    "code": "KEN",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 637657,
+  "flag": "🇸🇴",
+  "languages": [
+   "Arabic",
+   "Somali"
+  ],
+  "currencies": [
+   "Somali shilling"
+  ],
+  "focus": {
+   "lat": 6.052,
+   "lng": 45.83,
+   "radius": 8.856
+  },
+  "label": {
+   "lat": 3.569,
+   "lng": 45.192
+  }
+ },
+ {
+  "code": "ZAF",
+  "iso2": "ZA",
+  "isoNumeric": "710",
+  "name": "South Africa",
+  "official": "Republic of South Africa",
+  "aliases": [
+   "Republic of South Africa",
+   "RSA",
+   "Suid-Afrika"
+  ],
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "capitals": [
+   "Pretoria",
+   "Bloemfontein",
+   "Cape Town"
+  ],
+  "neighbors": [
+   "BWA",
+   "LSO",
+   "MOZ",
+   "NAM",
+   "SWZ",
+   "ZWE"
+  ],
+  "nearby": [
+   {
+    "code": "BWA",
+    "km": 0
+   },
+   {
+    "code": "MOZ",
+    "km": 0
+   },
+   {
+    "code": "NAM",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 1221037,
+  "flag": "🇿🇦",
+  "languages": [
+   "Afrikaans",
+   "English",
+   "Southern Ndebele",
+   "Northern Sotho"
+  ],
+  "currencies": [
+   "South African rand"
+  ],
+  "focus": {
+   "lat": -28.971,
+   "lng": 25.193,
+   "radius": 8.559
+  },
+  "label": {
+   "lat": -29.709,
+   "lng": 23.666
+  }
+ },
+ {
+  "code": "KOR",
+  "iso2": "KR",
+  "isoNumeric": "410",
+  "name": "South Korea",
+  "official": "Republic of Korea",
+  "aliases": [
+   "Republic of Korea",
+   "Korea, Republic of",
+   "남조선"
+  ],
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "capitals": [
+   "Seoul"
+  ],
+  "neighbors": [
+   "PRK"
+  ],
+  "nearby": [
+   {
+    "code": "PRK",
+    "km": 0
+   },
+   {
+    "code": "JPN",
+    "km": 57
+   },
+   {
+    "code": "CHN",
+    "km": 304
+   }
+  ],
+  "landlocked": false,
+  "area": 100210,
+  "flag": "🇰🇷",
+  "languages": [
+   "Korean"
+  ],
+  "currencies": [
+   "South Korean won"
+  ],
+  "focus": {
+   "lat": 36.383,
+   "lng": 127.841,
+   "radius": 3.43
+  },
+  "label": {
+   "lat": 36.385,
+   "lng": 128.13
+  }
+ },
+ {
+  "code": "SSD",
+  "iso2": "SS",
+  "isoNumeric": "728",
+  "name": "South Sudan",
+  "official": "Republic of South Sudan",
+  "aliases": [
+   "Republic of South Sudan",
+   "S. Sudan"
+  ],
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "capitals": [
+   "Juba"
+  ],
+  "neighbors": [
+   "CAF",
+   "COD",
+   "ETH",
+   "KEN",
+   "SDN",
+   "UGA"
+  ],
+  "nearby": [
+   {
+    "code": "CAF",
+    "km": 0
+   },
+   {
+    "code": "COD",
+    "km": 0
+   },
+   {
+    "code": "ETH",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 619745,
+  "flag": "🇸🇸",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "South Sudanese pound"
+  ],
+  "focus": {
+   "lat": 7.308,
+   "lng": 30.253,
+   "radius": 6.196
+  },
+  "label": {
+   "lat": 7.23,
+   "lng": 30.39
+  }
+ },
+ {
+  "code": "ESP",
+  "iso2": "ES",
+  "isoNumeric": "724",
+  "name": "Spain",
+  "official": "Kingdom of Spain",
+  "aliases": [
+   "Kingdom of Spain",
+   "Reino de España"
+  ],
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capitals": [
+   "Madrid"
+  ],
+  "neighbors": [
+   "AND",
+   "FRA",
+   "MAR",
+   "PRT"
+  ],
+  "nearby": [
+   {
+    "code": "AND",
+    "km": 0
+   },
+   {
+    "code": "FRA",
+    "km": 0
+   },
+   {
+    "code": "PRT",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 505992,
+  "flag": "🇪🇸",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 40.365,
+   "lng": -3.511,
+   "radius": 5.999
+  },
+  "label": {
+   "lat": 40.091,
+   "lng": -3.465
+  }
+ },
+ {
+  "code": "LKA",
+  "iso2": "LK",
+  "isoNumeric": "144",
+  "name": "Sri Lanka",
+  "official": "Democratic Socialist Republic of Sri Lanka",
+  "aliases": [
+   "Democratic Socialist Republic of Sri Lanka",
+   "ilaṅkai"
+  ],
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "capitals": [
+   "Colombo"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "IND",
+    "km": 59
+   },
+   {
+    "code": "MDV",
+    "km": 755
+   },
+   {
+    "code": "IDN",
+    "km": 1485
+   }
+  ],
+  "landlocked": false,
+  "area": 65610,
+  "flag": "🇱🇰",
+  "languages": [
+   "Sinhala",
+   "Tamil"
+  ],
+  "currencies": [
+   "Sri Lankan rupee"
+  ],
+  "focus": {
+   "lat": 7.607,
+   "lng": 80.702,
+   "radius": 2.317
+  },
+  "label": {
+   "lat": 7.581,
+   "lng": 80.705
+  }
+ },
+ {
+  "code": "SDN",
+  "iso2": "SD",
+  "isoNumeric": "729",
+  "name": "Sudan",
+  "official": "Republic of the Sudan",
+  "aliases": [
+   "Republic of the Sudan",
+   "Jumhūrīyat as-Sūdān"
+  ],
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "capitals": [
+   "Khartoum"
+  ],
+  "neighbors": [
+   "CAF",
+   "EGY",
+   "ERI",
+   "ETH",
+   "LBY",
+   "SSD",
+   "TCD"
+  ],
+  "nearby": [
+   {
+    "code": "CAF",
+    "km": 0
+   },
+   {
+    "code": "EGY",
+    "km": 0
+   },
+   {
+    "code": "ERI",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 1886068,
+  "flag": "🇸🇩",
+  "languages": [
+   "Arabic",
+   "English"
+  ],
+  "currencies": [
+   "Sudanese pound"
+  ],
+  "focus": {
+   "lat": 15.967,
+   "lng": 29.907,
+   "radius": 9.477
+  },
+  "label": {
+   "lat": 16.331,
+   "lng": 29.261
+  }
+ },
+ {
+  "code": "SUR",
+  "iso2": "SR",
+  "isoNumeric": "740",
+  "name": "Suriname",
+  "official": "Republic of Suriname",
+  "aliases": [
+   "Republic of Suriname",
+   "Sarnam",
+   "Sranangron",
+   "Republiek Suriname"
+  ],
+  "continent": "South America",
+  "subregion": "South America",
+  "capitals": [
+   "Paramaribo"
+  ],
+  "neighbors": [
+   "BRA",
+   "GUY"
+  ],
+  "nearby": [
+   {
+    "code": "BRA",
+    "km": 0
+   },
+   {
+    "code": "GUY",
+    "km": 0
+   },
+   {
+    "code": "VEN",
+    "km": 296
+   }
+  ],
+  "landlocked": false,
+  "area": 163820,
+  "flag": "🇸🇷",
+  "languages": [
+   "Dutch"
+  ],
+  "currencies": [
+   "Surinamese dollar"
+  ],
+  "focus": {
+   "lat": 4.13,
+   "lng": -55.913,
+   "radius": 2.501
+  },
+  "label": {
+   "lat": 4.144,
+   "lng": -55.911
+  }
+ },
+ {
+  "code": "SWE",
+  "iso2": "SE",
+  "isoNumeric": "752",
+  "name": "Sweden",
+  "official": "Kingdom of Sweden",
+  "aliases": [
+   "Kingdom of Sweden",
+   "Konungariket Sverige"
+  ],
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capitals": [
+   "Stockholm"
+  ],
+  "neighbors": [
+   "FIN",
+   "NOR"
+  ],
+  "nearby": [
+   {
+    "code": "FIN",
+    "km": 0
+   },
+   {
+    "code": "NOR",
+    "km": 0
+   },
+   {
+    "code": "DNK",
+    "km": 8
+   }
+  ],
+  "landlocked": false,
+  "area": 450295,
+  "flag": "🇸🇪",
+  "languages": [
+   "Swedish"
+  ],
+  "currencies": [
+   "Swedish krona"
+  ],
+  "focus": {
+   "lat": 62.389,
+   "lng": 16.269,
+   "radius": 7.204
+  },
+  "label": {
+   "lat": 65.859,
+   "lng": 19.017
+  }
+ },
+ {
+  "code": "CHE",
+  "iso2": "CH",
+  "isoNumeric": "756",
+  "name": "Switzerland",
+  "official": "Swiss Confederation",
+  "aliases": [
+   "Swiss Confederation",
+   "Schweiz",
+   "Suisse",
+   "Svizzera",
+   "Svizra"
+  ],
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "capitals": [
+   "Bern"
+  ],
+  "neighbors": [
+   "AUT",
+   "DEU",
+   "FRA",
+   "ITA",
+   "LIE"
+  ],
+  "nearby": [
+   {
+    "code": "AUT",
+    "km": 0
+   },
+   {
+    "code": "DEU",
+    "km": 0
+   },
+   {
+    "code": "FRA",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 41284,
+  "flag": "🇨🇭",
+  "languages": [
+   "French",
+   "Swiss German",
+   "Italian",
+   "Romansh"
+  ],
+  "currencies": [
+   "Swiss franc"
+  ],
+  "focus": {
+   "lat": 46.799,
+   "lng": 8.206,
+   "radius": 1.648
+  },
+  "label": {
+   "lat": 46.719,
+   "lng": 7.464
+  }
+ },
+ {
+  "code": "SYR",
+  "iso2": "SY",
+  "isoNumeric": "760",
+  "name": "Syria",
+  "official": "Syrian Arab Republic",
+  "aliases": [
+   "Syrian Arab Republic",
+   "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Damascus"
+  ],
+  "neighbors": [
+   "IRQ",
+   "ISR",
+   "JOR",
+   "LBN",
+   "TUR"
+  ],
+  "nearby": [
+   {
+    "code": "IRQ",
+    "km": 0
+   },
+   {
+    "code": "ISR",
+    "km": 0
+   },
+   {
+    "code": "JOR",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 185180,
+  "flag": "🇸🇾",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Syrian pound"
+  ],
+  "focus": {
+   "lat": 35.017,
+   "lng": 38.485,
+   "radius": 3.8
+  },
+  "label": {
+   "lat": 35.007,
+   "lng": 38.278
+  }
+ },
+ {
+  "code": "TJK",
+  "iso2": "TJ",
+  "isoNumeric": "762",
+  "name": "Tajikistan",
+  "official": "Republic of Tajikistan",
+  "aliases": [
+   "Republic of Tajikistan",
+   "Toçikiston",
+   "Ҷумҳурии Тоҷикистон",
+   "Çumhuriyi Toçikiston"
+  ],
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "capitals": [
+   "Dushanbe"
+  ],
+  "neighbors": [
+   "AFG",
+   "CHN",
+   "KGZ",
+   "UZB"
+  ],
+  "nearby": [
+   {
+    "code": "AFG",
+    "km": 0
+   },
+   {
+    "code": "CHN",
+    "km": 0
+   },
+   {
+    "code": "KGZ",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 143100,
+  "flag": "🇹🇯",
+  "languages": [
+   "Russian",
+   "Tajik"
+  ],
+  "currencies": [
+   "Tajikistani somoni"
+  ],
+  "focus": {
+   "lat": 38.54,
+   "lng": 71.026,
+   "radius": 3.426
+  },
+  "label": {
+   "lat": 38.2,
+   "lng": 72.587
+  }
+ },
+ {
+  "code": "TZA",
+  "iso2": "TZ",
+  "isoNumeric": "834",
+  "name": "Tanzania",
+  "official": "United Republic of Tanzania",
+  "aliases": [
+   "United Republic of Tanzania",
+   "Tanzania, United Republic of",
+   "Jamhuri ya Muungano wa Tanzania"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Dodoma"
+  ],
+  "neighbors": [
+   "BDI",
+   "COD",
+   "KEN",
+   "MOZ",
+   "MWI",
+   "RWA",
+   "UGA",
+   "ZMB"
+  ],
+  "nearby": [
+   {
+    "code": "BDI",
+    "km": 0
+   },
+   {
+    "code": "COD",
+    "km": 0
+   },
+   {
+    "code": "KEN",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 945087,
+  "flag": "🇹🇿",
+  "languages": [
+   "English",
+   "Swahili"
+  ],
+  "currencies": [
+   "Tanzanian shilling"
+  ],
+  "focus": {
+   "lat": -6.269,
+   "lng": 34.802,
+   "radius": 6.995
+  },
+  "label": {
+   "lat": -6.052,
+   "lng": 34.959
+  }
+ },
+ {
+  "code": "THA",
+  "iso2": "TH",
+  "isoNumeric": "764",
+  "name": "Thailand",
+  "official": "Kingdom of Thailand",
+  "aliases": [
+   "Kingdom of Thailand",
+   "Prathet",
+   "Thai",
+   "ราชอาณาจักรไทย",
+   "Ratcha Anachak Thai"
+  ],
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capitals": [
+   "Bangkok"
+  ],
+  "neighbors": [
+   "KHM",
+   "LAO",
+   "MMR",
+   "MYS"
+  ],
+  "nearby": [
+   {
+    "code": "KHM",
+    "km": 0
+   },
+   {
+    "code": "LAO",
+    "km": 0
+   },
+   {
+    "code": "MMR",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 513120,
+  "flag": "🇹🇭",
+  "languages": [
+   "Thai"
+  ],
+  "currencies": [
+   "Thai baht"
+  ],
+  "focus": {
+   "lat": 15.091,
+   "lng": 101.002,
+   "radius": 9.454
+  },
+  "label": {
+   "lat": 15.46,
+   "lng": 101.073
+  }
+ },
+ {
+  "code": "TLS",
+  "iso2": "TL",
+  "isoNumeric": "626",
+  "name": "Timor-Leste",
+  "official": "Democratic Republic of Timor-Leste",
+  "aliases": [
+   "Democratic Republic of Timor-Leste",
+   "East Timor",
+   "Timor",
+   "República Democrática de Timor-Leste",
+   "Repúblika Demokrátika Timór-Leste",
+   "Timór Lorosa'e",
+   "Timor Lorosae"
+  ],
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capitals": [
+   "Dili"
+  ],
+  "neighbors": [
+   "IDN"
+  ],
+  "nearby": [
+   {
+    "code": "IDN",
+    "km": 0
+   },
+   {
+    "code": "AUS",
+    "km": 458
+   },
+   {
+    "code": "PNG",
+    "km": 1505
+   }
+  ],
+  "landlocked": false,
+  "area": 14874,
+  "flag": "🇹🇱",
+  "languages": [
+   "Portuguese",
+   "Tetum"
+  ],
+  "currencies": [
+   "United States dollar"
+  ],
+  "focus": {
+   "lat": -8.831,
+   "lng": 125.852,
+   "radius": 1.864
+  },
+  "label": {
+   "lat": -8.804,
+   "lng": 125.855
+  }
+ },
+ {
+  "code": "TGO",
+  "iso2": "TG",
+  "isoNumeric": "768",
+  "name": "Togo",
+  "official": "Togolese Republic",
+  "aliases": [
+   "Togolese Republic",
+   "Togolese",
+   "République Togolaise"
+  ],
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "capitals": [
+   "Lomé"
+  ],
+  "neighbors": [
+   "BEN",
+   "BFA",
+   "GHA"
+  ],
+  "nearby": [
+   {
+    "code": "BEN",
+    "km": 0
+   },
+   {
+    "code": "BFA",
+    "km": 0
+   },
+   {
+    "code": "GHA",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 56785,
+  "flag": "🇹🇬",
+  "languages": [
+   "French"
+  ],
+  "currencies": [
+   "West African CFA franc"
+  ],
+  "focus": {
+   "lat": 8.517,
+   "lng": 0.965,
+   "radius": 2.791
+  },
+  "label": {
+   "lat": 8.807,
+   "lng": 1.058
+  }
+ },
+ {
+  "code": "TON",
+  "iso2": "TO",
+  "isoNumeric": "776",
+  "name": "Tonga",
+  "official": "Kingdom of Tonga",
+  "aliases": [
+   "Kingdom of Tonga"
+  ],
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "capitals": [
+   "Nuku'alofa"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "FJI",
+    "km": 676
+   },
+   {
+    "code": "WSM",
+    "km": 863
+   },
+   {
+    "code": "TUV",
+    "km": 1521
+   }
+  ],
+  "landlocked": false,
+  "area": 747,
+  "flag": "🇹🇴",
+  "languages": [
+   "English",
+   "Tongan"
+  ],
+  "currencies": [
+   "Tongan paʻanga"
+  ],
+  "focus": {
+   "lat": -21.181,
+   "lng": -175.227,
+   "radius": 0.106
+  },
+  "label": {
+   "lat": -21.21,
+   "lng": -175.163
+  }
+ },
+ {
+  "code": "TTO",
+  "iso2": "TT",
+  "isoNumeric": "780",
+  "name": "Trinidad and Tobago",
+  "official": "Republic of Trinidad and Tobago",
+  "aliases": [
+   "Republic of Trinidad and Tobago"
+  ],
+  "continent": "North America",
+  "subregion": "Caribbean",
+  "capitals": [
+   "Port of Spain"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "VEN",
+    "km": 26
+   },
+   {
+    "code": "GRD",
+    "km": 133
+   },
+   {
+    "code": "GUY",
+    "km": 207
+   }
+  ],
+  "landlocked": false,
+  "area": 5130,
+  "flag": "🇹🇹",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Trinidad and Tobago dollar"
+  ],
+  "focus": {
+   "lat": 10.446,
+   "lng": -61.264,
+   "radius": 1.116
+  },
+  "label": {
+   "lat": 10.999,
+   "lng": -60.918
+  }
+ },
+ {
+  "code": "TUN",
+  "iso2": "TN",
+  "isoNumeric": "788",
+  "name": "Tunisia",
+  "official": "Tunisian Republic",
+  "aliases": [
+   "Tunisian Republic",
+   "Republic of Tunisia",
+   "al-Jumhūriyyah at-Tūnisiyyah"
+  ],
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "capitals": [
+   "Tunis"
+  ],
+  "neighbors": [
+   "DZA",
+   "LBY"
+  ],
+  "nearby": [
+   {
+    "code": "DZA",
+    "km": 0
+   },
+   {
+    "code": "LBY",
+    "km": 0
+   },
+   {
+    "code": "ITA",
+    "km": 146
+   }
+  ],
+  "landlocked": false,
+  "area": 163610,
+  "flag": "🇹🇳",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Tunisian dinar"
+  ],
+  "focus": {
+   "lat": 34.092,
+   "lng": 9.558,
+   "radius": 3.863
+  },
+  "label": {
+   "lat": 33.687,
+   "lng": 9.008
+  }
+ },
+ {
+  "code": "TUR",
+  "iso2": "TR",
+  "isoNumeric": "792",
+  "name": "Türkiye",
+  "official": "Republic of Türkiye",
+  "aliases": [
+   "Republic of Türkiye",
+   "Turkiye",
+   "Republic of Turkey",
+   "Türkiye Cumhuriyeti",
+   "Turkey"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Ankara"
+  ],
+  "neighbors": [
+   "ARM",
+   "AZE",
+   "BGR",
+   "GEO",
+   "GRC",
+   "IRN",
+   "IRQ",
+   "SYR"
+  ],
+  "nearby": [
+   {
+    "code": "ARM",
+    "km": 0
+   },
+   {
+    "code": "AZE",
+    "km": 0
+   },
+   {
+    "code": "BGR",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 783562,
+  "flag": "🇹🇷",
+  "languages": [
+   "Turkish"
+  ],
+  "currencies": [
+   "Turkish lira"
+  ],
+  "focus": {
+   "lat": 39.137,
+   "lng": 35.179,
+   "radius": 7.793
+  },
+  "label": {
+   "lat": 39.345,
+   "lng": 34.508
+  }
+ },
+ {
+  "code": "TKM",
+  "iso2": "TM",
+  "isoNumeric": "795",
+  "name": "Turkmenistan",
+  "official": "Turkmenistan",
+  "aliases": [],
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "capitals": [
+   "Ashgabat"
+  ],
+  "neighbors": [
+   "AFG",
+   "IRN",
+   "KAZ",
+   "UZB"
+  ],
+  "nearby": [
+   {
+    "code": "AFG",
+    "km": 0
+   },
+   {
+    "code": "IRN",
+    "km": 0
+   },
+   {
+    "code": "KAZ",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 488100,
+  "flag": "🇹🇲",
+  "languages": [
+   "Russian",
+   "Turkmen"
+  ],
+  "currencies": [
+   "Turkmenistan manat"
+  ],
+  "focus": {
+   "lat": 39.125,
+   "lng": 59.451,
+   "radius": 5.921
+  },
+  "label": {
+   "lat": 39.855,
+   "lng": 58.677
+  }
+ },
+ {
+  "code": "TUV",
+  "iso2": "TV",
+  "isoNumeric": "798",
+  "name": "Tuvalu",
+  "official": "Tuvalu",
+  "aliases": [],
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "capitals": [
+   "Funafuti"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "FJI",
+    "km": 852
+   },
+   {
+    "code": "WSM",
+    "km": 1042
+   },
+   {
+    "code": "VUT",
+    "km": 1399
+   }
+  ],
+  "landlocked": false,
+  "area": 26,
+  "flag": "🇹🇻",
+  "languages": [
+   "English",
+   "Tuvaluan"
+  ],
+  "currencies": [
+   "Australian dollar",
+   "Tuvaluan dollar"
+  ],
+  "focus": {
+   "lat": -8.502,
+   "lng": 179.207,
+   "radius": 0.05
+  },
+  "label": {
+   "lat": -8.514,
+   "lng": 179.21
+  }
+ },
+ {
+  "code": "UGA",
+  "iso2": "UG",
+  "isoNumeric": "800",
+  "name": "Uganda",
+  "official": "Republic of Uganda",
+  "aliases": [
+   "Republic of Uganda",
+   "Jamhuri ya Uganda"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Kampala"
+  ],
+  "neighbors": [
+   "COD",
+   "KEN",
+   "RWA",
+   "SSD",
+   "TZA"
+  ],
+  "nearby": [
+   {
+    "code": "COD",
+    "km": 0
+   },
+   {
+    "code": "KEN",
+    "km": 0
+   },
+   {
+    "code": "RWA",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 241550,
+  "flag": "🇺🇬",
+  "languages": [
+   "English",
+   "Swahili"
+  ],
+  "currencies": [
+   "Ugandan shilling"
+  ],
+  "focus": {
+   "lat": 1.274,
+   "lng": 32.369,
+   "radius": 3.857
+  },
+  "label": {
+   "lat": 1.973,
+   "lng": 32.949
+  }
+ },
+ {
+  "code": "UKR",
+  "iso2": "UA",
+  "isoNumeric": "804",
+  "name": "Ukraine",
+  "official": "Ukraine",
+  "aliases": [
+   "Ukrayina"
+  ],
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "capitals": [
+   "Kyiv"
+  ],
+  "neighbors": [
+   "BLR",
+   "HUN",
+   "MDA",
+   "POL",
+   "ROU",
+   "RUS",
+   "SVK"
+  ],
+  "nearby": [
+   {
+    "code": "BLR",
+    "km": 0
+   },
+   {
+    "code": "HUN",
+    "km": 0
+   },
+   {
+    "code": "MDA",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 603500,
+  "flag": "🇺🇦",
+  "languages": [
+   "Ukrainian"
+  ],
+  "currencies": [
+   "Ukrainian hryvnia"
+  ],
+  "focus": {
+   "lat": 49.199,
+   "lng": 31.314,
+   "radius": 6.096
+  },
+  "label": {
+   "lat": 49.725,
+   "lng": 32.141
+  }
+ },
+ {
+  "code": "ARE",
+  "iso2": "AE",
+  "isoNumeric": "784",
+  "name": "United Arab Emirates",
+  "official": "United Arab Emirates",
+  "aliases": [
+   "UAE",
+   "Emirates"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Abu Dhabi"
+  ],
+  "neighbors": [
+   "OMN",
+   "SAU"
+  ],
+  "nearby": [
+   {
+    "code": "OMN",
+    "km": 0
+   },
+   {
+    "code": "SAU",
+    "km": 0
+   },
+   {
+    "code": "QAT",
+    "km": 45
+   }
+  ],
+  "landlocked": false,
+  "area": 83600,
+  "flag": "🇦🇪",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "United Arab Emirates dirham"
+  ],
+  "focus": {
+   "lat": 23.907,
+   "lng": 54.303,
+   "radius": 2.729
+  },
+  "label": {
+   "lat": 23.466,
+   "lng": 54.547
+  }
+ },
+ {
+  "code": "GBR",
+  "iso2": "GB",
+  "isoNumeric": "826",
+  "name": "United Kingdom",
+  "official": "United Kingdom of Great Britain and Northern Ireland",
+  "aliases": [
+   "United Kingdom of Great Britain and Northern Ireland",
+   "Great Britain"
+  ],
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "capitals": [
+   "London"
+  ],
+  "neighbors": [
+   "IRL"
+  ],
+  "nearby": [
+   {
+    "code": "IRL",
+    "km": 0
+   },
+   {
+    "code": "FRA",
+    "km": 38
+   },
+   {
+    "code": "BEL",
+    "km": 79
+   }
+  ],
+  "landlocked": false,
+  "area": 242900,
+  "flag": "🇬🇧",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "British pound"
+  ],
+  "focus": {
+   "lat": 53.978,
+   "lng": -2.748,
+   "radius": 6.604
+  },
+  "label": {
+   "lat": 54.403,
+   "lng": -2.116
+  }
+ },
+ {
+  "code": "USA",
+  "iso2": "US",
+  "isoNumeric": "840",
+  "name": "United States",
+  "official": "United States of America",
+  "aliases": [
+   "United States of America",
+   "USA"
+  ],
+  "continent": "North America",
+  "subregion": "North America",
+  "capitals": [
+   "Washington D.C."
+  ],
+  "neighbors": [
+   "CAN",
+   "MEX"
+  ],
+  "nearby": [
+   {
+    "code": "CAN",
+    "km": 0
+   },
+   {
+    "code": "MEX",
+    "km": 11
+   },
+   {
+    "code": "RUS",
+    "km": 85
+   }
+  ],
+  "landlocked": false,
+  "area": 9372610,
+  "flag": "🇺🇸",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "United States dollar"
+  ],
+  "focus": {
+   "lat": 39.968,
+   "lng": -98.896,
+   "radius": 29.983
+  },
+  "label": {
+   "lat": 39.538,
+   "lng": -97.483
+  }
+ },
+ {
+  "code": "URY",
+  "iso2": "UY",
+  "isoNumeric": "858",
+  "name": "Uruguay",
+  "official": "Oriental Republic of Uruguay",
+  "aliases": [
+   "Oriental Republic of Uruguay",
+   "República Oriental del Uruguay"
+  ],
+  "continent": "South America",
+  "subregion": "South America",
+  "capitals": [
+   "Montevideo"
+  ],
+  "neighbors": [
+   "ARG",
+   "BRA"
+  ],
+  "nearby": [
+   {
+    "code": "ARG",
+    "km": 0
+   },
+   {
+    "code": "BRA",
+    "km": 0
+   },
+   {
+    "code": "PRY",
+    "km": 286
+   }
+  ],
+  "landlocked": false,
+  "area": 181034,
+  "flag": "🇺🇾",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "Uruguayan peso"
+  ],
+  "focus": {
+   "lat": -32.791,
+   "lng": -56.024,
+   "radius": 2.934
+  },
+  "label": {
+   "lat": -32.961,
+   "lng": -55.967
+  }
+ },
+ {
+  "code": "UZB",
+  "iso2": "UZ",
+  "isoNumeric": "860",
+  "name": "Uzbekistan",
+  "official": "Republic of Uzbekistan",
+  "aliases": [
+   "Republic of Uzbekistan",
+   "O‘zbekiston Respublikasi",
+   "Ўзбекистон Республикаси"
+  ],
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "capitals": [
+   "Tashkent"
+  ],
+  "neighbors": [
+   "AFG",
+   "KAZ",
+   "KGZ",
+   "TJK",
+   "TKM"
+  ],
+  "nearby": [
+   {
+    "code": "AFG",
+    "km": 0
+   },
+   {
+    "code": "KAZ",
+    "km": 0
+   },
+   {
+    "code": "KGZ",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 447400,
+  "flag": "🇺🇿",
+  "languages": [
+   "Russian",
+   "Uzbek"
+  ],
+  "currencies": [
+   "Uzbekistani soʻm"
+  ],
+  "focus": {
+   "lat": 41.777,
+   "lng": 63.301,
+   "radius": 7.436
+  },
+  "label": {
+   "lat": 41.694,
+   "lng": 64.005
+  }
+ },
+ {
+  "code": "VUT",
+  "iso2": "VU",
+  "isoNumeric": "548",
+  "name": "Vanuatu",
+  "official": "Republic of Vanuatu",
+  "aliases": [
+   "Republic of Vanuatu",
+   "Ripablik blong Vanuatu",
+   "République de Vanuatu"
+  ],
+  "continent": "Oceania",
+  "subregion": "Melanesia",
+  "capitals": [
+   "Port Vila"
+  ],
+  "neighbors": [],
+  "nearby": [
+   {
+    "code": "SLB",
+    "km": 359
+   },
+   {
+    "code": "FJI",
+    "km": 836
+   },
+   {
+    "code": "PNG",
+    "km": 1378
+   }
+  ],
+  "landlocked": false,
+  "area": 12189,
+  "flag": "🇻🇺",
+  "languages": [
+   "Bislama",
+   "English",
+   "French"
+  ],
+  "currencies": [
+   "Vanuatu vatu"
+  ],
+  "focus": {
+   "lat": -16.196,
+   "lng": 167.619,
+   "radius": 3.864
+  },
+  "label": {
+   "lat": -15.372,
+   "lng": 166.909
+  }
+ },
+ {
+  "code": "VAT",
+  "iso2": "VA",
+  "isoNumeric": "336",
+  "name": "Vatican City",
+  "official": "Vatican City State",
+  "aliases": [
+   "Vatican City State",
+   "Holy See (Vatican City State)",
+   "Vatican",
+   "Stato della Città del Vaticano",
+   "State of the Vatican City"
+  ],
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "capitals": [
+   "Vatican City"
+  ],
+  "neighbors": [
+   "ITA"
+  ],
+  "nearby": [
+   {
+    "code": "ITA",
+    "km": 21
+   },
+   {
+    "code": "SMR",
+    "km": 222
+   },
+   {
+    "code": "FRA",
+    "km": 239
+   }
+  ],
+  "landlocked": true,
+  "area": 0.44,
+  "flag": "🇻🇦",
+  "languages": [
+   "Italian",
+   "Latin"
+  ],
+  "currencies": [
+   "Euro"
+  ],
+  "focus": {
+   "lat": 41.902,
+   "lng": 12.435,
+   "radius": 0.05
+  },
+  "label": {
+   "lat": 41.903,
+   "lng": 12.453
+  }
+ },
+ {
+  "code": "VEN",
+  "iso2": "VE",
+  "isoNumeric": "862",
+  "name": "Venezuela",
+  "official": "Bolivarian Republic of Venezuela",
+  "aliases": [
+   "Bolivarian Republic of Venezuela",
+   "Venezuela, Bolivarian Republic of",
+   "República Bolivariana de Venezuela"
+  ],
+  "continent": "South America",
+  "subregion": "South America",
+  "capitals": [
+   "Caracas"
+  ],
+  "neighbors": [
+   "BRA",
+   "COL",
+   "GUY"
+  ],
+  "nearby": [
+   {
+    "code": "BRA",
+    "km": 0
+   },
+   {
+    "code": "COL",
+    "km": 0
+   },
+   {
+    "code": "GUY",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 916445,
+  "flag": "🇻🇪",
+  "languages": [
+   "Spanish"
+  ],
+  "currencies": [
+   "Venezuelan bolívar soberano"
+  ],
+  "focus": {
+   "lat": 7.122,
+   "lng": -66.171,
+   "radius": 7.43
+  },
+  "label": {
+   "lat": 7.182,
+   "lng": -64.599
+  }
+ },
+ {
+  "code": "VNM",
+  "iso2": "VN",
+  "isoNumeric": "704",
+  "name": "Vietnam",
+  "official": "Socialist Republic of Vietnam",
+  "aliases": [
+   "Socialist Republic of Vietnam",
+   "Cộng hòa Xã hội chủ nghĩa Việt Nam",
+   "Viet Nam"
+  ],
+  "continent": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capitals": [
+   "Hanoi"
+  ],
+  "neighbors": [
+   "CHN",
+   "KHM",
+   "LAO"
+  ],
+  "nearby": [
+   {
+    "code": "CHN",
+    "km": 0
+   },
+   {
+    "code": "KHM",
+    "km": 0
+   },
+   {
+    "code": "LAO",
+    "km": 0
+   }
+  ],
+  "landlocked": false,
+  "area": 331212,
+  "flag": "🇻🇳",
+  "languages": [
+   "Vietnamese"
+  ],
+  "currencies": [
+   "Vietnamese đồng"
+  ],
+  "focus": {
+   "lat": 16.53,
+   "lng": 106.345,
+   "radius": 8.079
+  },
+  "label": {
+   "lat": 21.715,
+   "lng": 105.387
+  }
+ },
+ {
+  "code": "YEM",
+  "iso2": "YE",
+  "isoNumeric": "887",
+  "name": "Yemen",
+  "official": "Republic of Yemen",
+  "aliases": [
+   "Republic of Yemen",
+   "Yemeni Republic",
+   "al-Jumhūriyyah al-Yamaniyyah"
+  ],
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "capitals": [
+   "Sana'a"
+  ],
+  "neighbors": [
+   "OMN",
+   "SAU"
+  ],
+  "nearby": [
+   {
+    "code": "OMN",
+    "km": 0
+   },
+   {
+    "code": "SAU",
+    "km": 0
+   },
+   {
+    "code": "DJI",
+    "km": 33
+   }
+  ],
+  "landlocked": false,
+  "area": 527968,
+  "flag": "🇾🇪",
+  "languages": [
+   "Arabic"
+  ],
+  "currencies": [
+   "Yemeni rial"
+  ],
+  "focus": {
+   "lat": 15.917,
+   "lng": 47.571,
+   "radius": 7.522
+  },
+  "label": {
+   "lat": 15.328,
+   "lng": 45.874
+  }
+ },
+ {
+  "code": "ZMB",
+  "iso2": "ZM",
+  "isoNumeric": "894",
+  "name": "Zambia",
+  "official": "Republic of Zambia",
+  "aliases": [
+   "Republic of Zambia"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Lusaka"
+  ],
+  "neighbors": [
+   "AGO",
+   "BWA",
+   "COD",
+   "MOZ",
+   "MWI",
+   "NAM",
+   "TZA",
+   "ZWE"
+  ],
+  "nearby": [
+   {
+    "code": "AGO",
+    "km": 0
+   },
+   {
+    "code": "BWA",
+    "km": 0
+   },
+   {
+    "code": "COD",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 752612,
+  "flag": "🇿🇲",
+  "languages": [
+   "English"
+  ],
+  "currencies": [
+   "Zambian kwacha"
+  ],
+  "focus": {
+   "lat": -13.456,
+   "lng": 27.809,
+   "radius": 6.519
+  },
+  "label": {
+   "lat": -14.661,
+   "lng": 26.395
+  }
+ },
+ {
+  "code": "ZWE",
+  "iso2": "ZW",
+  "isoNumeric": "716",
+  "name": "Zimbabwe",
+  "official": "Republic of Zimbabwe",
+  "aliases": [
+   "Republic of Zimbabwe"
+  ],
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "capitals": [
+   "Harare"
+  ],
+  "neighbors": [
+   "BWA",
+   "MOZ",
+   "ZAF",
+   "ZMB"
+  ],
+  "nearby": [
+   {
+    "code": "BWA",
+    "km": 0
+   },
+   {
+    "code": "MOZ",
+    "km": 0
+   },
+   {
+    "code": "NAM",
+    "km": 0
+   }
+  ],
+  "landlocked": true,
+  "area": 390757,
+  "flag": "🇿🇼",
+  "languages": [
+   "Chibarwe",
+   "English",
+   "Kalanga",
+   "Khoisan"
+  ],
+  "currencies": [
+   "Botswana pula",
+   "Chinese yuan"
+  ],
+  "focus": {
+   "lat": -18.998,
+   "lng": 29.852,
+   "radius": 4.524
+  },
+  "label": {
+   "lat": -18.912,
+   "lng": 29.925
+  }
+ }
+]

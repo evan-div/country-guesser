@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-ssr
+*.local
+data-src/
+coverage
+e2e/output/
+.DS_Store
+*.tsbuildinfo
+.vite
