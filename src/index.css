@@ -283,10 +283,10 @@
   outline: none;
 }
 
-/* Labels rendered by globe.gl's CSS2D layer */
+/* Labels rendered by globe.gl's CSS2D layer. The renderer owns the element's inline
+   transform, so the pill is lifted above the point with relative positioning instead. */
 .globe-label {
   pointer-events: none;
-  transform: translateY(-34px);
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 15px;
@@ -295,6 +295,8 @@
   white-space: nowrap;
 }
 .globe-label span {
+  position: relative;
+  top: -30px;
   display: inline-block;
   padding: 5px 12px 6px;
   border-radius: 999px;
@@ -313,10 +315,10 @@
   box-shadow: 0 0 22px -4px rgba(255, 138, 107, 0.6);
 }
 .globe-label--hint {
-  transform: translateY(-14px);
   font-size: 11px;
 }
 .globe-label--hint span {
+  top: -16px;
   padding: 3px 8px 4px;
   color: #ffe2b0;
   border-color: rgba(255, 181, 71, 0.6);

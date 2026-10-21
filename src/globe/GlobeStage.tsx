@@ -1,4 +1,4 @@
-import { memo, useCallback, useEffect, useMemo, useRef, type MutableRefObject } from 'react'
+import { memo, useCallback, useEffect, useMemo, useRef, useState, type MutableRefObject } from 'react'
 import Globe, { type GlobeMethods } from 'react-globe.gl'
 import { Color, MeshPhongMaterial, TextureLoader, type WebGLRendererParameters } from 'three'
 import type { WorldData } from '../data/world'
@@ -68,6 +68,8 @@ const GlobeStage = memo(function GlobeStage({
   const engineRef = useRef<GlobeEngine | null>(null)
   const sizeRef = useRef({ width, height })
   sizeRef.current = { width, height }
+  const settingsRef = useRef({ quality, animations })
+  settingsRef.current = { quality, animations }
 
   const material = useMemo(
     () =>
@@ -98,16 +100,32 @@ const GlobeStage = memo(function GlobeStage({
     }
   }, [material, quality])
 
-  const handleReady = useCallback(() => {
-    const g = globeRef.current
-    if (!g || engineRef.current) return
-    const engine = new GlobeEngine(g, world)
-    engine.setSize(sizeRef.current.width, sizeRef.current.height)
-    engineRef.current = engine
-    onReady(engine)
-    // onReady is intentionally captured once: the engine lives as long as the globe.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [world])
+  // globe.gl can report "ready" before React has attached the ref (it does in production
+  // builds), so readiness only flags state; the engine is created once both exist.
+  const [globeLoaded, setGlobeLoaded] = useState(false)
+  const handleReady = useCallback(() => setGlobeLoaded(true), [])
+  const onReadyRef = useRef(onReady)
+  onReadyRef.current = onReady
+
+  useEffect(() => {
+    if (!globeLoaded || engineRef.current) return
+    let raf = 0
+    const init = () => {
+      const g = globeRef.current
+      if (!g) {
+        raf = requestAnimationFrame(init)
+        return
+      }
+      const engine = new GlobeEngine(g, world)
+      engine.setSize(sizeRef.current.width, sizeRef.current.height)
+      engine.setQuality(settingsRef.current.quality)
+      engine.setAnimationsEnabled(settingsRef.current.animations)
+      engineRef.current = engine
+      onReadyRef.current(engine)
+    }
+    init()
+    return () => cancelAnimationFrame(raf)
+  }, [globeLoaded, world])
 
   useEffect(() => {
     engineRef.current?.setSize(width, height)
@@ -125,10 +143,10 @@ const GlobeStage = memo(function GlobeStage({
     () => () => {
       engineRef.current?.dispose()
       engineRef.current = null
-      material.dispose()
     },
-    [material],
+    [],
   )
+  useEffect(() => () => material.dispose(), [material])
 
   return (
     <Globe
