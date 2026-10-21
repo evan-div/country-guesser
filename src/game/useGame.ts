@@ -131,6 +131,19 @@ export function useGame({ engine, animations, onProgressEvents }: Options) {
     }
   }, [engine, flightRoundId])
 
+  // --- Globe swapped mid-round (WebGL context lost → 2D fallback): restore the view ------
+  const syncedEngine = useRef(engine)
+  useEffect(() => {
+    if (!engine || syncedEngine.current === engine) return
+    const hadEngine = syncedEngine.current !== null
+    syncedEngine.current = engine
+    const s = stateRef.current
+    if (!hadEngine || !s.round || (s.phase !== 'GUESSING' && s.phase !== 'ANSWER_REVEAL')) return
+    void engine.flyToCountry(s.round.code, { instant: true })
+    engine.showTarget(s.round.code)
+    if (s.round.result) engine.setTargetStyle(s.round.result.outcome === 'correct' ? 'correct' : 'wrong')
+  }, [engine])
+
   // --- Hint / reveal highlights -------------------------------------------------------
   const highlightKey = useMemo(() => {
     if (!round) return ''

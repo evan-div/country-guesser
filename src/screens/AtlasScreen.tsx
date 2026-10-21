@@ -7,6 +7,7 @@ import { useProgress } from '../progress/ProgressContext'
 import { atlasSummary } from '../progress/progress'
 import { MASTERY_CORRECT, MASTERY_UNASSISTED, type Mastery } from '../progress/records'
 import { displayCapitals } from '../game/validation/capitals'
+import { CHALLENGES } from '../game/challenges'
 import { IconButton } from '../ui/components/Button'
 import { ProgressRing } from '../ui/components/ProgressRing'
 import { useElementHeight } from '../ui/hooks/useElementHeight'
@@ -180,6 +181,29 @@ export function AtlasScreen({ engine, animations, onBack, onInsets, onLabels }: 
                   </div>
                 ))}
               </div>
+
+              {save.stats.recentGames.length > 0 && (
+                <div className="mt-5">
+                  <h3 className="mb-2 text-xs font-semibold tracking-[0.2em] text-haze uppercase">Recent runs</h3>
+                  <ul className="space-y-1">
+                    {save.stats.recentGames.slice(0, 5).map((g) => {
+                      const rounds = g.correct + g.incorrect
+                      return (
+                        <li key={g.at} className="flex items-center justify-between rounded-xl bg-white/[0.035] px-3 py-2 text-[12px]">
+                          <span className="text-mist">
+                            <span className="font-semibold text-white capitalize">{g.style === 'echo' ? 'Echo' : g.style}</span> ·{' '}
+                            {CHALLENGES[g.challenge].title}
+                          </span>
+                          <span className="text-haze tabular-nums">
+                            {g.style === 'arcade' && <span className="mr-2 font-semibold text-gold">{g.score.toLocaleString()}</span>}
+                            {rounds ? Math.round((g.correct / rounds) * 100) : 0}% · {timeAgo(g.at)}
+                          </span>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                </div>
+              )}
 
               <div className="sticky top-0 z-10 -mx-1 mt-5 bg-gradient-to-b from-[#0a1427] via-[#0a1427]/95 to-transparent px-1 pt-1 pb-3">
                 <div className="relative">

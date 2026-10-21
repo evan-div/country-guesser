@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { COUNTRIES, COUNTRY_BY_CODE } from './countries'
+import { COUNTRIES, COUNTRY_BY_CODE, framingRadius } from './countries'
 import { CONTINENTS } from './types'
 import { readFileSync } from 'node:fs'
 import { parseWorld } from './world'
@@ -59,5 +59,13 @@ describe('country dataset', () => {
     const usa = COUNTRY_BY_CODE.get('USA')!
     expect(usa.focus.lat).toBeGreaterThan(30)
     expect(usa.focus.lng).toBeLessThan(-80)
+  })
+
+  it('frames remote islands with regional context but keeps enclaves tight', () => {
+    const get = (c: string) => COUNTRY_BY_CODE.get(c)!
+    expect(framingRadius(get('KIR'))).toBeGreaterThan(10)
+    expect(framingRadius(get('TUV'))).toBeGreaterThan(4)
+    expect(framingRadius(get('VAT'))).toBe(get('VAT').focus.radius)
+    expect(framingRadius(get('AUS'))).toBe(get('AUS').focus.radius)
   })
 })

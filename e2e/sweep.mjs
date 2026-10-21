@@ -24,16 +24,33 @@ try {
     await page.evaluate((code) => window.__atlas.game.start('practice', 'country', [code]), c.code)
     await waitPhase(page, 'GUESSING', 20000)
     await page.waitForTimeout(SHOTS.has(c.code) ? 700 : 120)
-    const r = await page.evaluate((code) => {
-      const country = window.__atlas.game.state.round.code === code
-      const hud = document.querySelector('[class*="pt-safe"]')?.getBoundingClientRect()
-      const panel = document.querySelector('form')?.closest('.glass-strong')?.getBoundingClientRect()
-      return { country, hudBottom: hud?.bottom ?? 0, panelTop: panel?.top ?? innerHeight, w: innerWidth }
-    }, c.code)
-    const pt = await page.evaluate((l) => window.__atlas.engine.screenPoint(l.lat, l.lng), c.label)
-    const ok =
-      r.country && pt && pt.x > 0 && pt.x < r.w && pt.y > r.hudBottom - 10 && pt.y < r.panelTop + 10
-    if (!ok) problems.push(`${c.code} ${c.name}: ${JSON.stringify(pt)} hud=${Math.round(r.hudBottom)} panel=${Math.round(r.panelTop)}`)
+    const measure = () =>
+      page.evaluate((c) => {
+        const hud = document.querySelector('[class*="pt-safe"]')?.getBoundingClientRect()
+        const panel = document.querySelector('form')?.closest('.glass-strong')?.getBoundingClientRect()
+        const pt = window.__atlas.engine.screenPoint(c.label.lat, c.label.lng)
+        const e = window.__atlas.engine
+        return {
+          debug: { pov: e.director.pov, focus: c.focus, flying: e.director.flying, phase: window.__atlas.phase },
+          isTarget: window.__atlas.game.state.round.code === c.code,
+          pt,
+          hudBottom: hud?.bottom ?? 0,
+          panelTop: panel?.top ?? innerHeight,
+          w: innerWidth,
+        }
+      }, c)
+    const inside = (r) =>
+      r.isTarget && r.pt && r.pt.x > 0 && r.pt.x < r.w && r.pt.y > r.hudBottom - 10 && r.pt.y < r.panelTop + 10
+    let r = await measure()
+    if (!inside(r)) {
+      // Re-measure once so a frame caught mid-update isn't reported as a framing error.
+      await page.waitForTimeout(600)
+      r = await measure()
+    }
+    if (!inside(r))
+      problems.push(
+        `${c.code} ${c.name}: ${JSON.stringify(r.pt)} hud=${Math.round(r.hudBottom)} panel=${Math.round(r.panelTop)} ${JSON.stringify(r.debug)}`,
+      )
     if (SHOTS.has(c.code)) await page.screenshot({ path: `${OUT}/sweep-${c.code}.png` })
     await page.evaluate(() => window.__atlas.game.quit())
     await waitPhase(page, 'HOME', 10000)

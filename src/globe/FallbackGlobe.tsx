@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { geoGraticule10, geoInterpolate, geoOrthographic, geoPath, type GeoPermissibleObjects } from 'd3-geo'
 import type { WorldData } from '../data/world'
-import { getCountry, isMicrostate } from '../data/countries'
+import { framingRadius, getCountry, isMicrostate } from '../data/countries'
 import type { GlobeController } from './controller'
 import type { AtlasPaint } from './layers/AtlasLayer'
 import type { TargetStyle } from './layers/HighlightLayer'
@@ -98,7 +98,7 @@ export class CanvasGlobeController implements GlobeController {
 
   flyToCountry(code: string, opts: { instant?: boolean; onStart?: (plan: FlightPlan) => void } = {}) {
     const c = getCountry(code)
-    return this.animateTo([c.focus.lng, c.focus.lat], this.zoomFor(c.focus.radius), opts.instant, opts.onStart)
+    return this.animateTo([c.focus.lng, c.focus.lat], this.zoomFor(framingRadius(c)), opts.instant, opts.onStart)
   }
   flyToOverview(opts: { instant?: boolean } = {}) {
     return this.animateTo([this.center[0], 15], 1, opts.instant)
@@ -157,7 +157,7 @@ export class CanvasGlobeController implements GlobeController {
   }
 }
 
-export function FallbackGlobe({
+export default function FallbackGlobe({
   controller,
   width,
   height,

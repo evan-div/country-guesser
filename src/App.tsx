@@ -1,9 +1,10 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { RefreshCw } from 'lucide-react'
-import { GlobeStage, type GlobeLabel } from './globe/GlobeStage'
-import { detectQuality, type GlobeEngine, type Quality } from './globe/GlobeEngine'
+import type { GlobeLabel } from './globe/GlobeStage'
+import type { GlobeEngine } from './globe/GlobeEngine'
+import { detectQuality, type Quality } from './globe/quality'
 import type { GlobeController } from './globe/controller'
-import { CanvasGlobeController, FallbackGlobe } from './globe/FallbackGlobe'
+import type { CanvasGlobeController } from './globe/FallbackGlobe'
 import { hasWebGL } from './globe/webgl'
 import { loadWorld, type WorldData } from './data/world'
 import { getCountry } from './data/countries'
@@ -27,6 +28,11 @@ import { ToastStack, type Toast } from './ui/components/Toasts'
 import { Button } from './ui/components/Button'
 
 type Screen = 'home' | 'atlas' | 'echo'
+
+// The 3D stack (three.js + globe.gl) and the 2D fallback load in their own chunks, so the
+// UI shell and loading screen appear immediately.
+const GlobeStage = lazy(() => import('./globe/GlobeStage'))
+const FallbackGlobe = lazy(() => import('./globe/FallbackGlobe'))
 
 export default function App() {
   return (
@@ -148,13 +154,22 @@ function AtlasRush() {
     }
   }, [engine])
 
-  const fallback = useMemo(() => (world && !webgl ? new CanvasGlobeController(world) : null), [world, webgl])
+  const [fallback, setFallback] = useState<CanvasGlobeController | null>(null)
   useEffect(() => {
-    if (!fallback) return
-    setContextLost(false)
-    setEngine(fallback)
-    setGlobeReady(true)
-  }, [fallback])
+    if (!world || webgl) return
+    let alive = true
+    void import('./globe/FallbackGlobe').then(({ CanvasGlobeController }) => {
+      if (!alive) return
+      const controller = new CanvasGlobeController(world)
+      setFallback(controller)
+      setContextLost(false)
+      setEngine(controller)
+      setGlobeReady(true)
+    })
+    return () => {
+      alive = false
+    }
+  }, [world, webgl])
 
   // --- Actions ---------------------------------------------------------------------------
   const play = useCallback(
@@ -201,6 +216,7 @@ function AtlasRush() {
       {/* Globe layer */}
       {world && (
         <div className="globe-host absolute inset-0" aria-hidden={!inGame}>
+          <Suspense fallback={null}>
           {webgl ? (
             <GlobeStage
               world={world}
@@ -214,6 +230,7 @@ function AtlasRush() {
           ) : (
             fallback && <FallbackGlobe controller={fallback} width={vp.width} height={vp.height} labels={labels} />
           )}
+          </Suspense>
         </div>
       )}
       {/* Vignette for legibility */}

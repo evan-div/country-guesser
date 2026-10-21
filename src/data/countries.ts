@@ -24,6 +24,16 @@ export function isMicrostate(c: Country): boolean {
   return c.focus.radius < MICROSTATE_RADIUS
 }
 
+/**
+ * Angular radius the camera should frame. Island nations are widened to include their
+ * nearest neighbor (bounded), so remote atolls aren't shown in an empty ocean.
+ */
+export function framingRadius(c: Country): number {
+  if (c.neighbors.length || !c.nearby.length) return c.focus.radius
+  const nearestDeg = c.nearby[0].km / 111.2
+  return Math.max(c.focus.radius, Math.min(nearestDeg * 0.85, 20))
+}
+
 /** Short ocean/sea context for island hints, keyed by subregion. */
 const SEA_CONTEXT: Record<string, string> = {
   Caribbean: 'the Caribbean Sea',

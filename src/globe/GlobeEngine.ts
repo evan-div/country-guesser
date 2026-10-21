@@ -1,7 +1,7 @@
 import { AmbientLight, DirectionalLight, PerspectiveCamera, Vector2, Vector3 } from 'three'
 import type { GlobeMethods } from 'react-globe.gl'
 import type { WorldData } from '../data/world'
-import { getCountry, isMicrostate } from '../data/countries'
+import { framingRadius, getCountry, isMicrostate } from '../data/countries'
 import { BorderLayer } from './layers/BorderLayer'
 import { HighlightLayer, type TargetStyle } from './layers/HighlightLayer'
 import { AtlasLayer, type AtlasPaint } from './layers/AtlasLayer'
@@ -11,20 +11,9 @@ import { altitudeForFocus, overviewAltitude, type FlightPlan, type Pov } from '.
 import { GLOBE_RADIUS } from './geo'
 import { GLOBE_THEME } from './theme'
 import type { GlobeController } from './controller'
+import { PIXEL_RATIO_CAP, type Quality } from './quality'
 
-export type Quality = 'high' | 'balanced' | 'saver'
-
-export const PIXEL_RATIO_CAP: Record<Quality, number> = { high: 2, balanced: 1.5, saver: 1 }
-
-/** Resolve "auto" quality from the device: small/low-memory devices get the lighter profile. */
-export function detectQuality(): Quality {
-  if (typeof navigator === 'undefined') return 'balanced'
-  const mem = (navigator as Navigator & { deviceMemory?: number }).deviceMemory
-  const cores = navigator.hardwareConcurrency ?? 4
-  if ((mem !== undefined && mem <= 2) || cores <= 2) return 'saver'
-  if ((mem === undefined || mem >= 6) && cores >= 6) return 'high'
-  return 'balanced'
-}
+export type { Quality }
 
 /**
  * Imperative controller around the single react-globe.gl instance. Owns the custom
@@ -211,7 +200,7 @@ export class GlobeEngine implements GlobeController {
     return {
       lat: c.focus.lat,
       lng: c.focus.lng,
-      altitude: altitudeForFocus(c.focus.radius, this.visibleSize().w, this.visibleSize().h, this.size.y),
+      altitude: altitudeForFocus(framingRadius(c), this.visibleSize().w, this.visibleSize().h, this.size.y),
     }
   }
 

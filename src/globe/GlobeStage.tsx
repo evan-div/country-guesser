@@ -2,7 +2,8 @@ import { memo, useCallback, useEffect, useMemo, useRef, type MutableRefObject } 
 import Globe, { type GlobeMethods } from 'react-globe.gl'
 import { Color, MeshPhongMaterial, TextureLoader, type WebGLRendererParameters } from 'three'
 import type { WorldData } from '../data/world'
-import { GlobeEngine, type Quality } from './GlobeEngine'
+import { GlobeEngine } from './GlobeEngine'
+import type { Quality } from './quality'
 import { GLOBE_THEME } from './theme'
 
 export type LabelTone = 'target' | 'correct' | 'wrong' | 'hint' | 'info'
@@ -54,7 +55,7 @@ function makeLabel(d: object): HTMLElement {
  * The one and only globe. Mounted once at app level and reused for every screen and
  * round; all per-round changes go through the imperative GlobeEngine.
  */
-export const GlobeStage = memo(function GlobeStage({
+const GlobeStage = memo(function GlobeStage({
   world,
   width,
   height,
@@ -156,3 +157,5 @@ export const GlobeStage = memo(function GlobeStage({
     />
   )
 })
+
+export default GlobeStage
