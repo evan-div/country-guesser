@@ -368,12 +368,12 @@ export class HighlightLayer {
     const t = this.time
     const pulse = animate ? (Math.sin(t * Math.PI * 1.6) + 1) / 2 : 0.5
     this.flash = Math.max(0, this.flash - dtMs / 700)
-    const base = this.targetStyle === 'guess' ? 0.16 : 0.22
-    this.targetFill.opacity = base + pulse * 0.12 + this.flash * 0.45
+    const base = this.targetStyle === 'guess' ? 0.16 : 0.13
+    this.targetFill.opacity = base + pulse * 0.1 + this.flash * 0.22
     // Thinner glow when zoomed out so big, intricate coastlines don't turn into a blob.
     const zoomK = Math.min(1, Math.max(0.3, 1.25 / (0.55 + camAltitude / GLOBE_RADIUS)))
-    this.targetHalo.opacity = 0.2 + pulse * 0.18 + this.flash * 0.45
-    this.targetHalo.linewidth = (6.5 + pulse * 2.5 + this.flash * 7) * zoomK
+    this.targetHalo.opacity = 0.2 + pulse * 0.18 + this.flash * 0.3
+    this.targetHalo.linewidth = (6.5 + pulse * 2.5 + this.flash * 5) * zoomK
     this.targetCore.linewidth = 2.4 * Math.max(0.65, zoomK)
     this.hintFill.opacity = 0.1 + pulse * 0.08
 

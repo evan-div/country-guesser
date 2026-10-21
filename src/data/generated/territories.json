@@ -1,0 +1,388 @@
+[
+ {
+  "name": "Åland",
+  "names": [
+   "Åland",
+   "Åland Islands",
+   "Aland"
+  ],
+  "sovereign": "FIN",
+  "status": "Country"
+ },
+ {
+  "name": "American Samoa",
+  "names": [
+   "American Samoa"
+  ],
+  "sovereign": "USA",
+  "status": "Dependency"
+ },
+ {
+  "name": "Anguilla",
+  "names": [
+   "Anguilla"
+  ],
+  "sovereign": "GBR",
+  "status": "Dependency"
+ },
+ {
+  "name": "Aruba",
+  "names": [
+   "Aruba"
+  ],
+  "sovereign": "NLD",
+  "status": "Country"
+ },
+ {
+  "name": "Bermuda",
+  "names": [
+   "Bermuda",
+   "The Bermudas or Somers Isles"
+  ],
+  "sovereign": "GBR",
+  "status": "Dependency"
+ },
+ {
+  "name": "British Indian Ocean Territory",
+  "names": [
+   "British Indian Ocean Territory",
+   "Br. Indian Ocean Ter."
+  ],
+  "sovereign": "GBR",
+  "status": "Disputed"
+ },
+ {
+  "name": "British Virgin Islands",
+  "names": [
+   "British Virgin Islands",
+   "British Virgin Is."
+  ],
+  "sovereign": "GBR",
+  "status": "Dependency"
+ },
+ {
+  "name": "Cayman Islands",
+  "names": [
+   "Cayman Islands",
+   "Cayman Is."
+  ],
+  "sovereign": "GBR",
+  "status": "Dependency"
+ },
+ {
+  "name": "Cook Islands",
+  "names": [
+   "Cook Islands",
+   "Cook Is."
+  ],
+  "sovereign": "NZL",
+  "status": "Dependency"
+ },
+ {
+  "name": "Curaçao",
+  "names": [
+   "Curaçao"
+  ],
+  "sovereign": "NLD",
+  "status": "Country"
+ },
+ {
+  "name": "Falkland Islands",
+  "names": [
+   "Falkland Islands",
+   "Falkland Islands / Malvinas",
+   "Falkland Is."
+  ],
+  "sovereign": "GBR",
+  "status": "Disputed"
+ },
+ {
+  "name": "Faroe Islands",
+  "names": [
+   "Faroe Islands",
+   "Faeroe Islands",
+   "Faeroe Is.",
+   "Føroyar Is. (Faeroe Is.)"
+  ],
+  "sovereign": "DNK",
+  "status": "Dependency"
+ },
+ {
+  "name": "French Polynesia",
+  "names": [
+   "French Polynesia",
+   "Fr. Polynesia"
+  ],
+  "sovereign": "FRA",
+  "status": "Dependency"
+ },
+ {
+  "name": "French Southern and Antarctic Lands",
+  "names": [
+   "French Southern and Antarctic Lands",
+   "Fr. S. Antarctic Lands",
+   "Territory of the French Southern and Antarctic Lands"
+  ],
+  "sovereign": "FRA",
+  "status": "Dependency"
+ },
+ {
+  "name": "Greenland",
+  "names": [
+   "Greenland"
+  ],
+  "sovereign": "DNK",
+  "status": "Country"
+ },
+ {
+  "name": "Guam",
+  "names": [
+   "Guam",
+   "Territory of Guam"
+  ],
+  "sovereign": "USA",
+  "status": "Dependency"
+ },
+ {
+  "name": "Guernsey",
+  "names": [
+   "Guernsey",
+   "Bailiwick of Guernsey"
+  ],
+  "sovereign": "GBR",
+  "status": "Country"
+ },
+ {
+  "name": "Heard Island and McDonald Islands",
+  "names": [
+   "Heard Island and McDonald Islands",
+   "Heard I. and McDonald Islands",
+   "Heard I. and McDonald Is.",
+   "Territory of Heard Island and McDonald Islands"
+  ],
+  "sovereign": "AUS",
+  "status": "Dependency"
+ },
+ {
+  "name": "Hong Kong",
+  "names": [
+   "Hong Kong",
+   "Hong Kong S.A.R.",
+   "Hong Kong Special Administrative Region, PRC"
+  ],
+  "sovereign": "CHN",
+  "status": "Country"
+ },
+ {
+  "name": "Isle of Man",
+  "names": [
+   "Isle of Man"
+  ],
+  "sovereign": "GBR",
+  "status": "Country"
+ },
+ {
+  "name": "Jersey",
+  "names": [
+   "Jersey",
+   "Bailiwick of Jersey"
+  ],
+  "sovereign": "GBR",
+  "status": "Country"
+ },
+ {
+  "name": "Kosovo",
+  "names": [
+   "Kosovo",
+   "Republic of Kosovo"
+  ],
+  "sovereign": null,
+  "status": "Disputed"
+ },
+ {
+  "name": "Macau",
+  "names": [
+   "Macau",
+   "Macao",
+   "Macao S.A.R",
+   "Macao Special Administrative Region, PRC"
+  ],
+  "sovereign": "CHN",
+  "status": "Country"
+ },
+ {
+  "name": "Montserrat",
+  "names": [
+   "Montserrat"
+  ],
+  "sovereign": "GBR",
+  "status": "Dependency"
+ },
+ {
+  "name": "New Caledonia",
+  "names": [
+   "New Caledonia"
+  ],
+  "sovereign": "FRA",
+  "status": "Dependency"
+ },
+ {
+  "name": "Niue",
+  "names": [
+   "Niue"
+  ],
+  "sovereign": "NZL",
+  "status": "Dependency"
+ },
+ {
+  "name": "Norfolk Island",
+  "names": [
+   "Norfolk Island",
+   "Territory of Norfolk Island"
+  ],
+  "sovereign": "AUS",
+  "status": "Dependency"
+ },
+ {
+  "name": "Northern Mariana Islands",
+  "names": [
+   "Northern Mariana Islands",
+   "N. Mariana Is.",
+   "Commonwealth of the Northern Mariana Islands"
+  ],
+  "sovereign": "USA",
+  "status": "Dependency"
+ },
+ {
+  "name": "Pitcairn Islands",
+  "names": [
+   "Pitcairn Islands",
+   "Pitcairn Is.",
+   "Pitcairn, Henderson, Ducie and Oeno Islands"
+  ],
+  "sovereign": "GBR",
+  "status": "Dependency"
+ },
+ {
+  "name": "Puerto Rico",
+  "names": [
+   "Puerto Rico",
+   "Commonwealth of Puerto Rico"
+  ],
+  "sovereign": "USA",
+  "status": "Dependency"
+ },
+ {
+  "name": "Saint Barthélemy",
+  "names": [
+   "Saint Barthélemy",
+   "Saint-Barthélemy",
+   "Saint Barthelemy",
+   "St-Barthélemy"
+  ],
+  "sovereign": "FRA",
+  "status": "Dependency"
+ },
+ {
+  "name": "Saint Helena",
+  "names": [
+   "Saint Helena"
+  ],
+  "sovereign": "GBR",
+  "status": "Dependency"
+ },
+ {
+  "name": "Saint Martin",
+  "names": [
+   "Saint Martin",
+   "Saint-Martin",
+   "St-Martin",
+   "Saint-Martin (French part)"
+  ],
+  "sovereign": "FRA",
+  "status": "Dependency"
+ },
+ {
+  "name": "Saint Pierre and Miquelon",
+  "names": [
+   "Saint Pierre and Miquelon",
+   "St. Pierre and Miquelon"
+  ],
+  "sovereign": "FRA",
+  "status": "Dependency"
+ },
+ {
+  "name": "Siachen Glacier",
+  "names": [
+   "Siachen Glacier"
+  ],
+  "sovereign": null,
+  "status": "Indeterminate"
+ },
+ {
+  "name": "Sint Maarten",
+  "names": [
+   "Sint Maarten",
+   "Sint Maarten (Dutch part)"
+  ],
+  "sovereign": "NLD",
+  "status": "Country"
+ },
+ {
+  "name": "South Georgia and the South Sandwich Islands",
+  "names": [
+   "South Georgia and the South Sandwich Islands",
+   "South Georgia and the Islands",
+   "S. Geo. and the Is."
+  ],
+  "sovereign": "GBR",
+  "status": "Dependency"
+ },
+ {
+  "name": "Taiwan",
+  "names": [
+   "Taiwan"
+  ],
+  "sovereign": null,
+  "status": "Sovereign country"
+ },
+ {
+  "name": "Turks and Caicos Islands",
+  "names": [
+   "Turks and Caicos Islands",
+   "Turks and Caicos Is."
+  ],
+  "sovereign": "GBR",
+  "status": "Dependency"
+ },
+ {
+  "name": "United States Virgin Islands",
+  "names": [
+   "United States Virgin Islands",
+   "U.S. Virgin Is.",
+   "Virgin Islands of the United States"
+  ],
+  "sovereign": "USA",
+  "status": "Dependency"
+ },
+ {
+  "name": "Wallis and Futuna",
+  "names": [
+   "Wallis and Futuna",
+   "Wallis and Futuna Islands",
+   "Wallis and Futuna Is."
+  ],
+  "sovereign": "FRA",
+  "status": "Dependency"
+ },
+ {
+  "name": "Western Sahara",
+  "names": [
+   "Western Sahara",
+   "W. Sahara",
+   "Sahrawi Arab Democratic Republic"
+  ],
+  "sovereign": null,
+  "status": "Indeterminate"
+ }
+]

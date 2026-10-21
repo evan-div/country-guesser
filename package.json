@@ -15,7 +15,8 @@
     "data:fetch": "node scripts/fetch-natural-earth.mjs",
     "data:build": "node scripts/build-data.mjs",
     "data": "npm run data:fetch && npm run data:build",
-    "e2e": "node e2e/smoke.mjs"
+    "e2e": "node e2e/smoke.mjs",
+    "e2e:sweep": "node e2e/sweep.mjs"
   },
   "engines": {
     "node": ">=20.19"

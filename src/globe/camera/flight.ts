@@ -18,9 +18,8 @@ export interface FlightPlan {
 }
 
 export const CAMERA_FOV_DEG = 50
-export const MIN_FOCUS_ALTITUDE = 0.42
+export const MIN_FOCUS_ALTITUDE = 0.6
 export const MAX_FOCUS_ALTITUDE = 3.2
-export const OVERVIEW_ALTITUDE = 2.4
 
 export const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v))
 
@@ -32,23 +31,40 @@ export function smootherstep(t: number): number {
 
 /**
  * Camera altitude that frames a region of the given angular radius so it fills `fill`
- * of the viewport's narrower half-field-of-view. Exact for a perspective camera looking
- * at the globe centre: a point θ away from the sub-camera point appears at angle α where
- * tan α = sin θ / (d − cos θ), d = 1 + altitude.
+ * of the unobstructed part of the screen. The camera's vertical FOV spans the full
+ * canvas height, so a free area of `visibleHeight` px subtends only
+ * atan(tan(fov/2)·visibleHeight/fullHeight). Exact for a perspective camera looking at
+ * the globe centre: a point θ away appears at angle α where tan α = sin θ / (d − cos θ).
  */
-export function altitudeForFocus(radiusDeg: number, width: number, height: number, fill = 0.62): number {
-  const aspect = width > 0 && height > 0 ? width / height : 1
-  const halfV = (CAMERA_FOV_DEG / 2) * D2R
-  const halfH = Math.atan(Math.tan(halfV) * aspect)
+export function altitudeForFocus(
+  radiusDeg: number,
+  width: number,
+  visibleHeight: number,
+  fullHeight = visibleHeight,
+  fill = 0.55,
+): number {
+  const t = Math.tan((CAMERA_FOV_DEG / 2) * D2R)
+  const H = Math.max(1, fullHeight)
+  const halfV = Math.atan((t * Math.max(1, visibleHeight)) / H)
+  const halfH = Math.atan((t * Math.max(1, width)) / H)
   const alpha = Math.min(halfV, halfH) * fill
   const theta = clamp(radiusDeg, 0, 89) * D2R
   const d = Math.cos(theta) + Math.sin(theta) / Math.tan(alpha)
   return clamp(d - 1, MIN_FOCUS_ALTITUDE, MAX_FOCUS_ALTITUDE)
 }
 
-export function planFlight(from: Pov, to: Pov, opts: { instant?: boolean } = {}): FlightPlan {
+/** Altitude at which the whole globe fits the free area (diameter ≈ `fill` of it). */
+export function overviewAltitude(width: number, visibleHeight: number, fullHeight: number, fill = 1.06): number {
+  const f = Math.max(1, fullHeight) / 2 / Math.tan((CAMERA_FOV_DEG / 2) * D2R)
+  const targetRadiusPx = (Math.min(width, visibleHeight) / 2) * fill
+  const d = Math.sqrt(1 + (f / Math.max(40, targetRadiusPx)) ** 2)
+  return clamp(d - 1, 1.6, 5.2)
+}
+
+export function planFlight(from: Pov, to: Pov, opts: { instant?: boolean; durationMs?: number } = {}): FlightPlan {
   const angle = angularDistance(from.lat, from.lng, to.lat, to.lng)
   if (opts.instant) return { from, to, angle, durationMs: 0, lift: 0 }
+  if (opts.durationMs !== undefined) return { from, to, angle, durationMs: opts.durationMs, lift: 0 }
   const zoomChange = Math.abs(Math.log((to.altitude + 0.05) / (from.altitude + 0.05)))
   const durationMs = Math.round(clamp(950 + angle * 7.5 + zoomChange * 160, 1000, 2300))
   // Long journeys pull back to reveal the curvature of the Earth; short hops stay close.

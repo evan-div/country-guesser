@@ -1,4 +1,4 @@
-import { AmbientLight, DirectionalLight, Vector2, Vector3 } from 'three'
+import { AmbientLight, DirectionalLight, PerspectiveCamera, Vector2, Vector3 } from 'three'
 import type { GlobeMethods } from 'react-globe.gl'
 import type { WorldData } from '../data/world'
 import { getCountry, isMicrostate } from '../data/countries'
@@ -7,9 +7,10 @@ import { HighlightLayer, type TargetStyle } from './layers/HighlightLayer'
 import { AtlasLayer, type AtlasPaint } from './layers/AtlasLayer'
 import { Starfield } from './layers/Starfield'
 import { CameraDirector } from './camera/CameraDirector'
-import { altitudeForFocus, OVERVIEW_ALTITUDE, type Pov } from './camera/flight'
+import { altitudeForFocus, overviewAltitude, type FlightPlan, type Pov } from './camera/flight'
 import { GLOBE_RADIUS } from './geo'
 import { GLOBE_THEME } from './theme'
+import type { GlobeController } from './controller'
 
 export type Quality = 'high' | 'balanced' | 'saver'
 
@@ -30,13 +31,18 @@ export function detectQuality(): Quality {
  * Three.js layers, lighting, the per-frame animation loop and the camera director.
  * Nothing here is recreated between rounds.
  */
-export class GlobeEngine {
+export class GlobeEngine implements GlobeController {
+  readonly kind = 'webgl' as const
   readonly director: CameraDirector
   private readonly borders: BorderLayer
   private readonly highlights: HighlightLayer
   private readonly atlas: AtlasLayer
   private readonly stars: Starfield
   private readonly size = new Vector2(1, 1)
+  /** Screen area covered by HUD (top) and panels (bottom); the globe centres in what's left. */
+  private insets = { top: 0, bottom: 0 }
+  private offsetY = 0
+  private offsetTarget = 0
   private readonly sun: DirectionalLight | undefined
   private readonly tmp = new Vector3()
   private readonly up = new Vector3(0, 1, 0)
@@ -45,6 +51,14 @@ export class GlobeEngine {
   private animations = true
   private paused = false
   private contextListeners: ((lost: boolean) => void)[] = []
+  /** Country the camera is framing; re-framed when the visible area changes. */
+  private focusCode: string | null = null
+  private userMoved = false
+  private reframeTimer = 0
+  private framedFor = { w: 0, h: 0 }
+  private readonly onUserStart = () => {
+    this.userMoved = true
+  }
   private readonly onLost = () => this.contextListeners.forEach((l) => l(true))
   private readonly onRestored = () => this.contextListeners.forEach((l) => l(false))
   private readonly onVisibility = () => this.setPaused(document.hidden)
@@ -69,8 +83,9 @@ export class GlobeEngine {
     this.sun = lights.find((l): l is DirectionalLight => l instanceof DirectionalLight)
 
     const controls = globe.controls()
+    controls.addEventListener('start', this.onUserStart)
     controls.minDistance = GLOBE_RADIUS * 1.12
-    controls.maxDistance = GLOBE_RADIUS * 5.5
+    controls.maxDistance = GLOBE_RADIUS * 6.4
     controls.zoomToCursor = false
 
     this.director = new CameraDirector(globe)
@@ -89,6 +104,11 @@ export class GlobeEngine {
     this.last = now
     const cam = this.globe.camera()
     const camAltitude = cam.position.length() - GLOBE_RADIUS
+    if (Math.abs(this.offsetTarget - this.offsetY) > 0.3) {
+      const k = this.animations ? 1 - Math.exp(-dt / 110) : 1
+      this.offsetY += (this.offsetTarget - this.offsetY) * k
+      this.applyViewOffset()
+    }
     this.highlights.tick(dt, camAltitude, this.animations)
     this.atlas.tick(dt)
     if (this.animations) this.stars.tick(dt / 1000)
@@ -112,6 +132,55 @@ export class GlobeEngine {
     this.size.set(Math.max(1, width), Math.max(1, height))
     this.borders.setResolution(this.size)
     this.highlights.setResolution(this.size)
+    this.applyViewOffset()
+    this.scheduleReframe()
+  }
+
+  /** Reserve screen space at the top/bottom; the globe's centre eases into the free area. */
+  setViewInsets(top: number, bottom: number, immediate = false) {
+    this.insets = { top, bottom }
+    this.offsetTarget = (top - bottom) / 2
+    if (immediate || !this.animations) {
+      this.offsetY = this.offsetTarget
+      this.applyViewOffset()
+    }
+    this.scheduleReframe()
+  }
+
+  /**
+   * When the free area changes a lot (keyboard opens, feedback card appears), gently
+   * re-frame the current country — unless the player has moved the camera themselves.
+   */
+  private scheduleReframe() {
+    window.clearTimeout(this.reframeTimer)
+    this.reframeTimer = window.setTimeout(() => {
+      const code = this.focusCode
+      if (!code || this.userMoved || this.director.flying) return
+      const { w, h } = this.visibleSize()
+      const change = Math.abs(h - this.framedFor.h) / Math.max(1, this.framedFor.h)
+      if (change < 0.12 && Math.abs(w - this.framedFor.w) < 40) return
+      this.framedFor = { w, h }
+      void this.director.fly(this.focusPov(code), { durationMs: this.animations ? 420 : 0 })
+    }, 160)
+  }
+
+  /** Camera stays on this country (or null) for automatic re-framing. */
+  setFocus(code: string | null) {
+    this.focusCode = code
+    this.userMoved = false
+    this.framedFor = this.visibleSize()
+  }
+
+  private applyViewOffset() {
+    const cam = this.globe.camera() as PerspectiveCamera
+    const { x: w, y: h } = this.size
+    if (Math.abs(this.offsetY) < 0.5) cam.clearViewOffset()
+    else cam.setViewOffset(w, h, 0, -this.offsetY, w, h)
+  }
+
+  /** Size of the unobstructed globe area, used to frame countries. */
+  private visibleSize(): { w: number; h: number } {
+    return { w: this.size.x, h: Math.max(160, this.size.y - this.insets.top - this.insets.bottom) }
   }
 
   setQuality(q: Quality) {
@@ -142,17 +211,42 @@ export class GlobeEngine {
     return {
       lat: c.focus.lat,
       lng: c.focus.lng,
-      altitude: altitudeForFocus(c.focus.radius, this.size.x, this.size.y),
+      altitude: altitudeForFocus(c.focus.radius, this.visibleSize().w, this.visibleSize().h, this.size.y),
     }
   }
 
-  flyToCountry(code: string, opts: { instant?: boolean } = {}): Promise<boolean> {
-    return this.director.fly(this.focusPov(code), opts)
+  flyToCountry(code: string, opts: { instant?: boolean; onStart?: (plan: FlightPlan) => void } = {}): Promise<boolean> {
+    this.focusCode = null
+    return this.director.fly(this.focusPov(code), opts).then((done) => {
+      if (done) this.setFocus(code)
+      return done
+    })
   }
 
-  flyToOverview(opts: { instant?: boolean } = {}): Promise<boolean> {
+  /** Pull back to a whole-Earth view, keeping the current longitude. */
+  flyToOverview(opts: { instant?: boolean; altitude?: number } = {}): Promise<boolean> {
+    this.focusCode = null
     const pov = this.director.pov
-    return this.director.fly({ lat: Math.max(-35, Math.min(35, pov.lat)), lng: pov.lng, altitude: OVERVIEW_ALTITUDE }, opts)
+    const { w, h } = this.visibleSize()
+    const fit = overviewAltitude(w, h, this.size.y)
+    return this.director.fly(
+      { lat: Math.max(-30, Math.min(35, pov.lat)), lng: pov.lng, altitude: opts.altitude ?? fit },
+      opts,
+    )
+  }
+
+  /** Fly to a lat/lng with a country-appropriate zoom (Atlas "fly to"). */
+  flyToPov(pov: Pov, opts: { instant?: boolean } = {}): Promise<boolean> {
+    this.focusCode = null
+    return this.director.fly(pov, opts)
+  }
+
+  setInteractive(on: boolean) {
+    this.director.setInteractive(on)
+  }
+
+  setAutoRotate(on: boolean) {
+    this.director.setAutoRotate(on, 0.32)
   }
 
   showTarget(code: string | null) {
@@ -195,8 +289,18 @@ export class GlobeEngine {
     this.highlights.clear()
   }
 
+  screenPoint(lat: number, lng: number): { x: number; y: number } | null {
+    const cam = this.globe.camera().position
+    const p = this.globe.getCoords(lat, lng, 0)
+    // Hidden behind the globe if the point faces away from the camera.
+    if (p.x * cam.x + p.y * cam.y + p.z * cam.z <= 0) return null
+    return this.globe.getScreenCoords(lat, lng, 0)
+  }
+
   dispose() {
     cancelAnimationFrame(this.raf)
+    window.clearTimeout(this.reframeTimer)
+    this.globe.controls().removeEventListener('start', this.onUserStart)
     this.director.dispose()
     const canvas = this.globe.renderer().domElement
     canvas.removeEventListener('webglcontextlost', this.onLost)

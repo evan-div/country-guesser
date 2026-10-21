@@ -1269,6 +1269,7 @@
    "ARG",
    "BOL",
    "COL",
+   "FRA",
    "GUY",
    "PER",
    "PRY",
@@ -3192,12 +3193,14 @@
   "neighbors": [
    "AND",
    "BEL",
+   "BRA",
    "CHE",
    "DEU",
    "ESP",
    "ITA",
    "LUX",
-   "MCO"
+   "MCO",
+   "SUR"
   ],
   "nearby": [
    {
@@ -9008,6 +9011,7 @@
   ],
   "neighbors": [
    "BRA",
+   "FRA",
    "GUY"
   ],
   "nearby": [

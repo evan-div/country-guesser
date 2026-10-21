@@ -40,6 +40,15 @@ const MERGE_INTO = {
 const BORDER_REMOVALS = [
   ['LKA', 'IND'], // Sri Lanka has no land border with India (Adam's Bridge is a chain of shoals)
 ]
+// French Guiana is an integral part of France (and of France's polygon here), so France
+// borders Brazil and Suriname. world-countries lists French Guiana separately.
+const BORDER_ADDITIONS = [
+  ['FRA', 'BRA'],
+  ['FRA', 'SUR'],
+]
+
+// Natural Earth sovereignty codes for dependencies → the playable sovereign state.
+const SOVEREIGN_OF = { US1: 'USA', GB1: 'GBR', FR1: 'FRA', NL1: 'NLD', DN1: 'DNK', NZ1: 'NZL', AU1: 'AUS', CH1: 'CHN', FI1: 'FIN' }
 
 const errors = []
 const fail = (msg) => errors.push(msg)
@@ -65,6 +74,7 @@ const ne = JSON.parse(await readFile(NE_FILE, 'utf8'))
 const labelPoints = new Map() // code -> [lng, lat] from the "home" feature
 const neNames = new Map() // code -> Set of English names from Natural Earth
 const neutralNames = []
+const territories = [] // non-playable land, so typed answers like "Greenland" are recognised
 
 function codeFor(p) {
   for (const key of ['ISO_A3', 'ISO_A3_EH', 'ADM0_A3']) {
@@ -92,6 +102,15 @@ for (const f of ne.features) {
     f.properties = { c: code }
   } else {
     neutralNames.push(p.NAME)
+    if (p.ADM0_A3 !== 'ATA') {
+      const names = [...new Set([p.NAME_EN, p.NAME_LONG, p.ADMIN, p.NAME, p.FORMAL_EN].filter((n) => n && n.length > 2))]
+      territories.push({
+        name: p.NAME_EN || p.NAME_LONG || p.NAME,
+        names,
+        sovereign: SOVEREIGN_OF[p.SOV_A3] ?? null,
+        status: p.TYPE,
+      })
+    }
     f.properties = { c: `_${p.ADM0_A3}` }
   }
 }
@@ -228,7 +247,10 @@ for (const [code, c] of [...meta].sort((a, b) => a[1].name.common.localeCompare(
   if (!a) continue
   if (!c.capital?.length) fail(`${code} has no capital`)
   const removed = BORDER_REMOVALS.filter(([a]) => a === code).map(([, b]) => b)
-  const neighbors = (c.borders ?? []).filter((b) => meta.has(b) && !removed.includes(b)).sort()
+  const added = BORDER_ADDITIONS.flatMap(([a, b]) => (a === code ? [b] : b === code ? [a] : []))
+  const neighbors = [...new Set([...(c.borders ?? []), ...added])]
+    .filter((b) => meta.has(b) && !removed.includes(b))
+    .sort()
   const aliases = new Set([c.name.official, ...(c.altSpellings ?? []), ...(neNames.get(code) ?? [])])
   aliases.delete(c.name.common)
   countries.push({
@@ -272,6 +294,10 @@ await mkdir(dirname(OUT_TOPO), { recursive: true })
 await mkdir(dirname(OUT_META), { recursive: true })
 await writeFile(OUT_TOPO, topoText)
 await writeFile(OUT_META, JSON.stringify(countries, null, 1) + '\n')
+await writeFile(
+  join(dirname(OUT_META), 'territories.json'),
+  JSON.stringify(territories.sort((a, b) => a.name.localeCompare(b.name)), null, 1) + '\n',
+)
 
 const tiny = countries.filter((c) => c.focus.radius < 1).map((c) => c.code)
 console.log(`✓ ${countries.length} playable countries, ${neutralNames.length} neutral features`)

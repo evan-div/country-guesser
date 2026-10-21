@@ -31,10 +31,14 @@ export class CameraDirector {
   }
 
   /** Resolves true when the flight completes, false if it was cancelled/superseded. */
-  fly(to: Pov, opts: { instant?: boolean; onProgress?: (t: number, plan: FlightPlan) => void } = {}): Promise<boolean> {
+  fly(
+    to: Pov,
+    opts: { instant?: boolean; durationMs?: number; onStart?: (plan: FlightPlan) => void } = {},
+  ): Promise<boolean> {
     this.cancel()
     const token = ++this.token
-    const plan = planFlight(this.pov, to, { instant: opts.instant })
+    const plan = planFlight(this.pov, to, { instant: opts.instant, durationMs: opts.durationMs })
+    opts.onStart?.(plan)
     const controls = this.globe.controls()
     const damping = controls.enableDamping
     controls.enabled = false
@@ -56,7 +60,6 @@ export class CameraDirector {
       this.resolve = resolve
       if (plan.durationMs === 0) {
         this.globe.pointOfView(to, 0)
-        opts.onProgress?.(1, plan)
         finish(true)
         return
       }
@@ -65,7 +68,6 @@ export class CameraDirector {
         if (token !== this.token) return
         const t = Math.min(1, (now - start) / plan.durationMs)
         this.globe.pointOfView(poseAt(plan, t), 0)
-        opts.onProgress?.(t, plan)
         if (t < 1) this.raf = requestAnimationFrame(step)
         else finish(true)
       }

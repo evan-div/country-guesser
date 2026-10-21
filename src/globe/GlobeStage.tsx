@@ -19,8 +19,6 @@ interface GlobeStageProps {
   world: WorldData
   width: number
   height: number
-  /** Vertical shift of the globe centre in px (positive = down), to clear the HUD. */
-  offsetY?: number
   quality: Quality
   animations: boolean
   labels: GlobeLabel[]
@@ -60,7 +58,6 @@ export const GlobeStage = memo(function GlobeStage({
   world,
   width,
   height,
-  offsetY = 0,
   quality,
   animations,
   labels,
@@ -137,7 +134,6 @@ export const GlobeStage = memo(function GlobeStage({
       ref={globeRef as MutableRefObject<GlobeMethods | undefined>}
       width={width}
       height={height}
-      globeOffset={[0, offsetY]}
       backgroundColor={GLOBE_THEME.background}
       globeImageUrl={quality === 'saver' ? TEXTURES.low : TEXTURES.high}
       bumpImageUrl={quality === 'saver' ? null : TEXTURES.bump}
