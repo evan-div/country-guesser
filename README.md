@@ -31,6 +31,19 @@ npm run preview      # serves dist/ at http://localhost:4173
 
 `dist/` is a static site — host it anywhere (Netlify, GitHub Pages, S3, `npx serve dist`).
 
+### Deploy to Vercel
+
+`vercel.json` already sets the framework (Vite), build command, output directory and cache
+headers, so no dashboard configuration is needed:
+
+1. On vercel.com: **Add New… → Project → Import Git Repository**, and select this repo (grant the
+   Vercel GitHub App access to it if it isn't listed).
+2. Click **Deploy**. No environment variables are required.
+
+Pushes to the production branch (the repo's default branch, `main`) deploy to production; other
+branches and pull requests get preview URLs. With the CLI instead: `npx vercel` for a preview,
+`npx vercel --prod` for production.
+
 ### Checks
 
 ```bash
